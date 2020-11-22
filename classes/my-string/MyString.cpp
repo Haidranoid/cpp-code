@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// constructors ---------------------------------
+// constructors -----------------------------------------------------
 
 // default constructor
 /*MyString::MyString()
@@ -53,7 +53,7 @@ MyString::~MyString() {
     delete[] this->str;
 }
 
-// operator overloading -----------------------
+// assignment overloading -------------------------------------------
 
 // copy assignment
 // s2 = s1;  we write this
@@ -85,6 +85,41 @@ MyString &MyString::operator=(MyString &&rhs) noexcept {
     return *this;
 }
 
+// operator overloading as non-member function ---------------------
+
+MyString operator-(const MyString &obj) {
+    char *buff = new char[std::strlen(obj.str) + 1];
+
+    for (size_t i = 0; i < std::strlen(obj.str); i++) {
+        buff[i] = std::tolower(obj.str[i]);
+    }
+
+    MyString temp{buff};
+    delete[] buff;
+
+    return temp;
+}
+
+MyString operator+(const MyString &lhs, const MyString &rhs) {
+    size_t buff_size = std::strlen(lhs.str) + std::strlen(rhs.str) + 1;
+    char *buff = new char[buff_size];
+    std::strcpy(buff, lhs.str);
+    std::strcat(buff, rhs.str);
+
+    MyString temp{buff};
+
+    delete[] buff;
+    return temp;
+}
+
+bool operator==(const MyString &lhs, const MyString &rhs) {
+    if (std::strcmp(lhs.str, rhs.str) == 0)
+        return true;
+    return false;
+}
+
+// operator overloading as member function --------------------------
+/*
 // Unary operators (++,--,-,!)
 MyString MyString::operator-() const {
     char *buff = new char[std::strlen(this->str) + 1];
@@ -99,24 +134,7 @@ MyString MyString::operator-() const {
     return temp;
 }
 
-MyString MyString::operator++() {
-    return *this;
-}
-
-MyString MyString::operator++(int) {
-    return *this;
-}
-
-MyString MyString::operator!() {
-    return *this;
-}
-
 // Binary operators (+,-,==,!=,<,>,etc.)
-bool MyString::operator==(const MyString &rhs) const {
-    if (std::strcmp(this->str, rhs.str) == 0)
-        return true;
-    return false;
-}
 
 MyString MyString::operator+(const MyString &rhs) const {
     size_t buff_size = std::strlen(this->str) + std::strlen(rhs.str) + 1;
@@ -130,7 +148,13 @@ MyString MyString::operator+(const MyString &rhs) const {
     return temp;
 }
 
-// member methods -----------------------------
+bool MyString::operator==(const MyString &rhs) const {
+    if (std::strcmp(this->str, rhs.str) == 0)
+        return true;
+    return false;
+}
+*/
+// member methods ---------------------------------------------------
 int MyString::get_length() const {
     return std::strlen(this->str);
 }

@@ -2,11 +2,18 @@
 #define _MYSTRING_H
 
 class MyString {
+    // operator overloading as non- member function ----------------
+    friend MyString operator-(const MyString &obj);
+
+    friend MyString operator+(const MyString &lhs, const MyString &rhs);
+
+    friend bool operator==(const MyString &lhs, const MyString &rhs);
+
 private:
     char *str;
 
 public:
-    // constructors -------------------------------
+    // constructors -----------------------------------------------
 
     // default constructor
     //MyString();
@@ -23,7 +30,7 @@ public:
     // destructor
     ~MyString();
 
-    // operator overloading ----------------------
+    // assignment overloading ---------------------------------------
 
     // copy assignment
     // s2 = s1;  we write this
@@ -35,30 +42,17 @@ public:
     // s2.operator=(MyString{"Joseph"}); operator= method is called
     MyString &operator=(MyString &&rhs) noexcept;
 
+    // operator overloading as member function ----------------------
+    /*
     // Unary operators (++,--,-,!)
     MyString operator-() const;
-
-    MyString operator++();
-
-    MyString operator++(int);
-
-    MyString operator!();
 
     // Binary operators (+,-,==,!=,<,>,etc.)
     MyString operator+(const MyString &rhs) const;
 
-    MyString operator-(const MyString &rhs) const;
-
     bool operator==(const MyString &rhs) const;
-
-    bool operator!=(const MyString &rhs) const;
-
-    bool operator<(const MyString &rhs) const;
-
-    bool operator>(const MyString &rhs) const;
-
-
-    // member methods -----------------------------
+    */
+    // member methods ------------------------------------------------
     int get_length() const;
 
     char *get_str() const;

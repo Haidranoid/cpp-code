@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(pointers_and_references_review)
+project(cpp-course)
 
 set(CMAKE_CXX_STANDARD 14)
 

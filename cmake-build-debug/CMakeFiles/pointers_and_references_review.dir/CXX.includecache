@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eduardo/Desktop/cpp-course/classes/account/Account.h
+iostream
+-
+
+/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.cpp
+iostream
+/Users/eduardo/Desktop/cpp-course/classes/my-string/iostream
+cstring
+/Users/eduardo/Desktop/cpp-course/classes/my-string/cstring
+MyString.h
+/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.h
+
+/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.h
+
+/Users/eduardo/Desktop/cpp-course/classes/player/Player.h
+iostream
+-
+
+/Users/eduardo/Desktop/cpp-course/code/assignment_overload.cpp
+iostream
+-
+../classes/account/Account.h
+/Users/eduardo/Desktop/cpp-course/classes/account/Account.h
+../classes/player/Player.h
+/Users/eduardo/Desktop/cpp-course/classes/player/Player.h
+../classes/my-string/MyString.h
+/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.h
+
+/Users/eduardo/Desktop/cpp-course/main.cpp
+iostream
+-
+classes/my-string/MyString.h
+/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.h
+
