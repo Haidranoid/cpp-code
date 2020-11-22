@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointers_and_references_review">
-				<Option output="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug"/>
+				<Option output="/Users/eduardo/Desktop/cpp-course/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointers_and_references_review/fast">
-				<Option output="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug"/>
+				<Option output="/Users/eduardo/Desktop/cpp-course/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,80 +73,83 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/account/Account.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/account/Account.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/account/Account.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/account/Account.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/deep/Deep.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/deep/Deep.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/deep/Deep.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/deep/Deep.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/move/Move.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/move/Move.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/move/Move.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/move/Move.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/my-string/MyString.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/my-string/MyString.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/my-string/MyString.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/player/Player.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/player/Player.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/player/Player.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/player/Player.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/shallow/Shallow.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/shallow/Shallow.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/classes/shallow/Shallow.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/shallow/Shallow.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/arrays_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/arrays_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/const_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/assignment_overload.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/constructors.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/const_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/functions_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/constructors.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/left_and_right_values.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/functions_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/move_constructor.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/left_and_right_values.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/references.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/move_constructor.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/shallow_and_deep_copy.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/references.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/code/static_members_and_methods.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/shallow_and_deep_copy.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/main.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/static_members_and_methods.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/eduardo/CLionProjects/pointers_and_references_review/CMakeLists.txt">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/main.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -86,20 +86,48 @@ MyString &MyString::operator=(MyString &&rhs) noexcept {
 }
 
 // Unary operators (++,--,-,!)
-MyString MyString::operator-() const{
+MyString MyString::operator-() const {
+    char *buff = new char[std::strlen(this->str) + 1];
+
+    for (size_t i = 0; i < std::strlen(this->str); i++) {
+        buff[i] = std::tolower(this->str[i]);
+    }
+
+    MyString temp{buff};
+    delete[] buff;
+
+    return temp;
+}
+
+MyString MyString::operator++() {
     return *this;
 }
 
-MyString MyString::operator++(){
+MyString MyString::operator++(int) {
     return *this;
 }
 
-MyString MyString::operator++(int){
+MyString MyString::operator!() {
     return *this;
 }
 
-MyString MyString::operator!(){
-    return *this;
+// Binary operators (+,-,==,!=,<,>,etc.)
+bool MyString::operator==(const MyString &rhs) const {
+    if (std::strcmp(this->str, rhs.str) == 0)
+        return true;
+    return false;
+}
+
+MyString MyString::operator+(const MyString &rhs) const {
+    size_t buff_size = std::strlen(this->str) + std::strlen(rhs.str) + 1;
+    char *buff = new char[buff_size];
+    std::strcpy(buff, this->str);
+    std::strcat(buff, rhs.str);
+
+    MyString temp{buff};
+
+    delete[] buff;
+    return temp;
 }
 
 // member methods -----------------------------
@@ -110,8 +138,3 @@ int MyString::get_length() const {
 char *MyString::get_str() const {
     return this->str;
 }
-
-
-
-
-

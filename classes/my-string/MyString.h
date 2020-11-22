@@ -44,6 +44,19 @@ public:
 
     MyString operator!();
 
+    // Binary operators (+,-,==,!=,<,>,etc.)
+    MyString operator+(const MyString &rhs) const;
+
+    MyString operator-(const MyString &rhs) const;
+
+    bool operator==(const MyString &rhs) const;
+
+    bool operator!=(const MyString &rhs) const;
+
+    bool operator<(const MyString &rhs) const;
+
+    bool operator>(const MyString &rhs) const;
+
 
     // member methods -----------------------------
     int get_length() const;

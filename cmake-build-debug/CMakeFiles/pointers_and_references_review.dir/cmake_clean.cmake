@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o"
+  "CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/const_and_pointers.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.o"

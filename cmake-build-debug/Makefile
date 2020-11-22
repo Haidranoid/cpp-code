@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eduardo/CLionProjects/pointers_and_references_review
+CMAKE_SOURCE_DIR = /Users/eduardo/Desktop/cpp-course
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eduardo/Desktop/cpp-course/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/CMakeFiles /Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/CLionProjects/pointers_and_references_review/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -331,6 +331,33 @@ code/arrays_and_pointers.s: code/arrays_and_pointers.cpp.s
 code/arrays_and_pointers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.s
 .PHONY : code/arrays_and_pointers.cpp.s
+
+code/assignment_overload.o: code/assignment_overload.cpp.o
+
+.PHONY : code/assignment_overload.o
+
+# target to build an object file
+code/assignment_overload.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o
+.PHONY : code/assignment_overload.cpp.o
+
+code/assignment_overload.i: code/assignment_overload.cpp.i
+
+.PHONY : code/assignment_overload.i
+
+# target to preprocess a source file
+code/assignment_overload.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.i
+.PHONY : code/assignment_overload.cpp.i
+
+code/assignment_overload.s: code/assignment_overload.cpp.s
+
+.PHONY : code/assignment_overload.s
+
+# target to generate assembly for a file
+code/assignment_overload.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.s
+.PHONY : code/assignment_overload.cpp.s
 
 code/const_and_pointers.o: code/const_and_pointers.cpp.o
 
@@ -605,6 +632,9 @@ help:
 	@echo "... code/arrays_and_pointers.o"
 	@echo "... code/arrays_and_pointers.i"
 	@echo "... code/arrays_and_pointers.s"
+	@echo "... code/assignment_overload.o"
+	@echo "... code/assignment_overload.i"
+	@echo "... code/assignment_overload.s"
 	@echo "... code/const_and_pointers.o"
 	@echo "... code/const_and_pointers.i"
 	@echo "... code/const_and_pointers.s"

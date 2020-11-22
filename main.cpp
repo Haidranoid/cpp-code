@@ -1,26 +1,22 @@
 #include <iostream>
-#include "classes/account/Account.h"
-#include "classes/player/Player.h"
 #include "classes/my-string/MyString.h"
 
 using namespace std;
 
 int main() {
-    // rhs ( right hand value ) [l-value]
-    MyString example1{(char *) "Frank"};
-    MyString peter{(char *) "Peter"};
-    // same as =>
-    // MyString s3{s1};
-    MyString example2 = example1;  // NOT assignment
-    example2 = peter;              // assignment with rhs [l-value]
+    MyString s1{"FRANK"};
+    MyString s2{"PETER"};
 
-    MyString example3{(char *) "Violeta"};
-    example3 = MyString{(char *) "Joseph"};   // assignment with rhs [r-value]
-    example3 = (char *) "Clara";                 // assignment with rhs [r-value]
+    MyString s3;
+    MyString s4{"FRANK"};
+    s3 = -s1;
+    
+    MyString stooges = s1 + " " + s2;
 
-    cout << example1.get_str() << " : " << example1.get_length() << endl;
-    cout << example2.get_str() << " : " << example2.get_length() << endl;
-    cout << example3.get_str() << " : " << example3.get_length() << endl;
+    cout << boolalpha;
+    cout << "s3 : " << s3.get_str() << endl;
+    cout << "s4 == s1 ? " << (s4 == s1) << endl;
+    cout << "stooges : " << stooges.get_str() << endl;
 
     return 0;
 }
