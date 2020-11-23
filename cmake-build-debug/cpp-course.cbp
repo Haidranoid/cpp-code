@@ -122,6 +122,9 @@
 		<Unit filename="/Users/administaff/Desktop/cpp-code/code/assignment_overload.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/code/challenge_operator_overloading.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/code/const_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>

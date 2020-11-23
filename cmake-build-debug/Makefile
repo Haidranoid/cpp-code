@@ -359,6 +359,33 @@ code/assignment_overload.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.s
 .PHONY : code/assignment_overload.cpp.s
 
+code/challenge_operator_overloading.o: code/challenge_operator_overloading.cpp.o
+
+.PHONY : code/challenge_operator_overloading.o
+
+# target to build an object file
+code/challenge_operator_overloading.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o
+.PHONY : code/challenge_operator_overloading.cpp.o
+
+code/challenge_operator_overloading.i: code/challenge_operator_overloading.cpp.i
+
+.PHONY : code/challenge_operator_overloading.i
+
+# target to preprocess a source file
+code/challenge_operator_overloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.i
+.PHONY : code/challenge_operator_overloading.cpp.i
+
+code/challenge_operator_overloading.s: code/challenge_operator_overloading.cpp.s
+
+.PHONY : code/challenge_operator_overloading.s
+
+# target to generate assembly for a file
+code/challenge_operator_overloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.s
+.PHONY : code/challenge_operator_overloading.cpp.s
+
 code/const_and_pointers.o: code/const_and_pointers.cpp.o
 
 .PHONY : code/const_and_pointers.o
@@ -662,6 +689,9 @@ help:
 	@echo "... code/assignment_overload.o"
 	@echo "... code/assignment_overload.i"
 	@echo "... code/assignment_overload.s"
+	@echo "... code/challenge_operator_overloading.o"
+	@echo "... code/challenge_operator_overloading.i"
+	@echo "... code/challenge_operator_overloading.s"
 	@echo "... code/const_and_pointers.o"
 	@echo "... code/const_and_pointers.i"
 	@echo "... code/const_and_pointers.s"

@@ -64,7 +64,7 @@ std::istream &operator>>(std::istream &is, MyString &rhs) {
     cin >> buff;
 
     rhs = MyString{buff};
-    delete [] buff;
+    delete[] buff;
 
     return is;
 }
@@ -102,11 +102,12 @@ MyString &MyString::operator=(MyString &&rhs) noexcept {
 
 // operator overloading as non-member function ---------------------
 
+// Unary operators (++,--,-,!)
 MyString operator-(const MyString &obj) {
     char *buff = new char[std::strlen(obj.str) + 1];
-
-    for (size_t i = 0; i < std::strlen(obj.str); i++) {
-        buff[i] = std::tolower(obj.str[i]);
+    std::strcpy(buff, obj.str);
+    for (size_t i = 0; i < std::strlen(buff); i++) {
+        buff[i] = std::tolower(buff[i]);
     }
 
     MyString temp{buff};
@@ -115,6 +116,20 @@ MyString operator-(const MyString &obj) {
     return temp;
 }
 
+MyString &operator++(MyString &obj) {
+    for (int i = 0; i < std::strlen(obj.str); ++i) {
+        obj.str[i] = std::toupper(obj.str[i]);
+    }
+    return obj;
+}
+
+MyString operator++(MyString &obj, int) {
+    MyString temp{obj};
+    ++obj; // make sure you call the pre-increment
+    return temp;
+}
+
+// Binary operators (+,-,==,!=,<,>,etc.)
 MyString operator+(const MyString &lhs, const MyString &rhs) {
     size_t buff_size = std::strlen(lhs.str) + std::strlen(rhs.str) + 1;
     char *buff = new char[buff_size];
@@ -127,10 +142,38 @@ MyString operator+(const MyString &lhs, const MyString &rhs) {
     return temp;
 }
 
+MyString operator*(const MyString &obj, size_t times) {
+    MyString temp;
+    for (size_t i = 0; i < times; i++) {
+        temp = temp + obj;
+    }
+    return temp;
+}
+
+MyString &operator+=(MyString &lhs, const MyString &rhs) {
+    lhs = lhs + rhs;
+    return lhs;
+}
+
+MyString &operator*=(MyString &lhs, size_t times) {
+    lhs = lhs * times;
+    return lhs;
+}
+
 bool operator==(const MyString &lhs, const MyString &rhs) {
-    if (std::strcmp(lhs.str, rhs.str) == 0)
-        return true;
-    return false;
+    return std::strcmp(lhs.str, rhs.str) == 0;
+}
+
+bool operator!=(const MyString &lhs, const MyString &rhs) {
+    return std::strcmp(lhs.str, rhs.str) != 0;
+}
+
+bool operator<(const MyString &lhs, const MyString &rhs) {
+    return std::strcmp(lhs.str,rhs.str) < 0;
+}
+
+bool operator>(const MyString &lhs, const MyString &rhs) {
+    return std::strcmp(lhs.str,rhs.str) > 0;
 }
 
 // operator overloading as member function --------------------------
@@ -138,9 +181,9 @@ bool operator==(const MyString &lhs, const MyString &rhs) {
 // Unary operators (++,--,-,!)
 MyString MyString::operator-() const {
     char *buff = new char[std::strlen(this->str) + 1];
-
-    for (size_t i = 0; i < std::strlen(this->str); i++) {
-        buff[i] = std::tolower(this->str[i]);
+    std::strcpy(buff, this->str);
+    for (size_t i = 0; i < std::strlen(buff); i++) {
+        buff[i] = std::tolower(buff[i]);
     }
 
     MyString temp{buff};
@@ -149,8 +192,21 @@ MyString MyString::operator-() const {
     return temp;
 }
 
-// Binary operators (+,-,==,!=,<,>,etc.)
+MyString &MyString::operator++() {
+    for (int i = 0; i < std::strlen(this->str); ++i) {
+        this->str[i] = std::toupper(this->str[i]);
+    }
+    return *this;
+}
 
+MyString MyString::operator++(int) {
+    MyString temp{*this};
+    //++(*this);
+    operator++(); // make sure you call the pre-increment
+    return temp;
+}
+
+// Binary operators (+,-,==,!=,<,>,etc.)
 MyString MyString::operator+(const MyString &rhs) const {
     size_t buff_size = std::strlen(this->str) + std::strlen(rhs.str) + 1;
     char *buff = new char[buff_size];
@@ -164,9 +220,37 @@ MyString MyString::operator+(const MyString &rhs) const {
 }
 
 bool MyString::operator==(const MyString &rhs) const {
-    if (std::strcmp(this->str, rhs.str) == 0)
-        return true;
-    return false;
+    return std::strcmp(this->str, rhs.str) == 0;
+}
+
+bool MyString::operator!=(const MyString &rhs) const {
+    return std::strcmp(this->str, rhs.str) == 0;
+}
+
+bool MyString::operator<(const MyString &rhs) const {
+    return std::strlen(this->str) < std::strlen(rhs.str);
+}
+
+bool MyString::operator>(const MyString &rhs) const {
+    return std::strlen(this->str) > std::strlen(rhs.str);
+}
+
+MyString &MyString::operator+=(const MyString &rhs) {
+    *this = *this + rhs;
+    return *this;
+}
+
+MyString MyString::operator*(size_t times) const {
+    MyString temp;
+    for (size_t i = 0; i < times; i++) {
+        temp = temp + *this;
+    }
+    return temp;
+}
+
+MyString &MyString::operator*=(size_t times) {
+    *this = *this * times;
+    return *this;
 }
 */
 // member methods ---------------------------------------------------
