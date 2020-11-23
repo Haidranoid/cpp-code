@@ -494,6 +494,33 @@ code/move_constructor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.s
 .PHONY : code/move_constructor.cpp.s
 
+code/operator_overloading.o: code/operator_overloading.cpp.o
+
+.PHONY : code/operator_overloading.o
+
+# target to build an object file
+code/operator_overloading.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o
+.PHONY : code/operator_overloading.cpp.o
+
+code/operator_overloading.i: code/operator_overloading.cpp.i
+
+.PHONY : code/operator_overloading.i
+
+# target to preprocess a source file
+code/operator_overloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.i
+.PHONY : code/operator_overloading.cpp.i
+
+code/operator_overloading.s: code/operator_overloading.cpp.s
+
+.PHONY : code/operator_overloading.s
+
+# target to generate assembly for a file
+code/operator_overloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.s
+.PHONY : code/operator_overloading.cpp.s
+
 code/references.o: code/references.cpp.o
 
 .PHONY : code/references.o
@@ -650,6 +677,9 @@ help:
 	@echo "... code/move_constructor.o"
 	@echo "... code/move_constructor.i"
 	@echo "... code/move_constructor.s"
+	@echo "... code/operator_overloading.o"
+	@echo "... code/operator_overloading.i"
+	@echo "... code/operator_overloading.s"
 	@echo "... code/references.o"
 	@echo "... code/references.i"
 	@echo "... code/references.s"

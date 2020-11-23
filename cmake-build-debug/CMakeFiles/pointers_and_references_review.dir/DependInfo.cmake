@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/eduardo/Desktop/cpp-course/code/functions_and_pointers.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.o"
   "/Users/eduardo/Desktop/cpp-course/code/left_and_right_values.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.o"
   "/Users/eduardo/Desktop/cpp-course/code/move_constructor.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o"
+  "/Users/eduardo/Desktop/cpp-course/code/operator_overloading.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o"
   "/Users/eduardo/Desktop/cpp-course/code/references.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/references.cpp.o"
   "/Users/eduardo/Desktop/cpp-course/code/shallow_and_deep_copy.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o"
   "/Users/eduardo/Desktop/cpp-course/code/static_members_and_methods.cpp" "/Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o"

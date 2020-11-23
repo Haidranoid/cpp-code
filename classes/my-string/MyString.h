@@ -2,6 +2,11 @@
 #define _MYSTRING_H
 
 class MyString {
+    // insertion and extration operator -----------------------------
+    friend std::ostream &operator<<(std::ostream &os, const MyString &rhs);
+
+    friend std::istream &operator>>(std::istream &is, MyString &rhs);
+
     // operator overloading as non- member function ----------------
     friend MyString operator-(const MyString &obj);
 

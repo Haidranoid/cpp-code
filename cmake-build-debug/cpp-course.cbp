@@ -137,6 +137,9 @@
 		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/move_constructor.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/operator_overloading.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
 		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/references.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>

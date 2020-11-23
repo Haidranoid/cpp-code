@@ -53,6 +53,21 @@ MyString::~MyString() {
     delete[] this->str;
 }
 
+// insertion and extration operator -----------------------------
+std::ostream &operator<<(std::ostream &os, const MyString &rhs) {
+    os << rhs.str;
+    return os;
+}
+
+std::istream &operator>>(std::istream &is, MyString &rhs) {
+    char *buff = new char[1000];
+    cin >> buff;
+
+    rhs = MyString{buff};
+    delete [] buff;
+
+    return is;
+}
 // assignment overloading -------------------------------------------
 
 // copy assignment
