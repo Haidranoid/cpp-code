@@ -28,9 +28,9 @@ public:
     void setBalance(double balance);
 
     // methods
-    bool withdraw(double amount);
-
     bool deposit(double amount);
+
+    bool withdraw(double amount);
 
     // friend method
     // friend void display_player(Player &player);

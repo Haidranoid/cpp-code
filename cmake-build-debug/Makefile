@@ -278,6 +278,33 @@ classes/player/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s
 .PHONY : classes/player/Player.cpp.s
 
+classes/saving_account/Saving_Account.o: classes/saving_account/Saving_Account.cpp.o
+
+.PHONY : classes/saving_account/Saving_Account.o
+
+# target to build an object file
+classes/saving_account/Saving_Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.o
+.PHONY : classes/saving_account/Saving_Account.cpp.o
+
+classes/saving_account/Saving_Account.i: classes/saving_account/Saving_Account.cpp.i
+
+.PHONY : classes/saving_account/Saving_Account.i
+
+# target to preprocess a source file
+classes/saving_account/Saving_Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.i
+.PHONY : classes/saving_account/Saving_Account.cpp.i
+
+classes/saving_account/Saving_Account.s: classes/saving_account/Saving_Account.cpp.s
+
+.PHONY : classes/saving_account/Saving_Account.s
+
+# target to generate assembly for a file
+classes/saving_account/Saving_Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.s
+.PHONY : classes/saving_account/Saving_Account.cpp.s
+
 classes/shallow/Shallow.o: classes/shallow/Shallow.cpp.o
 
 .PHONY : classes/shallow/Shallow.o
@@ -680,6 +707,9 @@ help:
 	@echo "... classes/player/Player.o"
 	@echo "... classes/player/Player.i"
 	@echo "... classes/player/Player.s"
+	@echo "... classes/saving_account/Saving_Account.o"
+	@echo "... classes/saving_account/Saving_Account.i"
+	@echo "... classes/saving_account/Saving_Account.s"
 	@echo "... classes/shallow/Shallow.o"
 	@echo "... classes/shallow/Shallow.i"
 	@echo "... classes/shallow/Shallow.s"

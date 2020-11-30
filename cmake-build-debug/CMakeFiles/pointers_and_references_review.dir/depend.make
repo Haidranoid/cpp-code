@@ -16,6 +16,10 @@ CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o: 
 CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o: ../classes/player/Player.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o: ../classes/player/Player.h
 
+CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.o: ../classes/saving_account/Saving_Account.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.o: ../classes/saving_account/Saving_Account.h
+
 CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: ../classes/shallow/Shallow.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: ../classes/shallow/Shallow.h
 
@@ -25,6 +29,9 @@ CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ..
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../classes/my-string/MyString.h
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../classes/player/Player.h
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../code/assignment_overload.cpp
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o: ../classes/my-string/MyString.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o: ../code/challenge_operator_overloading.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/const_and_pointers.cpp.o: ../code/const_and_pointers.cpp
 
@@ -51,6 +58,7 @@ CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o: 
 CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o: ../classes/player/Player.h
 CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o: ../code/static_members_and_methods.cpp
 
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/my-string/MyString.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/saving_account/Saving_Account.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
 

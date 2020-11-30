@@ -110,6 +110,12 @@
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/player/Player.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/saving_account/Saving_Account.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/saving_account/Saving_Account.h">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/shallow/Shallow.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
