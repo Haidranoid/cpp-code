@@ -143,6 +143,33 @@ pointers_and_references_review/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/build
 .PHONY : pointers_and_references_review/fast
 
+classes/account-2/Account2.o: classes/account-2/Account2.cpp.o
+
+.PHONY : classes/account-2/Account2.o
+
+# target to build an object file
+classes/account-2/Account2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o
+.PHONY : classes/account-2/Account2.cpp.o
+
+classes/account-2/Account2.i: classes/account-2/Account2.cpp.i
+
+.PHONY : classes/account-2/Account2.i
+
+# target to preprocess a source file
+classes/account-2/Account2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.i
+.PHONY : classes/account-2/Account2.cpp.i
+
+classes/account-2/Account2.s: classes/account-2/Account2.cpp.s
+
+.PHONY : classes/account-2/Account2.s
+
+# target to generate assembly for a file
+classes/account-2/Account2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s
+.PHONY : classes/account-2/Account2.cpp.s
+
 classes/account/Account.o: classes/account/Account.cpp.o
 
 .PHONY : classes/account/Account.o
@@ -170,6 +197,33 @@ classes/account/Account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.s
 .PHONY : classes/account/Account.cpp.s
 
+classes/base/Base.o: classes/base/Base.cpp.o
+
+.PHONY : classes/base/Base.o
+
+# target to build an object file
+classes/base/Base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o
+.PHONY : classes/base/Base.cpp.o
+
+classes/base/Base.i: classes/base/Base.cpp.i
+
+.PHONY : classes/base/Base.i
+
+# target to preprocess a source file
+classes/base/Base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.i
+.PHONY : classes/base/Base.cpp.i
+
+classes/base/Base.s: classes/base/Base.cpp.s
+
+.PHONY : classes/base/Base.s
+
+# target to generate assembly for a file
+classes/base/Base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s
+.PHONY : classes/base/Base.cpp.s
+
 classes/deep/Deep.o: classes/deep/Deep.cpp.o
 
 .PHONY : classes/deep/Deep.o
@@ -196,6 +250,33 @@ classes/deep/Deep.s: classes/deep/Deep.cpp.s
 classes/deep/Deep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.s
 .PHONY : classes/deep/Deep.cpp.s
+
+classes/derived/Derived.o: classes/derived/Derived.cpp.o
+
+.PHONY : classes/derived/Derived.o
+
+# target to build an object file
+classes/derived/Derived.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o
+.PHONY : classes/derived/Derived.cpp.o
+
+classes/derived/Derived.i: classes/derived/Derived.cpp.i
+
+.PHONY : classes/derived/Derived.i
+
+# target to preprocess a source file
+classes/derived/Derived.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.i
+.PHONY : classes/derived/Derived.cpp.i
+
+classes/derived/Derived.s: classes/derived/Derived.cpp.s
+
+.PHONY : classes/derived/Derived.s
+
+# target to generate assembly for a file
+classes/derived/Derived.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.s
+.PHONY : classes/derived/Derived.cpp.s
 
 classes/move/Move.o: classes/move/Move.cpp.o
 
@@ -278,32 +359,59 @@ classes/player/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s
 .PHONY : classes/player/Player.cpp.s
 
-classes/saving_account/Saving_Account.o: classes/saving_account/Saving_Account.cpp.o
+classes/saving-account-2/Saving_Account2.o: classes/saving-account-2/Saving_Account2.cpp.o
 
-.PHONY : classes/saving_account/Saving_Account.o
+.PHONY : classes/saving-account-2/Saving_Account2.o
 
 # target to build an object file
-classes/saving_account/Saving_Account.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.o
-.PHONY : classes/saving_account/Saving_Account.cpp.o
+classes/saving-account-2/Saving_Account2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o
+.PHONY : classes/saving-account-2/Saving_Account2.cpp.o
 
-classes/saving_account/Saving_Account.i: classes/saving_account/Saving_Account.cpp.i
+classes/saving-account-2/Saving_Account2.i: classes/saving-account-2/Saving_Account2.cpp.i
 
-.PHONY : classes/saving_account/Saving_Account.i
+.PHONY : classes/saving-account-2/Saving_Account2.i
 
 # target to preprocess a source file
-classes/saving_account/Saving_Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.i
-.PHONY : classes/saving_account/Saving_Account.cpp.i
+classes/saving-account-2/Saving_Account2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.i
+.PHONY : classes/saving-account-2/Saving_Account2.cpp.i
 
-classes/saving_account/Saving_Account.s: classes/saving_account/Saving_Account.cpp.s
+classes/saving-account-2/Saving_Account2.s: classes/saving-account-2/Saving_Account2.cpp.s
 
-.PHONY : classes/saving_account/Saving_Account.s
+.PHONY : classes/saving-account-2/Saving_Account2.s
 
 # target to generate assembly for a file
-classes/saving_account/Saving_Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving_account/Saving_Account.cpp.s
-.PHONY : classes/saving_account/Saving_Account.cpp.s
+classes/saving-account-2/Saving_Account2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s
+.PHONY : classes/saving-account-2/Saving_Account2.cpp.s
+
+classes/saving-account/Saving_Account.o: classes/saving-account/Saving_Account.cpp.o
+
+.PHONY : classes/saving-account/Saving_Account.o
+
+# target to build an object file
+classes/saving-account/Saving_Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.o
+.PHONY : classes/saving-account/Saving_Account.cpp.o
+
+classes/saving-account/Saving_Account.i: classes/saving-account/Saving_Account.cpp.i
+
+.PHONY : classes/saving-account/Saving_Account.i
+
+# target to preprocess a source file
+classes/saving-account/Saving_Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.i
+.PHONY : classes/saving-account/Saving_Account.cpp.i
+
+classes/saving-account/Saving_Account.s: classes/saving-account/Saving_Account.cpp.s
+
+.PHONY : classes/saving-account/Saving_Account.s
+
+# target to generate assembly for a file
+classes/saving-account/Saving_Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.s
+.PHONY : classes/saving-account/Saving_Account.cpp.s
 
 classes/shallow/Shallow.o: classes/shallow/Shallow.cpp.o
 
@@ -494,6 +602,33 @@ code/functions_and_pointers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.s
 .PHONY : code/functions_and_pointers.cpp.s
 
+code/inheritance.o: code/inheritance.cpp.o
+
+.PHONY : code/inheritance.o
+
+# target to build an object file
+code/inheritance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o
+.PHONY : code/inheritance.cpp.o
+
+code/inheritance.i: code/inheritance.cpp.i
+
+.PHONY : code/inheritance.i
+
+# target to preprocess a source file
+code/inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.i
+.PHONY : code/inheritance.cpp.i
+
+code/inheritance.s: code/inheritance.cpp.s
+
+.PHONY : code/inheritance.s
+
+# target to generate assembly for a file
+code/inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.s
+.PHONY : code/inheritance.cpp.s
+
 code/left_and_right_values.o: code/left_and_right_values.cpp.o
 
 .PHONY : code/left_and_right_values.o
@@ -683,6 +818,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+utils/Account_Util.o: utils/Account_Util.cpp.o
+
+.PHONY : utils/Account_Util.o
+
+# target to build an object file
+utils/Account_Util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o
+.PHONY : utils/Account_Util.cpp.o
+
+utils/Account_Util.i: utils/Account_Util.cpp.i
+
+.PHONY : utils/Account_Util.i
+
+# target to preprocess a source file
+utils/Account_Util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.i
+.PHONY : utils/Account_Util.cpp.i
+
+utils/Account_Util.s: utils/Account_Util.cpp.s
+
+.PHONY : utils/Account_Util.s
+
+# target to generate assembly for a file
+utils/Account_Util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.s
+.PHONY : utils/Account_Util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -692,12 +854,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pointers_and_references_review"
+	@echo "... classes/account-2/Account2.o"
+	@echo "... classes/account-2/Account2.i"
+	@echo "... classes/account-2/Account2.s"
 	@echo "... classes/account/Account.o"
 	@echo "... classes/account/Account.i"
 	@echo "... classes/account/Account.s"
+	@echo "... classes/base/Base.o"
+	@echo "... classes/base/Base.i"
+	@echo "... classes/base/Base.s"
 	@echo "... classes/deep/Deep.o"
 	@echo "... classes/deep/Deep.i"
 	@echo "... classes/deep/Deep.s"
+	@echo "... classes/derived/Derived.o"
+	@echo "... classes/derived/Derived.i"
+	@echo "... classes/derived/Derived.s"
 	@echo "... classes/move/Move.o"
 	@echo "... classes/move/Move.i"
 	@echo "... classes/move/Move.s"
@@ -707,9 +878,12 @@ help:
 	@echo "... classes/player/Player.o"
 	@echo "... classes/player/Player.i"
 	@echo "... classes/player/Player.s"
-	@echo "... classes/saving_account/Saving_Account.o"
-	@echo "... classes/saving_account/Saving_Account.i"
-	@echo "... classes/saving_account/Saving_Account.s"
+	@echo "... classes/saving-account-2/Saving_Account2.o"
+	@echo "... classes/saving-account-2/Saving_Account2.i"
+	@echo "... classes/saving-account-2/Saving_Account2.s"
+	@echo "... classes/saving-account/Saving_Account.o"
+	@echo "... classes/saving-account/Saving_Account.i"
+	@echo "... classes/saving-account/Saving_Account.s"
 	@echo "... classes/shallow/Shallow.o"
 	@echo "... classes/shallow/Shallow.i"
 	@echo "... classes/shallow/Shallow.s"
@@ -731,6 +905,9 @@ help:
 	@echo "... code/functions_and_pointers.o"
 	@echo "... code/functions_and_pointers.i"
 	@echo "... code/functions_and_pointers.s"
+	@echo "... code/inheritance.o"
+	@echo "... code/inheritance.i"
+	@echo "... code/inheritance.s"
 	@echo "... code/left_and_right_values.o"
 	@echo "... code/left_and_right_values.i"
 	@echo "... code/left_and_right_values.s"
@@ -752,6 +929,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... utils/Account_Util.o"
+	@echo "... utils/Account_Util.i"
+	@echo "... utils/Account_Util.s"
 .PHONY : help
 
 

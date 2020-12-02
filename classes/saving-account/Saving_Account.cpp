@@ -7,7 +7,8 @@ Saving_Account::Saving_Account(double int_rate)
         : int_rate{int_rate} {
 
 }
-Saving_Account::~Saving_Account(){
+
+Saving_Account::~Saving_Account() {
 }
 
 bool Saving_Account::withdraw(double amount) {
