@@ -454,6 +454,32 @@ CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/saving/Saving.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s
 
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/trust/Trust.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp > CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: ../classes/checking/Checking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp > CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s
+
 # Object files for target pointers_and_references_review
 pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/main.cpp.o" \
@@ -484,7 +510,9 @@ pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o"
+"CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o"
 
 # External object files for target pointers_and_references_review
 pointers_and_references_review_EXTERNAL_OBJECTS =
@@ -518,9 +546,11 @@ pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/ut
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/build.make
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable pointers_and_references_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable pointers_and_references_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers_and_references_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

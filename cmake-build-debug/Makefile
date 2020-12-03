@@ -251,6 +251,33 @@ classes/base/Base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s
 .PHONY : classes/base/Base.cpp.s
 
+classes/checking/Checking.o: classes/checking/Checking.cpp.o
+
+.PHONY : classes/checking/Checking.o
+
+# target to build an object file
+classes/checking/Checking.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o
+.PHONY : classes/checking/Checking.cpp.o
+
+classes/checking/Checking.i: classes/checking/Checking.cpp.i
+
+.PHONY : classes/checking/Checking.i
+
+# target to preprocess a source file
+classes/checking/Checking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i
+.PHONY : classes/checking/Checking.cpp.i
+
+classes/checking/Checking.s: classes/checking/Checking.cpp.s
+
+.PHONY : classes/checking/Checking.s
+
+# target to generate assembly for a file
+classes/checking/Checking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s
+.PHONY : classes/checking/Checking.cpp.s
+
 classes/deep/Deep.o: classes/deep/Deep.cpp.o
 
 .PHONY : classes/deep/Deep.o
@@ -493,6 +520,33 @@ classes/shallow/Shallow.s: classes/shallow/Shallow.cpp.s
 classes/shallow/Shallow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.s
 .PHONY : classes/shallow/Shallow.cpp.s
+
+classes/trust/Trust.o: classes/trust/Trust.cpp.o
+
+.PHONY : classes/trust/Trust.o
+
+# target to build an object file
+classes/trust/Trust.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o
+.PHONY : classes/trust/Trust.cpp.o
+
+classes/trust/Trust.i: classes/trust/Trust.cpp.i
+
+.PHONY : classes/trust/Trust.i
+
+# target to preprocess a source file
+classes/trust/Trust.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i
+.PHONY : classes/trust/Trust.cpp.i
+
+classes/trust/Trust.s: classes/trust/Trust.cpp.s
+
+.PHONY : classes/trust/Trust.s
+
+# target to generate assembly for a file
+classes/trust/Trust.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s
+.PHONY : classes/trust/Trust.cpp.s
 
 code/arrays_and_pointers.o: code/arrays_and_pointers.cpp.o
 
@@ -947,6 +1001,9 @@ help:
 	@echo "... classes/base/Base.o"
 	@echo "... classes/base/Base.i"
 	@echo "... classes/base/Base.s"
+	@echo "... classes/checking/Checking.o"
+	@echo "... classes/checking/Checking.i"
+	@echo "... classes/checking/Checking.s"
 	@echo "... classes/deep/Deep.o"
 	@echo "... classes/deep/Deep.i"
 	@echo "... classes/deep/Deep.s"
@@ -974,6 +1031,9 @@ help:
 	@echo "... classes/shallow/Shallow.o"
 	@echo "... classes/shallow/Shallow.i"
 	@echo "... classes/shallow/Shallow.s"
+	@echo "... classes/trust/Trust.o"
+	@echo "... classes/trust/Trust.i"
+	@echo "... classes/trust/Trust.s"
 	@echo "... code/arrays_and_pointers.o"
 	@echo "... code/arrays_and_pointers.i"
 	@echo "... code/arrays_and_pointers.s"

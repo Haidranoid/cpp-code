@@ -104,6 +104,12 @@
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/base/Base.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/checking/Checking.h">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/deep/Deep.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
@@ -156,6 +162,12 @@
 			<Option target="pointers_and_references_review"/>
 		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/shallow/Shallow.h">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/trust/Trust.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/code/arrays_and_pointers.cpp">

@@ -13,6 +13,10 @@ CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o: ../
 CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o: ../classes/base/Base.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o: ../classes/base/Base.h
 
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: ../classes/checking/Checking.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: ../classes/checking/Checking.h
+
 CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o: ../classes/deep/Deep.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o: ../classes/deep/Deep.h
 
@@ -43,6 +47,11 @@ CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o: ../cl
 
 CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: ../classes/shallow/Shallow.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: ../classes/shallow/Shallow.h
+
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/saving/Saving.h
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/trust/Trust.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/trust/Trust.h
 
 CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o: ../code/arrays_and_pointers.cpp
 
@@ -87,18 +96,24 @@ CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cp
 
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/account-2/Account2.h
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/checking/Checking.h
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/saving-account-2/Saving_Account2.h
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/saving/Saving.h
+CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../classes/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../code/utility_functions_account.cpp
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../utils/Account_Util.h
 
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/checking/Checking.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/saving/Saving.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../utils/Account_Util.h
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/checking/Checking.h
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/saving/Saving.h
+CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../utils/Account_Util.cpp
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../utils/Account_Util.h
 

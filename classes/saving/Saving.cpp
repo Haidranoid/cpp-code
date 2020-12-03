@@ -3,7 +3,6 @@
 
 Saving::Saving(std::string name, double balance, double int_rate)
         : Account(name, balance), int_rate{int_rate} {
-
 }
 
 bool Saving::deposit(double amount) {
@@ -12,6 +11,6 @@ bool Saving::deposit(double amount) {
 }
 
 std::ostream &operator<<(std::ostream &os, const Saving &saving_account) {
-    os << "[Saving Account_Test: " << saving_account.name << ": " << saving_account.balance << ", " << saving_account.int_rate << "%]";
+    os << "[Saving Account: " << saving_account.name << ": " << saving_account.balance << ", " << saving_account.int_rate << "%]";
     return os;
 }

@@ -10,7 +10,7 @@ class Account {
     friend std::ostream &operator<<(std::ostream &os, const Account &account);
 
 private:
-    static constexpr const char *def_name = "Unnamed Account_Test";
+    static constexpr const char *def_name = "Unnamed Account";
     static constexpr double def_balance = 0.0;
 protected:
     std::string name;

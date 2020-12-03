@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/administaff/Desktop/cpp-code/classes/account-2/Account2.h
-iostream
--
-string
--
-
 /Users/administaff/Desktop/cpp-code/classes/account/Account.h
 string
 -
 
-/Users/administaff/Desktop/cpp-code/classes/saving-account-2/Saving_Account2.h
-../account-2/Account2.h
-/Users/administaff/Desktop/cpp-code/classes/account-2/Account2.h
+/Users/administaff/Desktop/cpp-code/classes/checking/Checking.h
+iostream
+-
+string
+-
+../account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/account/Account.h
 
 /Users/administaff/Desktop/cpp-code/classes/saving/Saving.h
 string
@@ -26,14 +24,20 @@ string
 ../account/Account.h
 /Users/administaff/Desktop/cpp-code/classes/account/Account.h
 
-/Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp
+/Users/administaff/Desktop/cpp-code/classes/trust/Trust.h
+ostream
+-
+../saving/Saving.h
+/Users/administaff/Desktop/cpp-code/classes/saving/Saving.h
+
+/Users/administaff/Desktop/cpp-code/main.cpp
 iostream
 -
-../classes/account-2/Account2.h
-/Users/administaff/Desktop/cpp-code/classes/account-2/Account2.h
-../classes/saving-account-2/Saving_Account2.h
-/Users/administaff/Desktop/cpp-code/classes/saving-account-2/Saving_Account2.h
-../utils/Account_Util.h
+classes/checking/Checking.h
+/Users/administaff/Desktop/cpp-code/classes/checking/Checking.h
+classes/trust/Trust.h
+/Users/administaff/Desktop/cpp-code/classes/trust/Trust.h
+utils/Account_Util.h
 /Users/administaff/Desktop/cpp-code/utils/Account_Util.h
 
 /Users/administaff/Desktop/cpp-code/utils/Account_Util.h
@@ -43,4 +47,8 @@ vector
 /Users/administaff/Desktop/cpp-code/classes/account/Account.h
 ../classes/saving/Saving.h
 /Users/administaff/Desktop/cpp-code/classes/saving/Saving.h
+../classes/checking/Checking.h
+/Users/administaff/Desktop/cpp-code/classes/checking/Checking.h
+../classes/trust/Trust.h
+/Users/administaff/Desktop/cpp-code/classes/trust/Trust.h
 
