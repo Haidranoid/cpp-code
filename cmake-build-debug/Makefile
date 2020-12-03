@@ -170,6 +170,33 @@ classes/account-2/Account2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s
 .PHONY : classes/account-2/Account2.cpp.s
 
+classes/account-test/Account_Test.o: classes/account-test/Account_Test.cpp.o
+
+.PHONY : classes/account-test/Account_Test.o
+
+# target to build an object file
+classes/account-test/Account_Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o
+.PHONY : classes/account-test/Account_Test.cpp.o
+
+classes/account-test/Account_Test.i: classes/account-test/Account_Test.cpp.i
+
+.PHONY : classes/account-test/Account_Test.i
+
+# target to preprocess a source file
+classes/account-test/Account_Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.i
+.PHONY : classes/account-test/Account_Test.cpp.i
+
+classes/account-test/Account_Test.s: classes/account-test/Account_Test.cpp.s
+
+.PHONY : classes/account-test/Account_Test.s
+
+# target to generate assembly for a file
+classes/account-test/Account_Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.s
+.PHONY : classes/account-test/Account_Test.cpp.s
+
 classes/account/Account.o: classes/account/Account.cpp.o
 
 .PHONY : classes/account/Account.o
@@ -386,32 +413,59 @@ classes/saving-account-2/Saving_Account2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s
 .PHONY : classes/saving-account-2/Saving_Account2.cpp.s
 
-classes/saving-account/Saving_Account.o: classes/saving-account/Saving_Account.cpp.o
+classes/saving-account-test/Saving_Account_Test.o: classes/saving-account-test/Saving_Account_Test.cpp.o
 
-.PHONY : classes/saving-account/Saving_Account.o
+.PHONY : classes/saving-account-test/Saving_Account_Test.o
 
 # target to build an object file
-classes/saving-account/Saving_Account.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.o
-.PHONY : classes/saving-account/Saving_Account.cpp.o
+classes/saving-account-test/Saving_Account_Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o
+.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.o
 
-classes/saving-account/Saving_Account.i: classes/saving-account/Saving_Account.cpp.i
+classes/saving-account-test/Saving_Account_Test.i: classes/saving-account-test/Saving_Account_Test.cpp.i
 
-.PHONY : classes/saving-account/Saving_Account.i
+.PHONY : classes/saving-account-test/Saving_Account_Test.i
 
 # target to preprocess a source file
-classes/saving-account/Saving_Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.i
-.PHONY : classes/saving-account/Saving_Account.cpp.i
+classes/saving-account-test/Saving_Account_Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.i
+.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.i
 
-classes/saving-account/Saving_Account.s: classes/saving-account/Saving_Account.cpp.s
+classes/saving-account-test/Saving_Account_Test.s: classes/saving-account-test/Saving_Account_Test.cpp.s
 
-.PHONY : classes/saving-account/Saving_Account.s
+.PHONY : classes/saving-account-test/Saving_Account_Test.s
 
 # target to generate assembly for a file
-classes/saving-account/Saving_Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account/Saving_Account.cpp.s
-.PHONY : classes/saving-account/Saving_Account.cpp.s
+classes/saving-account-test/Saving_Account_Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.s
+.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.s
+
+classes/saving/Saving.o: classes/saving/Saving.cpp.o
+
+.PHONY : classes/saving/Saving.o
+
+# target to build an object file
+classes/saving/Saving.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o
+.PHONY : classes/saving/Saving.cpp.o
+
+classes/saving/Saving.i: classes/saving/Saving.cpp.i
+
+.PHONY : classes/saving/Saving.i
+
+# target to preprocess a source file
+classes/saving/Saving.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.i
+.PHONY : classes/saving/Saving.cpp.i
+
+classes/saving/Saving.s: classes/saving/Saving.cpp.s
+
+.PHONY : classes/saving/Saving.s
+
+# target to generate assembly for a file
+classes/saving/Saving.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s
+.PHONY : classes/saving/Saving.cpp.s
 
 classes/shallow/Shallow.o: classes/shallow/Shallow.cpp.o
 
@@ -791,6 +845,33 @@ code/static_members_and_methods.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.s
 .PHONY : code/static_members_and_methods.cpp.s
 
+code/utility_functions_account.o: code/utility_functions_account.cpp.o
+
+.PHONY : code/utility_functions_account.o
+
+# target to build an object file
+code/utility_functions_account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o
+.PHONY : code/utility_functions_account.cpp.o
+
+code/utility_functions_account.i: code/utility_functions_account.cpp.i
+
+.PHONY : code/utility_functions_account.i
+
+# target to preprocess a source file
+code/utility_functions_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.i
+.PHONY : code/utility_functions_account.cpp.i
+
+code/utility_functions_account.s: code/utility_functions_account.cpp.s
+
+.PHONY : code/utility_functions_account.s
+
+# target to generate assembly for a file
+code/utility_functions_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.s
+.PHONY : code/utility_functions_account.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -857,6 +938,9 @@ help:
 	@echo "... classes/account-2/Account2.o"
 	@echo "... classes/account-2/Account2.i"
 	@echo "... classes/account-2/Account2.s"
+	@echo "... classes/account-test/Account_Test.o"
+	@echo "... classes/account-test/Account_Test.i"
+	@echo "... classes/account-test/Account_Test.s"
 	@echo "... classes/account/Account.o"
 	@echo "... classes/account/Account.i"
 	@echo "... classes/account/Account.s"
@@ -881,9 +965,12 @@ help:
 	@echo "... classes/saving-account-2/Saving_Account2.o"
 	@echo "... classes/saving-account-2/Saving_Account2.i"
 	@echo "... classes/saving-account-2/Saving_Account2.s"
-	@echo "... classes/saving-account/Saving_Account.o"
-	@echo "... classes/saving-account/Saving_Account.i"
-	@echo "... classes/saving-account/Saving_Account.s"
+	@echo "... classes/saving-account-test/Saving_Account_Test.o"
+	@echo "... classes/saving-account-test/Saving_Account_Test.i"
+	@echo "... classes/saving-account-test/Saving_Account_Test.s"
+	@echo "... classes/saving/Saving.o"
+	@echo "... classes/saving/Saving.i"
+	@echo "... classes/saving/Saving.s"
 	@echo "... classes/shallow/Shallow.o"
 	@echo "... classes/shallow/Shallow.i"
 	@echo "... classes/shallow/Shallow.s"
@@ -926,6 +1013,9 @@ help:
 	@echo "... code/static_members_and_methods.o"
 	@echo "... code/static_members_and_methods.i"
 	@echo "... code/static_members_and_methods.s"
+	@echo "... code/utility_functions_account.o"
+	@echo "... code/utility_functions_account.i"
+	@echo "... code/utility_functions_account.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

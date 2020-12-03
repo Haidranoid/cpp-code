@@ -8,14 +8,14 @@ class Account2 {
     friend std::ostream &operator<<(std::ostream &os, const Account2 &account);
 
 private:
-    static constexpr const char *def_name = "Unnamed Account";
+    static constexpr const char *def_name = "Unnamed Account_Test";
     static constexpr double def_balance = 0.0;
 protected:
     std::string name;
     double balance;
 public:
     Account2(std::string name = def_name, double balance = def_balance);
-    //Account2(std::string name = "Unamed Account", double balance = 0.0);
+    //Account2(std::string name = "Unamed Account_Test", double balance = 0.0);
 
     bool deposit(double amount);
 

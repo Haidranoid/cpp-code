@@ -11,6 +11,6 @@ bool Saving_Account2::deposit(double amount) {
 }
 
 std::ostream &operator<<(std::ostream &os, const Saving_Account2 &saving_account) {
-    os << "[Saving Account: " << saving_account.name << ": " << saving_account.balance << ", " << saving_account.int_rate << "%]";
+    os << "[Saving Account_Test: " << saving_account.name << ": " << saving_account.balance << ", " << saving_account.int_rate << "%]";
     return os;
 }

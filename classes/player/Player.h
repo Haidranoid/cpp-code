@@ -5,8 +5,8 @@
 
 
 class Player {
-    //friend class Account;
-    //friend void Account::display_player(Player &player);
+    //friend class Account_Test;
+    //friend void Account_Test::display_player(Player &player);
 private:
     // attributes
     std::string name;

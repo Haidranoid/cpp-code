@@ -1,39 +1,30 @@
-#include <iostream>
+//
+// Created by Administaff on 12/3/20.
+//
 
 #ifndef _ACCOUNT_H
 #define _ACCOUNT_H
+#include <string>
 
 class Account {
+    friend std::ostream &operator<<(std::ostream &os, const Account &account);
+
 private:
-    // attributes
+    static constexpr const char *def_name = "Unnamed Account_Test";
+    static constexpr double def_balance = 0.0;
+protected:
     std::string name;
     double balance;
-
 public:
-    // constructors
-    Account(std::string name = "Default", double balance = 0);
+    Account(std::string name = def_name, double balance = def_balance);
+    //Account2(std::string name = "Unamed Account_Test", double balance = 0.0);
 
-    // copy constructor
-    Account(const Account &source);
-
-    ~Account();
-
-    // getters and setters
-    std::string get_name() const;
-
-    void set_name(std::string name);
-
-    double getBalance() const;
-
-    void setBalance(double balance);
-
-    // methods
     bool deposit(double amount);
 
     bool withdraw(double amount);
 
-    // friend method
-    // friend void display_player(Player &player);
+    double get_balance() const;
+
 };
 
 

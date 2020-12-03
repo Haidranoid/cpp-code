@@ -1,15 +1,16 @@
 #include "Account_Util.h"
 #include <vector>
+#include <iostream>
 
-// utility helper functions for Account class
-void display(const std::vector<Account2> &accounts) {
+// utility helper functions for Account_Test class
+void display(const std::vector<Account> &accounts) {
     std::cout << "\n ==== Accounts ================================" << std::endl;
     for (const auto &account: accounts) {
         std::cout << account << std::endl;
     }
 }
 
-void deposit(std::vector<Account2> &accounts, double amount) {
+void deposit(std::vector<Account> &accounts, double amount) {
     std::cout << "\n ==== Depositing to Accounts ================================" << std::endl;
     for (auto &account: accounts) {
         if (account.deposit(amount))
@@ -19,7 +20,7 @@ void deposit(std::vector<Account2> &accounts, double amount) {
     }
 }
 
-void withdraw(std::vector<Account2> &accounts, double amount) {
+void withdraw(std::vector<Account> &accounts, double amount) {
     std::cout << "\n ==== Withdrawing to Accounts ================================" << std::endl;
     for (auto &account: accounts) {
         if (account.withdraw(amount))
@@ -30,15 +31,15 @@ void withdraw(std::vector<Account2> &accounts, double amount) {
 }
 
 
-// utility helper functions for Saving Account class
-void display(const std::vector<Saving_Account2> &saving_accounts) {
+// utility helper functions for Saving Account_Test class
+void display(const std::vector<Saving> &saving_accounts) {
     std::cout << "\n ==== Saving Accounts ================================" << std::endl;
     for (const auto &saving_account: saving_accounts) {
         std::cout << saving_account << std::endl;
     }
 }
 
-void deposit(std::vector<Saving_Account2> &saving_accounts, double amount) {
+void deposit(std::vector<Saving> &saving_accounts, double amount) {
     std::cout << "\n ==== Depositing to Saving Accounts ================================" << std::endl;
     for (auto &saving_account: saving_accounts) {
         if (saving_account.deposit(amount))
@@ -48,7 +49,7 @@ void deposit(std::vector<Saving_Account2> &saving_accounts, double amount) {
     }
 }
 
-void withdraw(std::vector<Saving_Account2> &saving_accounts, double amount) {
+void withdraw(std::vector<Saving> &saving_accounts, double amount) {
     std::cout << "\n ==== Withdrawing to Saving Accounts ================================" << std::endl;
     for (auto &saving_account: saving_accounts) {
         if (saving_account.withdraw(amount))

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "classes/account-2/Account2.h"
-#include "classes/saving-account-2/Saving_Account2.h"
+#include "classes/account/Account.h"
+#include "classes/saving/Saving.h"
 #include "utils/Account_Util.h"
 
 using namespace std;
@@ -10,29 +10,27 @@ int main() {
     cout << fixed;
 
     // Accounts
-    vector<Account2> accounts;
-    accounts.push_back(Account2{});
-    accounts.push_back(Account2{"Larry"});
-    accounts.push_back(Account2{"Moe",2000});
-    accounts.push_back(Account2{"Curly",5000});
+    vector<Account> accounts;
+    accounts.push_back(Account{});
+    accounts.push_back(Account{"Larry"});
+    accounts.push_back(Account{"Moe",2000});
+    accounts.push_back(Account{"Curly",5000});
 
     display(accounts);
     deposit(accounts,1000);
     withdraw(accounts,2000);
 
     // Savings
-    vector<Saving_Account2> saving_accounts;
-    saving_accounts.push_back(Saving_Account2{});
-    saving_accounts.push_back(Saving_Account2{"SUPERMAN"});
-    saving_accounts.push_back(Saving_Account2{"Batman",2000});
-    saving_accounts.push_back(Saving_Account2{"Wonderwoman",5000,5.0});
+    vector<Saving> saving_accounts;
+    saving_accounts.push_back(Saving{});
+    saving_accounts.push_back(Saving{"SUPERMAN"});
+    saving_accounts.push_back(Saving{"Batman",2000});
+    saving_accounts.push_back(Saving{"Wonderwoman",5000,5.0});
 
     display(saving_accounts);
     deposit(saving_accounts,1000);
     withdraw(saving_accounts,2000);
 
-
-    return 0;
 }
 
 

@@ -2,7 +2,7 @@
 // Created by Administaff on 11/20/20.
 //
 #include <iostream>
-#include "./../classes/account/Account.h"
+#include "./../classes/account-test/Account_Test.h"
 #include "./../classes/player/Player.h"
 
 using namespace std;
@@ -10,8 +10,8 @@ using namespace std;
 int constructors() {
     // -----------------------------------------------
 
-    Account frank_account;
-    frank_account.set_name("Frank's account");
+    Account_Test frank_account;
+    frank_account.set_name("Frank's account-test");
 
     cout << frank_account.get_name() << endl;
 
@@ -21,7 +21,7 @@ int constructors() {
 
     // -----------------------------------------------
 
-    Account *enemy_account = new Account("Enemy's account");
+    Account_Test *enemy_account = new Account_Test("Enemy's account-test");
 
     cout << enemy_account->get_name() << endl;
 
