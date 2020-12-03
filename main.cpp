@@ -1,44 +1,29 @@
 #include <iostream>
-#include "classes/checking/Checking.h"
-#include "classes/trust/Trust.h"
-#include "utils/Account_Util.h"
+#include "classes/abstract/shape/Shape.h"
+#include "classes/abstract/open-shape/Open_Shape.h"
+#include "classes/abstract/closed-shape/Closed_Shape.h"
+#include "classes/abstract/line/Line.h"
+#include "classes/abstract/circle/Circle.h"
 
 using namespace std;
 
 int main() {
-    cout.precision(2);
-    cout << fixed;
+    // Shape shape;  ERROR - abstract class
+    // Open_Shape open_shape;  ERROR - abstract class
+    // Closed_Shape closed_shape;  ERROR - abstract class
 
-    /*
-    // Checking
-    vector<Checking> accounts;
-    accounts.push_back(Checking{});
-    accounts.push_back(Checking{"Larry"});
-    accounts.push_back(Checking{"Moe",2000});
-    accounts.push_back(Checking{"Curly",5000});
+    Shape *circle = new Circle;
+    Shape *line = new Line;
 
-    display(accounts);
-    deposit(accounts,1000);
-    withdraw(accounts,2000);
+    circle->draw();
+    line->draw();
 
-    */
+    std::cout << "===================================" << std::endl;
 
-    // Trust
-    vector<Trust> saving_accounts;
-    saving_accounts.push_back(Trust{});
-    saving_accounts.push_back(Trust{"SUPERMAN"});
-    saving_accounts.push_back(Trust{"Batman",1000});
-    saving_accounts.push_back(Trust{"Wonderwoman",2000,5.0});
+    delete line;
+    delete circle;
 
-    display(saving_accounts);
-    deposit(saving_accounts,2000);
-    deposit(saving_accounts,1000);
-    withdraw(saving_accounts,600);
-    withdraw(saving_accounts,50);
-    withdraw(saving_accounts,1000);
-    withdraw(saving_accounts,50);
-    withdraw(saving_accounts,50);
-
+    return 0;
 }
 
 

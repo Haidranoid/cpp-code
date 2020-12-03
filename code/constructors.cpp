@@ -2,8 +2,8 @@
 // Created by Administaff on 11/20/20.
 //
 #include <iostream>
-#include "./../classes/account-test/Account_Test.h"
-#include "./../classes/player/Player.h"
+#include "./../classes/polymorphism/account-test/Account_Test.h"
+#include "./../classes/poo/player/Player.h"
 
 using namespace std;
 

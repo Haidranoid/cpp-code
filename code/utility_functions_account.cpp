@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../classes/account-2/Account2.h"
-#include "../classes/saving-account-2/Saving_Account2.h"
+#include "../classes/polymorphism/account-2/Account2.h"
+#include "../classes/polymorphism/saving-account-2/Saving_Account2.h"
 #include "../utils/Account_Util.h"
 
 using namespace std;

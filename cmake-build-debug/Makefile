@@ -143,410 +143,464 @@ pointers_and_references_review/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/build
 .PHONY : pointers_and_references_review/fast
 
-classes/account-2/Account2.o: classes/account-2/Account2.cpp.o
+classes/abstract/circle/Circle.o: classes/abstract/circle/Circle.cpp.o
 
-.PHONY : classes/account-2/Account2.o
-
-# target to build an object file
-classes/account-2/Account2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o
-.PHONY : classes/account-2/Account2.cpp.o
-
-classes/account-2/Account2.i: classes/account-2/Account2.cpp.i
-
-.PHONY : classes/account-2/Account2.i
-
-# target to preprocess a source file
-classes/account-2/Account2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.i
-.PHONY : classes/account-2/Account2.cpp.i
-
-classes/account-2/Account2.s: classes/account-2/Account2.cpp.s
-
-.PHONY : classes/account-2/Account2.s
-
-# target to generate assembly for a file
-classes/account-2/Account2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s
-.PHONY : classes/account-2/Account2.cpp.s
-
-classes/account-test/Account_Test.o: classes/account-test/Account_Test.cpp.o
-
-.PHONY : classes/account-test/Account_Test.o
+.PHONY : classes/abstract/circle/Circle.o
 
 # target to build an object file
-classes/account-test/Account_Test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o
-.PHONY : classes/account-test/Account_Test.cpp.o
+classes/abstract/circle/Circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o
+.PHONY : classes/abstract/circle/Circle.cpp.o
 
-classes/account-test/Account_Test.i: classes/account-test/Account_Test.cpp.i
+classes/abstract/circle/Circle.i: classes/abstract/circle/Circle.cpp.i
 
-.PHONY : classes/account-test/Account_Test.i
+.PHONY : classes/abstract/circle/Circle.i
 
 # target to preprocess a source file
-classes/account-test/Account_Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.i
-.PHONY : classes/account-test/Account_Test.cpp.i
+classes/abstract/circle/Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.i
+.PHONY : classes/abstract/circle/Circle.cpp.i
 
-classes/account-test/Account_Test.s: classes/account-test/Account_Test.cpp.s
+classes/abstract/circle/Circle.s: classes/abstract/circle/Circle.cpp.s
 
-.PHONY : classes/account-test/Account_Test.s
+.PHONY : classes/abstract/circle/Circle.s
 
 # target to generate assembly for a file
-classes/account-test/Account_Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.s
-.PHONY : classes/account-test/Account_Test.cpp.s
+classes/abstract/circle/Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s
+.PHONY : classes/abstract/circle/Circle.cpp.s
 
-classes/account/Account.o: classes/account/Account.cpp.o
+classes/abstract/line/Line.o: classes/abstract/line/Line.cpp.o
 
-.PHONY : classes/account/Account.o
+.PHONY : classes/abstract/line/Line.o
 
 # target to build an object file
-classes/account/Account.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o
-.PHONY : classes/account/Account.cpp.o
+classes/abstract/line/Line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o
+.PHONY : classes/abstract/line/Line.cpp.o
 
-classes/account/Account.i: classes/account/Account.cpp.i
+classes/abstract/line/Line.i: classes/abstract/line/Line.cpp.i
 
-.PHONY : classes/account/Account.i
+.PHONY : classes/abstract/line/Line.i
 
 # target to preprocess a source file
-classes/account/Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.i
-.PHONY : classes/account/Account.cpp.i
+classes/abstract/line/Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.i
+.PHONY : classes/abstract/line/Line.cpp.i
 
-classes/account/Account.s: classes/account/Account.cpp.s
+classes/abstract/line/Line.s: classes/abstract/line/Line.cpp.s
 
-.PHONY : classes/account/Account.s
+.PHONY : classes/abstract/line/Line.s
 
 # target to generate assembly for a file
-classes/account/Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.s
-.PHONY : classes/account/Account.cpp.s
+classes/abstract/line/Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.s
+.PHONY : classes/abstract/line/Line.cpp.s
 
-classes/base/Base.o: classes/base/Base.cpp.o
+classes/polymorphism/account-2/Account2.o: classes/polymorphism/account-2/Account2.cpp.o
 
-.PHONY : classes/base/Base.o
+.PHONY : classes/polymorphism/account-2/Account2.o
 
 # target to build an object file
-classes/base/Base.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o
-.PHONY : classes/base/Base.cpp.o
+classes/polymorphism/account-2/Account2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o
+.PHONY : classes/polymorphism/account-2/Account2.cpp.o
 
-classes/base/Base.i: classes/base/Base.cpp.i
+classes/polymorphism/account-2/Account2.i: classes/polymorphism/account-2/Account2.cpp.i
 
-.PHONY : classes/base/Base.i
+.PHONY : classes/polymorphism/account-2/Account2.i
 
 # target to preprocess a source file
-classes/base/Base.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.i
-.PHONY : classes/base/Base.cpp.i
+classes/polymorphism/account-2/Account2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.i
+.PHONY : classes/polymorphism/account-2/Account2.cpp.i
 
-classes/base/Base.s: classes/base/Base.cpp.s
+classes/polymorphism/account-2/Account2.s: classes/polymorphism/account-2/Account2.cpp.s
 
-.PHONY : classes/base/Base.s
+.PHONY : classes/polymorphism/account-2/Account2.s
 
 # target to generate assembly for a file
-classes/base/Base.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s
-.PHONY : classes/base/Base.cpp.s
+classes/polymorphism/account-2/Account2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.s
+.PHONY : classes/polymorphism/account-2/Account2.cpp.s
 
-classes/checking/Checking.o: classes/checking/Checking.cpp.o
+classes/polymorphism/account-test/Account_Test.o: classes/polymorphism/account-test/Account_Test.cpp.o
 
-.PHONY : classes/checking/Checking.o
+.PHONY : classes/polymorphism/account-test/Account_Test.o
 
 # target to build an object file
-classes/checking/Checking.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o
-.PHONY : classes/checking/Checking.cpp.o
+classes/polymorphism/account-test/Account_Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o
+.PHONY : classes/polymorphism/account-test/Account_Test.cpp.o
 
-classes/checking/Checking.i: classes/checking/Checking.cpp.i
+classes/polymorphism/account-test/Account_Test.i: classes/polymorphism/account-test/Account_Test.cpp.i
 
-.PHONY : classes/checking/Checking.i
+.PHONY : classes/polymorphism/account-test/Account_Test.i
 
 # target to preprocess a source file
-classes/checking/Checking.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i
-.PHONY : classes/checking/Checking.cpp.i
+classes/polymorphism/account-test/Account_Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.i
+.PHONY : classes/polymorphism/account-test/Account_Test.cpp.i
 
-classes/checking/Checking.s: classes/checking/Checking.cpp.s
+classes/polymorphism/account-test/Account_Test.s: classes/polymorphism/account-test/Account_Test.cpp.s
 
-.PHONY : classes/checking/Checking.s
+.PHONY : classes/polymorphism/account-test/Account_Test.s
 
 # target to generate assembly for a file
-classes/checking/Checking.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s
-.PHONY : classes/checking/Checking.cpp.s
+classes/polymorphism/account-test/Account_Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.s
+.PHONY : classes/polymorphism/account-test/Account_Test.cpp.s
 
-classes/deep/Deep.o: classes/deep/Deep.cpp.o
+classes/polymorphism/account/Account.o: classes/polymorphism/account/Account.cpp.o
 
-.PHONY : classes/deep/Deep.o
+.PHONY : classes/polymorphism/account/Account.o
 
 # target to build an object file
-classes/deep/Deep.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o
-.PHONY : classes/deep/Deep.cpp.o
+classes/polymorphism/account/Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o
+.PHONY : classes/polymorphism/account/Account.cpp.o
 
-classes/deep/Deep.i: classes/deep/Deep.cpp.i
+classes/polymorphism/account/Account.i: classes/polymorphism/account/Account.cpp.i
 
-.PHONY : classes/deep/Deep.i
+.PHONY : classes/polymorphism/account/Account.i
 
 # target to preprocess a source file
-classes/deep/Deep.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.i
-.PHONY : classes/deep/Deep.cpp.i
+classes/polymorphism/account/Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.i
+.PHONY : classes/polymorphism/account/Account.cpp.i
 
-classes/deep/Deep.s: classes/deep/Deep.cpp.s
+classes/polymorphism/account/Account.s: classes/polymorphism/account/Account.cpp.s
 
-.PHONY : classes/deep/Deep.s
+.PHONY : classes/polymorphism/account/Account.s
 
 # target to generate assembly for a file
-classes/deep/Deep.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.s
-.PHONY : classes/deep/Deep.cpp.s
+classes/polymorphism/account/Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.s
+.PHONY : classes/polymorphism/account/Account.cpp.s
 
-classes/derived/Derived.o: classes/derived/Derived.cpp.o
+classes/polymorphism/checking/Checking.o: classes/polymorphism/checking/Checking.cpp.o
 
-.PHONY : classes/derived/Derived.o
+.PHONY : classes/polymorphism/checking/Checking.o
 
 # target to build an object file
-classes/derived/Derived.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o
-.PHONY : classes/derived/Derived.cpp.o
+classes/polymorphism/checking/Checking.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o
+.PHONY : classes/polymorphism/checking/Checking.cpp.o
 
-classes/derived/Derived.i: classes/derived/Derived.cpp.i
+classes/polymorphism/checking/Checking.i: classes/polymorphism/checking/Checking.cpp.i
 
-.PHONY : classes/derived/Derived.i
+.PHONY : classes/polymorphism/checking/Checking.i
 
 # target to preprocess a source file
-classes/derived/Derived.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.i
-.PHONY : classes/derived/Derived.cpp.i
+classes/polymorphism/checking/Checking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.i
+.PHONY : classes/polymorphism/checking/Checking.cpp.i
 
-classes/derived/Derived.s: classes/derived/Derived.cpp.s
+classes/polymorphism/checking/Checking.s: classes/polymorphism/checking/Checking.cpp.s
 
-.PHONY : classes/derived/Derived.s
+.PHONY : classes/polymorphism/checking/Checking.s
 
 # target to generate assembly for a file
-classes/derived/Derived.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.s
-.PHONY : classes/derived/Derived.cpp.s
+classes/polymorphism/checking/Checking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.s
+.PHONY : classes/polymorphism/checking/Checking.cpp.s
 
-classes/move/Move.o: classes/move/Move.cpp.o
+classes/polymorphism/saving-account-2/Saving_Account2.o: classes/polymorphism/saving-account-2/Saving_Account2.cpp.o
 
-.PHONY : classes/move/Move.o
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.o
 
 # target to build an object file
-classes/move/Move.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o
-.PHONY : classes/move/Move.cpp.o
+classes/polymorphism/saving-account-2/Saving_Account2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.cpp.o
 
-classes/move/Move.i: classes/move/Move.cpp.i
+classes/polymorphism/saving-account-2/Saving_Account2.i: classes/polymorphism/saving-account-2/Saving_Account2.cpp.i
 
-.PHONY : classes/move/Move.i
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.i
 
 # target to preprocess a source file
-classes/move/Move.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.i
-.PHONY : classes/move/Move.cpp.i
+classes/polymorphism/saving-account-2/Saving_Account2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.i
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.cpp.i
 
-classes/move/Move.s: classes/move/Move.cpp.s
+classes/polymorphism/saving-account-2/Saving_Account2.s: classes/polymorphism/saving-account-2/Saving_Account2.cpp.s
 
-.PHONY : classes/move/Move.s
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.s
 
 # target to generate assembly for a file
-classes/move/Move.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.s
-.PHONY : classes/move/Move.cpp.s
+classes/polymorphism/saving-account-2/Saving_Account2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.s
+.PHONY : classes/polymorphism/saving-account-2/Saving_Account2.cpp.s
 
-classes/my-string/MyString.o: classes/my-string/MyString.cpp.o
+classes/polymorphism/saving-account-test/Saving_Account_Test.o: classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o
 
-.PHONY : classes/my-string/MyString.o
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.o
 
 # target to build an object file
-classes/my-string/MyString.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o
-.PHONY : classes/my-string/MyString.cpp.o
+classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o
 
-classes/my-string/MyString.i: classes/my-string/MyString.cpp.i
+classes/polymorphism/saving-account-test/Saving_Account_Test.i: classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i
 
-.PHONY : classes/my-string/MyString.i
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.i
 
 # target to preprocess a source file
-classes/my-string/MyString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.i
-.PHONY : classes/my-string/MyString.cpp.i
+classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i
 
-classes/my-string/MyString.s: classes/my-string/MyString.cpp.s
+classes/polymorphism/saving-account-test/Saving_Account_Test.s: classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s
 
-.PHONY : classes/my-string/MyString.s
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.s
 
 # target to generate assembly for a file
-classes/my-string/MyString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.s
-.PHONY : classes/my-string/MyString.cpp.s
+classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s
+.PHONY : classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s
 
-classes/player/Player.o: classes/player/Player.cpp.o
+classes/polymorphism/saving/Saving.o: classes/polymorphism/saving/Saving.cpp.o
 
-.PHONY : classes/player/Player.o
+.PHONY : classes/polymorphism/saving/Saving.o
 
 # target to build an object file
-classes/player/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o
-.PHONY : classes/player/Player.cpp.o
+classes/polymorphism/saving/Saving.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o
+.PHONY : classes/polymorphism/saving/Saving.cpp.o
 
-classes/player/Player.i: classes/player/Player.cpp.i
+classes/polymorphism/saving/Saving.i: classes/polymorphism/saving/Saving.cpp.i
 
-.PHONY : classes/player/Player.i
+.PHONY : classes/polymorphism/saving/Saving.i
 
 # target to preprocess a source file
-classes/player/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.i
-.PHONY : classes/player/Player.cpp.i
+classes/polymorphism/saving/Saving.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.i
+.PHONY : classes/polymorphism/saving/Saving.cpp.i
 
-classes/player/Player.s: classes/player/Player.cpp.s
+classes/polymorphism/saving/Saving.s: classes/polymorphism/saving/Saving.cpp.s
 
-.PHONY : classes/player/Player.s
+.PHONY : classes/polymorphism/saving/Saving.s
 
 # target to generate assembly for a file
-classes/player/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s
-.PHONY : classes/player/Player.cpp.s
+classes/polymorphism/saving/Saving.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.s
+.PHONY : classes/polymorphism/saving/Saving.cpp.s
 
-classes/saving-account-2/Saving_Account2.o: classes/saving-account-2/Saving_Account2.cpp.o
+classes/polymorphism/trust/Trust.o: classes/polymorphism/trust/Trust.cpp.o
 
-.PHONY : classes/saving-account-2/Saving_Account2.o
+.PHONY : classes/polymorphism/trust/Trust.o
 
 # target to build an object file
-classes/saving-account-2/Saving_Account2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o
-.PHONY : classes/saving-account-2/Saving_Account2.cpp.o
+classes/polymorphism/trust/Trust.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o
+.PHONY : classes/polymorphism/trust/Trust.cpp.o
 
-classes/saving-account-2/Saving_Account2.i: classes/saving-account-2/Saving_Account2.cpp.i
+classes/polymorphism/trust/Trust.i: classes/polymorphism/trust/Trust.cpp.i
 
-.PHONY : classes/saving-account-2/Saving_Account2.i
+.PHONY : classes/polymorphism/trust/Trust.i
 
 # target to preprocess a source file
-classes/saving-account-2/Saving_Account2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.i
-.PHONY : classes/saving-account-2/Saving_Account2.cpp.i
+classes/polymorphism/trust/Trust.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.i
+.PHONY : classes/polymorphism/trust/Trust.cpp.i
 
-classes/saving-account-2/Saving_Account2.s: classes/saving-account-2/Saving_Account2.cpp.s
+classes/polymorphism/trust/Trust.s: classes/polymorphism/trust/Trust.cpp.s
 
-.PHONY : classes/saving-account-2/Saving_Account2.s
+.PHONY : classes/polymorphism/trust/Trust.s
 
 # target to generate assembly for a file
-classes/saving-account-2/Saving_Account2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s
-.PHONY : classes/saving-account-2/Saving_Account2.cpp.s
+classes/polymorphism/trust/Trust.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.s
+.PHONY : classes/polymorphism/trust/Trust.cpp.s
 
-classes/saving-account-test/Saving_Account_Test.o: classes/saving-account-test/Saving_Account_Test.cpp.o
+classes/poo/base/Base.o: classes/poo/base/Base.cpp.o
 
-.PHONY : classes/saving-account-test/Saving_Account_Test.o
+.PHONY : classes/poo/base/Base.o
 
 # target to build an object file
-classes/saving-account-test/Saving_Account_Test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o
-.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.o
+classes/poo/base/Base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o
+.PHONY : classes/poo/base/Base.cpp.o
 
-classes/saving-account-test/Saving_Account_Test.i: classes/saving-account-test/Saving_Account_Test.cpp.i
+classes/poo/base/Base.i: classes/poo/base/Base.cpp.i
 
-.PHONY : classes/saving-account-test/Saving_Account_Test.i
+.PHONY : classes/poo/base/Base.i
 
 # target to preprocess a source file
-classes/saving-account-test/Saving_Account_Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.i
-.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.i
+classes/poo/base/Base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.i
+.PHONY : classes/poo/base/Base.cpp.i
 
-classes/saving-account-test/Saving_Account_Test.s: classes/saving-account-test/Saving_Account_Test.cpp.s
+classes/poo/base/Base.s: classes/poo/base/Base.cpp.s
 
-.PHONY : classes/saving-account-test/Saving_Account_Test.s
+.PHONY : classes/poo/base/Base.s
 
 # target to generate assembly for a file
-classes/saving-account-test/Saving_Account_Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.s
-.PHONY : classes/saving-account-test/Saving_Account_Test.cpp.s
+classes/poo/base/Base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.s
+.PHONY : classes/poo/base/Base.cpp.s
 
-classes/saving/Saving.o: classes/saving/Saving.cpp.o
+classes/poo/deep/Deep.o: classes/poo/deep/Deep.cpp.o
 
-.PHONY : classes/saving/Saving.o
+.PHONY : classes/poo/deep/Deep.o
 
 # target to build an object file
-classes/saving/Saving.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o
-.PHONY : classes/saving/Saving.cpp.o
+classes/poo/deep/Deep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o
+.PHONY : classes/poo/deep/Deep.cpp.o
 
-classes/saving/Saving.i: classes/saving/Saving.cpp.i
+classes/poo/deep/Deep.i: classes/poo/deep/Deep.cpp.i
 
-.PHONY : classes/saving/Saving.i
+.PHONY : classes/poo/deep/Deep.i
 
 # target to preprocess a source file
-classes/saving/Saving.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.i
-.PHONY : classes/saving/Saving.cpp.i
+classes/poo/deep/Deep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.i
+.PHONY : classes/poo/deep/Deep.cpp.i
 
-classes/saving/Saving.s: classes/saving/Saving.cpp.s
+classes/poo/deep/Deep.s: classes/poo/deep/Deep.cpp.s
 
-.PHONY : classes/saving/Saving.s
+.PHONY : classes/poo/deep/Deep.s
 
 # target to generate assembly for a file
-classes/saving/Saving.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s
-.PHONY : classes/saving/Saving.cpp.s
+classes/poo/deep/Deep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.s
+.PHONY : classes/poo/deep/Deep.cpp.s
 
-classes/shallow/Shallow.o: classes/shallow/Shallow.cpp.o
+classes/poo/derived/Derived.o: classes/poo/derived/Derived.cpp.o
 
-.PHONY : classes/shallow/Shallow.o
+.PHONY : classes/poo/derived/Derived.o
 
 # target to build an object file
-classes/shallow/Shallow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o
-.PHONY : classes/shallow/Shallow.cpp.o
+classes/poo/derived/Derived.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o
+.PHONY : classes/poo/derived/Derived.cpp.o
 
-classes/shallow/Shallow.i: classes/shallow/Shallow.cpp.i
+classes/poo/derived/Derived.i: classes/poo/derived/Derived.cpp.i
 
-.PHONY : classes/shallow/Shallow.i
+.PHONY : classes/poo/derived/Derived.i
 
 # target to preprocess a source file
-classes/shallow/Shallow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.i
-.PHONY : classes/shallow/Shallow.cpp.i
+classes/poo/derived/Derived.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.i
+.PHONY : classes/poo/derived/Derived.cpp.i
 
-classes/shallow/Shallow.s: classes/shallow/Shallow.cpp.s
+classes/poo/derived/Derived.s: classes/poo/derived/Derived.cpp.s
 
-.PHONY : classes/shallow/Shallow.s
+.PHONY : classes/poo/derived/Derived.s
 
 # target to generate assembly for a file
-classes/shallow/Shallow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.s
-.PHONY : classes/shallow/Shallow.cpp.s
+classes/poo/derived/Derived.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.s
+.PHONY : classes/poo/derived/Derived.cpp.s
 
-classes/trust/Trust.o: classes/trust/Trust.cpp.o
+classes/poo/move/Move.o: classes/poo/move/Move.cpp.o
 
-.PHONY : classes/trust/Trust.o
+.PHONY : classes/poo/move/Move.o
 
 # target to build an object file
-classes/trust/Trust.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o
-.PHONY : classes/trust/Trust.cpp.o
+classes/poo/move/Move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o
+.PHONY : classes/poo/move/Move.cpp.o
 
-classes/trust/Trust.i: classes/trust/Trust.cpp.i
+classes/poo/move/Move.i: classes/poo/move/Move.cpp.i
 
-.PHONY : classes/trust/Trust.i
+.PHONY : classes/poo/move/Move.i
 
 # target to preprocess a source file
-classes/trust/Trust.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i
-.PHONY : classes/trust/Trust.cpp.i
+classes/poo/move/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.i
+.PHONY : classes/poo/move/Move.cpp.i
 
-classes/trust/Trust.s: classes/trust/Trust.cpp.s
+classes/poo/move/Move.s: classes/poo/move/Move.cpp.s
 
-.PHONY : classes/trust/Trust.s
+.PHONY : classes/poo/move/Move.s
 
 # target to generate assembly for a file
-classes/trust/Trust.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s
-.PHONY : classes/trust/Trust.cpp.s
+classes/poo/move/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.s
+.PHONY : classes/poo/move/Move.cpp.s
+
+classes/poo/my-string/MyString.o: classes/poo/my-string/MyString.cpp.o
+
+.PHONY : classes/poo/my-string/MyString.o
+
+# target to build an object file
+classes/poo/my-string/MyString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o
+.PHONY : classes/poo/my-string/MyString.cpp.o
+
+classes/poo/my-string/MyString.i: classes/poo/my-string/MyString.cpp.i
+
+.PHONY : classes/poo/my-string/MyString.i
+
+# target to preprocess a source file
+classes/poo/my-string/MyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.i
+.PHONY : classes/poo/my-string/MyString.cpp.i
+
+classes/poo/my-string/MyString.s: classes/poo/my-string/MyString.cpp.s
+
+.PHONY : classes/poo/my-string/MyString.s
+
+# target to generate assembly for a file
+classes/poo/my-string/MyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.s
+.PHONY : classes/poo/my-string/MyString.cpp.s
+
+classes/poo/player/Player.o: classes/poo/player/Player.cpp.o
+
+.PHONY : classes/poo/player/Player.o
+
+# target to build an object file
+classes/poo/player/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o
+.PHONY : classes/poo/player/Player.cpp.o
+
+classes/poo/player/Player.i: classes/poo/player/Player.cpp.i
+
+.PHONY : classes/poo/player/Player.i
+
+# target to preprocess a source file
+classes/poo/player/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.i
+.PHONY : classes/poo/player/Player.cpp.i
+
+classes/poo/player/Player.s: classes/poo/player/Player.cpp.s
+
+.PHONY : classes/poo/player/Player.s
+
+# target to generate assembly for a file
+classes/poo/player/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.s
+.PHONY : classes/poo/player/Player.cpp.s
+
+classes/poo/shallow/Shallow.o: classes/poo/shallow/Shallow.cpp.o
+
+.PHONY : classes/poo/shallow/Shallow.o
+
+# target to build an object file
+classes/poo/shallow/Shallow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o
+.PHONY : classes/poo/shallow/Shallow.cpp.o
+
+classes/poo/shallow/Shallow.i: classes/poo/shallow/Shallow.cpp.i
+
+.PHONY : classes/poo/shallow/Shallow.i
+
+# target to preprocess a source file
+classes/poo/shallow/Shallow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.i
+.PHONY : classes/poo/shallow/Shallow.cpp.i
+
+classes/poo/shallow/Shallow.s: classes/poo/shallow/Shallow.cpp.s
+
+.PHONY : classes/poo/shallow/Shallow.s
+
+# target to generate assembly for a file
+classes/poo/shallow/Shallow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.s
+.PHONY : classes/poo/shallow/Shallow.cpp.s
 
 code/arrays_and_pointers.o: code/arrays_and_pointers.cpp.o
 
@@ -601,6 +655,33 @@ code/assignment_overload.s: code/assignment_overload.cpp.s
 code/assignment_overload.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.s
 .PHONY : code/assignment_overload.cpp.s
+
+code/challenge_inheritance.o: code/challenge_inheritance.cpp.o
+
+.PHONY : code/challenge_inheritance.o
+
+# target to build an object file
+code/challenge_inheritance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o
+.PHONY : code/challenge_inheritance.cpp.o
+
+code/challenge_inheritance.i: code/challenge_inheritance.cpp.i
+
+.PHONY : code/challenge_inheritance.i
+
+# target to preprocess a source file
+code/challenge_inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.i
+.PHONY : code/challenge_inheritance.cpp.i
+
+code/challenge_inheritance.s: code/challenge_inheritance.cpp.s
+
+.PHONY : code/challenge_inheritance.s
+
+# target to generate assembly for a file
+code/challenge_inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.s
+.PHONY : code/challenge_inheritance.cpp.s
 
 code/challenge_operator_overloading.o: code/challenge_operator_overloading.cpp.o
 
@@ -818,6 +899,33 @@ code/operator_overloading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.s
 .PHONY : code/operator_overloading.cpp.s
 
+code/polymorphism.o: code/polymorphism.cpp.o
+
+.PHONY : code/polymorphism.o
+
+# target to build an object file
+code/polymorphism.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o
+.PHONY : code/polymorphism.cpp.o
+
+code/polymorphism.i: code/polymorphism.cpp.i
+
+.PHONY : code/polymorphism.i
+
+# target to preprocess a source file
+code/polymorphism.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.i
+.PHONY : code/polymorphism.cpp.i
+
+code/polymorphism.s: code/polymorphism.cpp.s
+
+.PHONY : code/polymorphism.s
+
+# target to generate assembly for a file
+code/polymorphism.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.s
+.PHONY : code/polymorphism.cpp.s
+
 code/references.o: code/references.cpp.o
 
 .PHONY : code/references.o
@@ -989,57 +1097,66 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pointers_and_references_review"
-	@echo "... classes/account-2/Account2.o"
-	@echo "... classes/account-2/Account2.i"
-	@echo "... classes/account-2/Account2.s"
-	@echo "... classes/account-test/Account_Test.o"
-	@echo "... classes/account-test/Account_Test.i"
-	@echo "... classes/account-test/Account_Test.s"
-	@echo "... classes/account/Account.o"
-	@echo "... classes/account/Account.i"
-	@echo "... classes/account/Account.s"
-	@echo "... classes/base/Base.o"
-	@echo "... classes/base/Base.i"
-	@echo "... classes/base/Base.s"
-	@echo "... classes/checking/Checking.o"
-	@echo "... classes/checking/Checking.i"
-	@echo "... classes/checking/Checking.s"
-	@echo "... classes/deep/Deep.o"
-	@echo "... classes/deep/Deep.i"
-	@echo "... classes/deep/Deep.s"
-	@echo "... classes/derived/Derived.o"
-	@echo "... classes/derived/Derived.i"
-	@echo "... classes/derived/Derived.s"
-	@echo "... classes/move/Move.o"
-	@echo "... classes/move/Move.i"
-	@echo "... classes/move/Move.s"
-	@echo "... classes/my-string/MyString.o"
-	@echo "... classes/my-string/MyString.i"
-	@echo "... classes/my-string/MyString.s"
-	@echo "... classes/player/Player.o"
-	@echo "... classes/player/Player.i"
-	@echo "... classes/player/Player.s"
-	@echo "... classes/saving-account-2/Saving_Account2.o"
-	@echo "... classes/saving-account-2/Saving_Account2.i"
-	@echo "... classes/saving-account-2/Saving_Account2.s"
-	@echo "... classes/saving-account-test/Saving_Account_Test.o"
-	@echo "... classes/saving-account-test/Saving_Account_Test.i"
-	@echo "... classes/saving-account-test/Saving_Account_Test.s"
-	@echo "... classes/saving/Saving.o"
-	@echo "... classes/saving/Saving.i"
-	@echo "... classes/saving/Saving.s"
-	@echo "... classes/shallow/Shallow.o"
-	@echo "... classes/shallow/Shallow.i"
-	@echo "... classes/shallow/Shallow.s"
-	@echo "... classes/trust/Trust.o"
-	@echo "... classes/trust/Trust.i"
-	@echo "... classes/trust/Trust.s"
+	@echo "... classes/abstract/circle/Circle.o"
+	@echo "... classes/abstract/circle/Circle.i"
+	@echo "... classes/abstract/circle/Circle.s"
+	@echo "... classes/abstract/line/Line.o"
+	@echo "... classes/abstract/line/Line.i"
+	@echo "... classes/abstract/line/Line.s"
+	@echo "... classes/polymorphism/account-2/Account2.o"
+	@echo "... classes/polymorphism/account-2/Account2.i"
+	@echo "... classes/polymorphism/account-2/Account2.s"
+	@echo "... classes/polymorphism/account-test/Account_Test.o"
+	@echo "... classes/polymorphism/account-test/Account_Test.i"
+	@echo "... classes/polymorphism/account-test/Account_Test.s"
+	@echo "... classes/polymorphism/account/Account.o"
+	@echo "... classes/polymorphism/account/Account.i"
+	@echo "... classes/polymorphism/account/Account.s"
+	@echo "... classes/polymorphism/checking/Checking.o"
+	@echo "... classes/polymorphism/checking/Checking.i"
+	@echo "... classes/polymorphism/checking/Checking.s"
+	@echo "... classes/polymorphism/saving-account-2/Saving_Account2.o"
+	@echo "... classes/polymorphism/saving-account-2/Saving_Account2.i"
+	@echo "... classes/polymorphism/saving-account-2/Saving_Account2.s"
+	@echo "... classes/polymorphism/saving-account-test/Saving_Account_Test.o"
+	@echo "... classes/polymorphism/saving-account-test/Saving_Account_Test.i"
+	@echo "... classes/polymorphism/saving-account-test/Saving_Account_Test.s"
+	@echo "... classes/polymorphism/saving/Saving.o"
+	@echo "... classes/polymorphism/saving/Saving.i"
+	@echo "... classes/polymorphism/saving/Saving.s"
+	@echo "... classes/polymorphism/trust/Trust.o"
+	@echo "... classes/polymorphism/trust/Trust.i"
+	@echo "... classes/polymorphism/trust/Trust.s"
+	@echo "... classes/poo/base/Base.o"
+	@echo "... classes/poo/base/Base.i"
+	@echo "... classes/poo/base/Base.s"
+	@echo "... classes/poo/deep/Deep.o"
+	@echo "... classes/poo/deep/Deep.i"
+	@echo "... classes/poo/deep/Deep.s"
+	@echo "... classes/poo/derived/Derived.o"
+	@echo "... classes/poo/derived/Derived.i"
+	@echo "... classes/poo/derived/Derived.s"
+	@echo "... classes/poo/move/Move.o"
+	@echo "... classes/poo/move/Move.i"
+	@echo "... classes/poo/move/Move.s"
+	@echo "... classes/poo/my-string/MyString.o"
+	@echo "... classes/poo/my-string/MyString.i"
+	@echo "... classes/poo/my-string/MyString.s"
+	@echo "... classes/poo/player/Player.o"
+	@echo "... classes/poo/player/Player.i"
+	@echo "... classes/poo/player/Player.s"
+	@echo "... classes/poo/shallow/Shallow.o"
+	@echo "... classes/poo/shallow/Shallow.i"
+	@echo "... classes/poo/shallow/Shallow.s"
 	@echo "... code/arrays_and_pointers.o"
 	@echo "... code/arrays_and_pointers.i"
 	@echo "... code/arrays_and_pointers.s"
 	@echo "... code/assignment_overload.o"
 	@echo "... code/assignment_overload.i"
 	@echo "... code/assignment_overload.s"
+	@echo "... code/challenge_inheritance.o"
+	@echo "... code/challenge_inheritance.i"
+	@echo "... code/challenge_inheritance.s"
 	@echo "... code/challenge_operator_overloading.o"
 	@echo "... code/challenge_operator_overloading.i"
 	@echo "... code/challenge_operator_overloading.s"
@@ -1064,6 +1181,9 @@ help:
 	@echo "... code/operator_overloading.o"
 	@echo "... code/operator_overloading.i"
 	@echo "... code/operator_overloading.s"
+	@echo "... code/polymorphism.o"
+	@echo "... code/polymorphism.i"
+	@echo "... code/polymorphism.s"
 	@echo "... code/references.o"
 	@echo "... code/references.i"
 	@echo "... code/references.s"

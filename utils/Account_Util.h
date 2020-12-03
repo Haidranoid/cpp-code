@@ -6,10 +6,10 @@
 #define _ACCOUNT_UTIL_H
 
 #include <vector>
-#include "../classes/account/Account.h"
-#include "../classes/saving/Saving.h"
-#include "../classes/checking/Checking.h"
-#include "../classes/trust/Trust.h"
+#include "../classes/polymorphism/account/Account.h"
+#include "../classes/polymorphism/saving/Saving.h"
+#include "../classes/polymorphism/checking/Checking.h"
+#include "../classes/polymorphism/trust/Trust.h"
 
 // utility helper functions for Account class
 void display(const std::vector<Account> &accounts);

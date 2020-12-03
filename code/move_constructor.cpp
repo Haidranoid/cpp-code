@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <vector>
-#include "../classes/move/Move.h"
+#include "../classes/poo/move/Move.h"
 
 using namespace std;
 

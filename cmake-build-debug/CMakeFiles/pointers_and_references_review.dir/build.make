@@ -155,31 +155,31 @@ CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/left_and_right_values.cpp -o CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o: ../classes/player/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/player/Player.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o: ../classes/poo/player/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/player/Player.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/player/Player.cpp > CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/player/Player.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/player/Player.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/player/Player.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o: ../classes/account-test/Account_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/account-test/Account_Test.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o: ../classes/polymorphism/account-test/Account_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/account-test/Account_Test.cpp > CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/account-test/Account_Test.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o: ../code/constructors.cpp
@@ -194,31 +194,31 @@ CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/constructors.cpp -o CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o: ../classes/shallow/Shallow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/shallow/Shallow.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o: ../classes/poo/shallow/Shallow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/shallow/Shallow.cpp > CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/shallow/Shallow.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o: ../classes/deep/Deep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/deep/Deep.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o: ../classes/poo/deep/Deep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/deep/Deep.cpp > CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/deep/Deep.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o: ../code/shallow_and_deep_copy.cpp
@@ -233,18 +233,18 @@ CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/shallow_and_deep_copy.cpp -o CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o: ../classes/move/Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/move/Move.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o: ../classes/poo/move/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/move/Move.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/move/Move.cpp > CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/move/Move.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/move/Move.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/move/Move.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o: ../code/move_constructor.cpp
@@ -272,18 +272,18 @@ CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/static_members_and_methods.cpp -o CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o: ../classes/my-string/MyString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/my-string/MyString.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o: ../classes/poo/my-string/MyString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/my-string/MyString.cpp > CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/my-string/MyString.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../code/assignment_overload.cpp
@@ -324,44 +324,44 @@ CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloadin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/challenge_operator_overloading.cpp -o CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o: ../classes/saving-account-test/Saving_Account_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/saving-account-test/Saving_Account_Test.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o: ../classes/polymorphism/saving-account-test/Saving_Account_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/saving-account-test/Saving_Account_Test.cpp > CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/saving-account-test/Saving_Account_Test.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o: ../classes/base/Base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/base/Base.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o: ../classes/poo/base/Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/base/Base.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/base/Base.cpp > CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/base/Base.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/base/Base.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/base/Base.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o: ../classes/derived/Derived.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/derived/Derived.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o: ../classes/poo/derived/Derived.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/poo/derived/Derived.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/derived/Derived.cpp > CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/poo/derived/Derived.cpp > CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/derived/Derived.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/poo/derived/Derived.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o: ../code/inheritance.cpp
@@ -376,31 +376,31 @@ CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/inheritance.cpp -o CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o: ../classes/account-2/Account2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/account-2/Account2.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o: ../classes/polymorphism/account-2/Account2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/account-2/Account2.cpp > CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/account-2/Account2.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o: ../classes/saving-account-2/Saving_Account2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/saving-account-2/Saving_Account2.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o: ../classes/polymorphism/saving-account-2/Saving_Account2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/saving-account-2/Saving_Account2.cpp > CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/saving-account-2/Saving_Account2.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.s
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../utils/Account_Util.cpp
@@ -428,57 +428,109 @@ CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp -o CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o: ../classes/account/Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/account/Account.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: ../classes/polymorphism/account/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/account/Account.cpp > CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/account/Account.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o: ../classes/saving/Saving.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/saving/Saving.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o: ../classes/polymorphism/saving/Saving.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/saving/Saving.cpp > CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/saving/Saving.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o: ../classes/trust/Trust.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o: ../classes/polymorphism/trust/Trust.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp > CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/trust/Trust.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.s
 
-CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
-CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o: ../classes/checking/Checking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o: ../classes/polymorphism/checking/Checking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.cpp
 
-CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp > CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.i
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.cpp > CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.i
 
-CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/checking/Checking.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.s
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o: ../code/challenge_inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o -c /Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp > CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp -o CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../code/polymorphism.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o -c /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
+
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp > CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp -o CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o: ../classes/abstract/line/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp > CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o: ../classes/abstract/circle/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp > CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s
 
 # Object files for target pointers_and_references_review
 pointers_and_references_review_OBJECTS = \
@@ -488,31 +540,35 @@ pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/references.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o"
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
 
 # External object files for target pointers_and_references_review
 pointers_and_references_review_EXTERNAL_OBJECTS =
@@ -523,34 +579,38 @@ pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/co
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/references.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/left_and_right_values.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/player/Player.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/account-test/Account_Test.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/shallow/Shallow.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/deep/Deep.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/deep/Deep.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/move/Move.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/move/Move.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/my-string/MyString.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/saving-account-test/Saving_Account_Test.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/base/Base.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/derived/Derived.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/base/Base.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/poo/derived/Derived.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/account-2/Account2.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/saving-account-2/Saving_Account2.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-account-2/Saving_Account2.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/account/Account.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/saving/Saving.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/trust/Trust.cpp.o
-pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/checking/Checking.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/build.make
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable pointers_and_references_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable pointers_and_references_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers_and_references_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

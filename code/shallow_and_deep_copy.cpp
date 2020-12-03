@@ -2,8 +2,8 @@
 // Created by Administaff on 11/20/20.
 //
 #include <iostream>
-#include "../classes/shallow/Shallow.h"
-#include "../classes/deep/Deep.h"
+#include "../classes/poo/shallow/Shallow.h"
+#include "../classes/poo/deep/Deep.h"
 using namespace std;
 
 int shallow_and_deep_copy() {

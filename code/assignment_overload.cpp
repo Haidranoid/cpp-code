@@ -1,7 +1,7 @@
 #include <iostream>
-#include "../classes/account-test/Account_Test.h"
-#include "../classes/player/Player.h"
-#include "../classes/my-string/MyString.h"
+#include "../classes/polymorphism/account-test/Account_Test.h"
+#include "../classes/poo/player/Player.h"
+#include "../classes/poo/my-string/MyString.h"
 
 using namespace std;
 

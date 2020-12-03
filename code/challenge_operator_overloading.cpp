@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../classes/my-string/MyString.h"
+#include "../classes/poo/my-string/MyString.h"
 
 using namespace std;
 

@@ -2,10 +2,10 @@
 // Created by Administaff on 12/1/20.
 //
 #include <iostream>
-#include "../classes/account-test/Account_Test.h"
-#include "../classes/account-2/Account2.h"
-#include "../classes/saving-account-test/Saving_Account_Test.h"
-#include "../classes/saving-account-2/Saving_Account2.h"
+#include "../classes/polymorphism/account-test/Account_Test.h"
+#include "../classes/polymorphism/account-2/Account2.h"
+#include "../classes/polymorphism/saving-account-test/Saving_Account_Test.h"
+#include "../classes/polymorphism/saving-account-2/Saving_Account2.h"
 using namespace std;
 
 int inheritance() {
