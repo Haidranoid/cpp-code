@@ -1,47 +1,31 @@
 #include <iostream>
-#include <vector>
 
-#include "classes/polymorphism/account-polymorphic/Account-Polymorphic.h"
-#include "classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h"
-#include "classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h"
-#include "classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h"
+#include "classes/polymorphism/account/Account.h"
+#include "classes/polymorphism/checking/Checking.h"
+#include "classes/polymorphism/saving/Saving.h"
+#include "classes/polymorphism/trust/Trust.h"
 
 using namespace std;
 
 int main() {
-/*    cout << " =======  No pointers ==========" << endl;
+//    Account joe;
+    Checking c;
 
-    Account_Polymorphic a;
-    std::cout << a << std::endl;
+    cout << c << endl;
 
-    Checking_Polymorphic c;
-    std::cout << c << std::endl;
+    Saving s{"Frank",5000,2.6};
+    cout << s << endl;
+    s.deposit(10000);
+    cout << s << endl;
+    s.withdraw(10000);
+    cout << s << endl;
 
-    Savings_Polymorphic s;
-    std::cout << s << std::endl;
+    Account *ptr = new Trust("Leo",10000,2.6);
+    cout << *ptr << endl;
 
-    Trust_Polymorphic t;
-    std::cout << t << std::endl;*/
 
-    cout << " =======  Pointers ==========" << endl;
-    Account_Polymorphic *a_ptr = new Account_Polymorphic;
-    std::cout << *a_ptr << std::endl;
-
-    Account_Polymorphic *c_ptr = new Savings_Polymorphic;
-    std::cout << *c_ptr << std::endl;
-
-    Account_Polymorphic *s_ptr = new Checking_Polymorphic;
-    std::cout << *s_ptr << std::endl;
-
-    Account_Polymorphic *t_ptr = new Trust_Polymorphic;
-    std::cout << *t_ptr << std::endl;
-
-    cout << " =======  Cleanup ==========" << endl;
-
-    delete t_ptr;
-    delete s_ptr;
-    delete c_ptr;
-    delete a_ptr;
+    cout << "======================= Cleanup =======================" << endl;
+    delete ptr;
 
 
     return 0;

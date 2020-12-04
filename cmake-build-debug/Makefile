@@ -224,6 +224,33 @@ classes/abstract/square/Square.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s
 .PHONY : classes/abstract/square/Square.cpp.s
 
+classes/interfaces/interface-printable/Interface_Printable.o: classes/interfaces/interface-printable/Interface_Printable.cpp.o
+
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.o
+
+# target to build an object file
+classes/interfaces/interface-printable/Interface_Printable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.cpp.o
+
+classes/interfaces/interface-printable/Interface_Printable.i: classes/interfaces/interface-printable/Interface_Printable.cpp.i
+
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.i
+
+# target to preprocess a source file
+classes/interfaces/interface-printable/Interface_Printable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.i
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.cpp.i
+
+classes/interfaces/interface-printable/Interface_Printable.s: classes/interfaces/interface-printable/Interface_Printable.cpp.s
+
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.s
+
+# target to generate assembly for a file
+classes/interfaces/interface-printable/Interface_Printable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.s
+.PHONY : classes/interfaces/interface-printable/Interface_Printable.cpp.s
+
 classes/polymorphism/account-2/Account2.o: classes/polymorphism/account-2/Account2.cpp.o
 
 .PHONY : classes/polymorphism/account-2/Account2.o
@@ -1160,6 +1187,9 @@ help:
 	@echo "... classes/abstract/square/Square.o"
 	@echo "... classes/abstract/square/Square.i"
 	@echo "... classes/abstract/square/Square.s"
+	@echo "... classes/interfaces/interface-printable/Interface_Printable.o"
+	@echo "... classes/interfaces/interface-printable/Interface_Printable.i"
+	@echo "... classes/interfaces/interface-printable/Interface_Printable.s"
 	@echo "... classes/polymorphism/account-2/Account2.o"
 	@echo "... classes/polymorphism/account-2/Account2.i"
 	@echo "... classes/polymorphism/account-2/Account2.s"

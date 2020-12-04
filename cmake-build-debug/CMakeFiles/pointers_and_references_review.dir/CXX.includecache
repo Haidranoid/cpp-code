@@ -10,55 +10,31 @@
 iostream
 -
 
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-iostream
--
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 ../../interfaces/interface-printable/Interface_Printable.h
 /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
-iostream
--
-../../interfaces/interface-printable/Interface_Printable.h
-/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
+../account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-iostream
--
-../../interfaces/interface-printable/Interface_Printable.h
-/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
+../account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
-iostream
--
-../../interfaces/interface-printable/Interface_Printable.h
-/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
-
-/Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
-vector
--
-iostream
--
-../classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-../classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
-../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
+../saving/Saving.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
 
 /Users/administaff/Desktop/cpp-code/main.cpp
 iostream
 -
-vector
--
-classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
-classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+classes/polymorphism/account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
+classes/polymorphism/checking/Checking.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
+classes/polymorphism/saving/Saving.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
+classes/polymorphism/trust/Trust.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
 

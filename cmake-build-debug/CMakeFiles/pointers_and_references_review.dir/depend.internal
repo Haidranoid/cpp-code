@@ -16,6 +16,9 @@ CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp
  /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
  /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp
  /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.h
+CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.cpp
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.h
@@ -23,9 +26,11 @@ CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/checking/Checking.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
@@ -38,10 +43,12 @@ CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving-accoun
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/saving/Saving.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/trust/Trust.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.cpp
@@ -127,22 +134,16 @@ CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cp
  /Users/administaff/Desktop/cpp-code/classes/poo/player/Player.h
  /Users/administaff/Desktop/cpp-code/code/static_members_and_methods.cpp
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
  /Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp
- /Users/administaff/Desktop/cpp-code/utils/Account_Util.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
  /Users/administaff/Desktop/cpp-code/main.cpp
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h

@@ -1,10 +1,4 @@
-//
-// Created by Administaff on 12/3/20.
-//
-
 #include "Account.h"
-#include <iostream>
-
 
 Account::Account(std::string name, double balance)
         : name{name}, balance{balance} {
@@ -27,7 +21,13 @@ bool Account::withdraw(double amount) {
     return false;
 }
 
+void Account::print(std::ostream &os) const {
+    os << "[Account_Test: " << this->name << ": " << this->balance << "]";
+}
+
+/*
 std::ostream &operator<<(std::ostream &os, const Account &account) {
     os << "[Account_Test: "<< account.name << ": " << account.balance << "]";
     return os;
 }
+*/

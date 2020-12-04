@@ -1,7 +1,3 @@
-//
-// Created by Administaff on 12/3/20.
-//
-
 #include "Trust.h"
 #include <iostream>
 
@@ -27,16 +23,15 @@ bool Trust::withdraw(double amount) {
         return false;
     }
 
-    if (Saving::withdraw(amount)){
+    if (Saving::withdraw(amount)) {
         this->withdraw_counter++;
         return true;
     }
     return false;
 }
 
-std::ostream &operator<<(std::ostream &os, const Trust &trusted_account) {
-    os << "[Trusted Account -> name: " << trusted_account.name << ", balance: " << trusted_account.balance
-       << ", int rate: " << trusted_account.int_rate << ", bonus: "
+void Trust::print(std::ostream &os) const {
+    os << "[Trusted Account -> name: " << this->name << ", balance: " << this->balance
+       << ", int rate: " << this->int_rate << ", bonus: "
        << Trust::bonus << "$]";
-    return os;
 }

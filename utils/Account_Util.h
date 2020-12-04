@@ -4,6 +4,7 @@
 
 #ifndef _ACCOUNT_UTIL_H
 #define _ACCOUNT_UTIL_H
+/*
 
 #include <vector>
 #include "../classes/polymorphism/account/Account.h"
@@ -39,5 +40,6 @@ void deposit(std::vector<Trust> &trusted_accounts, double amount);
 
 void withdraw(std::vector<Trust> &trusted_accounts, double amount);
 
+*/
 
 #endif //_ACCOUNT_UTIL_H

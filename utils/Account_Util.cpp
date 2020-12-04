@@ -1,6 +1,7 @@
 #include "Account_Util.h"
 #include <vector>
 #include <iostream>
+/*
 
 // utility helper functions for Account_Test class
 void display(const std::vector<Account> &accounts) {
@@ -114,4 +115,4 @@ void withdraw(std::vector<Trust> &trusted_accounts, double amount) {
         else
             std::cout << "Failed Withdrawal of " << amount << " from " << trusted_account << std::endl;
     }
-}
+}*/
