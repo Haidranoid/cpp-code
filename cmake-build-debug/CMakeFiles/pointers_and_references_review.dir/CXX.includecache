@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp
-Circle.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
-iostream
--
-
 /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
 iostream
 -
@@ -39,6 +33,36 @@ iostream
 /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
 
 /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+iostream
+-
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+iostream
+-
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+iostream
+-
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+iostream
+-
+
+/Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
+vector
+-
+iostream
+-
+../classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+../classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 
 /Users/administaff/Desktop/cpp-code/main.cpp
 iostream

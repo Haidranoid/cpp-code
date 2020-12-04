@@ -97,6 +97,10 @@ CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o: ../co
 CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o: ../classes/poo/my-string/MyString.h
 CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o: ../code/operator_overloading.cpp
 
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../code/polymorphism.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/references.cpp.o: ../code/references.cpp

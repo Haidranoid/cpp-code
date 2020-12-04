@@ -10,7 +10,7 @@ public:
 
     void rotate() override;
 
-    virtual ~Line() override{
+    ~Line() override{
         std::cout << "Line destructor" << std::endl;
     };
 };

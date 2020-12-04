@@ -98,6 +98,10 @@ CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.h
  /Users/administaff/Desktop/cpp-code/code/operator_overloading.cpp
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
  /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
 CMakeFiles/pointers_and_references_review.dir/code/references.cpp.o
  /Users/administaff/Desktop/cpp-code/code/references.cpp

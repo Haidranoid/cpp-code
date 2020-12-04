@@ -8,9 +8,9 @@
 using namespace std;
 
 int main() {
-    // Shape shape;  ERROR - abstract class
-    // Open_Shape open_shape;  ERROR - abstract class
-    // Closed_Shape closed_shape;  ERROR - abstract class
+    // Shape shape;  // ERROR - abstract class
+    // Open_Shape open_shape; // ERROR - abstract class
+    // Closed_Shape closed_shape; //  ERROR - abstract class
 
     Shape *circle = new Circle;
     Shape *line = new Line;
