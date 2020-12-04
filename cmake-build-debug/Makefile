@@ -197,6 +197,33 @@ classes/abstract/line/Line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.s
 .PHONY : classes/abstract/line/Line.cpp.s
 
+classes/abstract/square/Square.o: classes/abstract/square/Square.cpp.o
+
+.PHONY : classes/abstract/square/Square.o
+
+# target to build an object file
+classes/abstract/square/Square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o
+.PHONY : classes/abstract/square/Square.cpp.o
+
+classes/abstract/square/Square.i: classes/abstract/square/Square.cpp.i
+
+.PHONY : classes/abstract/square/Square.i
+
+# target to preprocess a source file
+classes/abstract/square/Square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.i
+.PHONY : classes/abstract/square/Square.cpp.i
+
+classes/abstract/square/Square.s: classes/abstract/square/Square.cpp.s
+
+.PHONY : classes/abstract/square/Square.s
+
+# target to generate assembly for a file
+classes/abstract/square/Square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s
+.PHONY : classes/abstract/square/Square.cpp.s
+
 classes/polymorphism/account-2/Account2.o: classes/polymorphism/account-2/Account2.cpp.o
 
 .PHONY : classes/polymorphism/account-2/Account2.o
@@ -601,6 +628,33 @@ classes/poo/shallow/Shallow.s: classes/poo/shallow/Shallow.cpp.s
 classes/poo/shallow/Shallow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.s
 .PHONY : classes/poo/shallow/Shallow.cpp.s
+
+code/abstract.o: code/abstract.cpp.o
+
+.PHONY : code/abstract.o
+
+# target to build an object file
+code/abstract.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o
+.PHONY : code/abstract.cpp.o
+
+code/abstract.i: code/abstract.cpp.i
+
+.PHONY : code/abstract.i
+
+# target to preprocess a source file
+code/abstract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.i
+.PHONY : code/abstract.cpp.i
+
+code/abstract.s: code/abstract.cpp.s
+
+.PHONY : code/abstract.s
+
+# target to generate assembly for a file
+code/abstract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.s
+.PHONY : code/abstract.cpp.s
 
 code/arrays_and_pointers.o: code/arrays_and_pointers.cpp.o
 
@@ -1103,6 +1157,9 @@ help:
 	@echo "... classes/abstract/line/Line.o"
 	@echo "... classes/abstract/line/Line.i"
 	@echo "... classes/abstract/line/Line.s"
+	@echo "... classes/abstract/square/Square.o"
+	@echo "... classes/abstract/square/Square.i"
+	@echo "... classes/abstract/square/Square.s"
 	@echo "... classes/polymorphism/account-2/Account2.o"
 	@echo "... classes/polymorphism/account-2/Account2.i"
 	@echo "... classes/polymorphism/account-2/Account2.s"
@@ -1148,6 +1205,9 @@ help:
 	@echo "... classes/poo/shallow/Shallow.o"
 	@echo "... classes/poo/shallow/Shallow.i"
 	@echo "... classes/poo/shallow/Shallow.s"
+	@echo "... code/abstract.o"
+	@echo "... code/abstract.i"
+	@echo "... code/abstract.s"
 	@echo "... code/arrays_and_pointers.o"
 	@echo "... code/arrays_and_pointers.i"
 	@echo "... code/arrays_and_pointers.s"

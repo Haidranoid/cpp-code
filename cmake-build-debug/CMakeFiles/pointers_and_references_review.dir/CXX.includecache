@@ -6,49 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 iostream
 -
-../closed-shape/Closed_Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
-
-/Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
-../shape/Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
-
-/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp
-Line.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
-iostream
--
-
-/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
-iostream
--
-../open-shape/Open_Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
-
-/Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
-../shape/Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
-
-/Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
 
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
 iostream
 -
+../../interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
 iostream
 -
+../../interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
 iostream
 -
+../../interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 iostream
 -
+../../interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 
 /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
 vector
@@ -59,22 +43,22 @@ iostream
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
 ../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
-../classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+../classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
 ../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 
 /Users/administaff/Desktop/cpp-code/main.cpp
 iostream
 -
-classes/abstract/shape/Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
-classes/abstract/open-shape/Open_Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
-classes/abstract/closed-shape/Closed_Shape.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
-classes/abstract/line/Line.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
-classes/abstract/circle/Circle.h
-/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
+vector
+-
+classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
+classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 

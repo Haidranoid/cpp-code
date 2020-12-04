@@ -11,6 +11,11 @@ CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o: 
 CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o: ../classes/abstract/open-shape/Open_Shape.h
 CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o: ../classes/abstract/shape/Shape.h
 
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/closed-shape/Closed_Shape.h
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/shape/Shape.h
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/square/Square.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/square/Square.h
+
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o: ../classes/polymorphism/account-2/Account2.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o: ../classes/polymorphism/account-2/Account2.h
 
@@ -63,6 +68,14 @@ CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o: .
 CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o: ../classes/poo/shallow/Shallow.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o: ../classes/poo/shallow/Shallow.h
 
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/circle/Circle.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/closed-shape/Closed_Shape.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/line/Line.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/open-shape/Open_Shape.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/shape/Shape.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../classes/abstract/square/Square.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../code/abstract.cpp
+
 CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o: ../code/arrays_and_pointers.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../classes/polymorphism/account-test/Account_Test.h
@@ -97,8 +110,9 @@ CMakeFiles/pointers_and_references_review.dir/code/move_constructor.cpp.o: ../co
 CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o: ../classes/poo/my-string/MyString.h
 CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o: ../code/operator_overloading.cpp
 
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/account-polymorphic/Account-Polymorphic.h
-CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o: ../code/polymorphism.cpp
@@ -121,11 +135,11 @@ CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../code/utility_functions_account.cpp
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o: ../utils/Account_Util.h
 
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/abstract/circle/Circle.h
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/abstract/closed-shape/Closed_Shape.h
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/abstract/line/Line.h
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/abstract/open-shape/Open_Shape.h
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/abstract/shape/Shape.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/account/Account.h

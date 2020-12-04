@@ -1,27 +1,48 @@
 #include <iostream>
-#include "classes/abstract/shape/Shape.h"
-#include "classes/abstract/open-shape/Open_Shape.h"
-#include "classes/abstract/closed-shape/Closed_Shape.h"
-#include "classes/abstract/line/Line.h"
-#include "classes/abstract/circle/Circle.h"
+#include <vector>
+
+#include "classes/polymorphism/account-polymorphic/Account-Polymorphic.h"
+#include "classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h"
+#include "classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h"
+#include "classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h"
 
 using namespace std;
 
 int main() {
-    // Shape shape;  // ERROR - abstract class
-    // Open_Shape open_shape; // ERROR - abstract class
-    // Closed_Shape closed_shape; //  ERROR - abstract class
+/*    cout << " =======  No pointers ==========" << endl;
 
-    Shape *circle = new Circle;
-    Shape *line = new Line;
+    Account_Polymorphic a;
+    std::cout << a << std::endl;
 
-    circle->draw();
-    line->draw();
+    Checking_Polymorphic c;
+    std::cout << c << std::endl;
 
-    std::cout << "===================================" << std::endl;
+    Savings_Polymorphic s;
+    std::cout << s << std::endl;
 
-    delete line;
-    delete circle;
+    Trust_Polymorphic t;
+    std::cout << t << std::endl;*/
+
+    cout << " =======  Pointers ==========" << endl;
+    Account_Polymorphic *a_ptr = new Account_Polymorphic;
+    std::cout << *a_ptr << std::endl;
+
+    Account_Polymorphic *c_ptr = new Savings_Polymorphic;
+    std::cout << *c_ptr << std::endl;
+
+    Account_Polymorphic *s_ptr = new Checking_Polymorphic;
+    std::cout << *s_ptr << std::endl;
+
+    Account_Polymorphic *t_ptr = new Trust_Polymorphic;
+    std::cout << *t_ptr << std::endl;
+
+    cout << " =======  Cleanup ==========" << endl;
+
+    delete t_ptr;
+    delete s_ptr;
+    delete c_ptr;
+    delete a_ptr;
+
 
     return 0;
 }

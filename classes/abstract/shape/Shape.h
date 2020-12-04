@@ -1,6 +1,8 @@
 #ifndef _SHAPE_H
 #define _SHAPE_H
 
+#include <iostream>
+
 class Shape { // abstract Base class
 private:
     // attributes common to all shapes

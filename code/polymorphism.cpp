@@ -1,11 +1,11 @@
 #include <vector>
 #include <iostream>
 
+/*
 #include "../classes/polymorphism/account-polymorphic/Account-Polymorphic.h"
 #include "../classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h"
-#include "../classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h"
+#include "../classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h"
 #include "../classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h"
-
 void do_withdraw(Account_Polymorphic &account, double amount) {
     account.withdraw(amount);
 }
@@ -64,3 +64,4 @@ void polymorphism() {
     delete p4;
     //--------------------------------------------------------------------
 }
+*/

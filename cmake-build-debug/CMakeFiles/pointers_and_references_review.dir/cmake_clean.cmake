@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o"
+  "CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o"
@@ -16,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o"
+  "CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o"

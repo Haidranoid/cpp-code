@@ -11,6 +11,11 @@ CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
  /Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
  /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp
+ /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.h
@@ -63,6 +68,14 @@ CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o
 CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp
  /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.h
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.h
+ /Users/administaff/Desktop/cpp-code/code/abstract.cpp
 CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o
  /Users/administaff/Desktop/cpp-code/code/arrays_and_pointers.cpp
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o
@@ -98,8 +111,9 @@ CMakeFiles/pointers_and_references_review.dir/code/operator_overloading.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.h
  /Users/administaff/Desktop/cpp-code/code/operator_overloading.cpp
 CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-pollymorphic/Checking-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
  /Users/administaff/Desktop/cpp-code/code/polymorphism.cpp
@@ -122,11 +136,11 @@ CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp
  /Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp
  /Users/administaff/Desktop/cpp-code/utils/Account_Util.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o
- /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h
- /Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h
- /Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h
- /Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h
- /Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h
+ /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h
+ /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h
  /Users/administaff/Desktop/cpp-code/main.cpp
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h

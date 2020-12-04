@@ -4,7 +4,7 @@
 #include <iostream>
 #include "../closed-shape/Closed_Shape.h"
 
-class Circle : public Closed_Shape {
+class Circle : public Closed_Shape { // Concrete clas
 public:
     void draw() override;
 

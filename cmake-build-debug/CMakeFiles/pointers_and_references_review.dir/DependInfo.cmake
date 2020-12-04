@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o"
+  "/Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o"
@@ -21,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/poo/my-string/MyString.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/poo/player/Player.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/poo/player/Player.cpp.o"
   "/Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/classes/poo/shallow/Shallow.cpp.o"
+  "/Users/administaff/Desktop/cpp-code/code/abstract.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/arrays_and_pointers.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/assignment_overload.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o"

@@ -532,6 +532,32 @@ CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.s
 
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/square/Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp > CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s
+
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o: ../code/abstract.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o -c /Users/administaff/Desktop/cpp-code/code/abstract.cpp
+
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/code/abstract.cpp > CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/abstract.cpp -o CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.s
+
 # Object files for target pointers_and_references_review
 pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/main.cpp.o" \
@@ -568,7 +594,9 @@ pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
+"CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
 
 # External object files for target pointers_and_references_review
 pointers_and_references_review_EXTERNAL_OBJECTS =
@@ -608,9 +636,11 @@ pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/co
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/polymorphism.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/build.make
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable pointers_and_references_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable pointers_and_references_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers_and_references_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
