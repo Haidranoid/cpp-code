@@ -141,12 +141,9 @@ CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphis
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/saving/Saving.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../utils/Account_Util.h
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/account/Account.h
-CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/checking/Checking.h
-CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/saving/Saving.h
-CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../utils/Account_Util.cpp
-CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../utils/Account_Util.h
 
