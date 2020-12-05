@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/administaff/Desktop/cpp-code/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/administaff/Desktop/cpp-code/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/administaff/Desktop/cpp-code/cmake-build-debug"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointers_and_references_review">
-				<Option output="/Users/administaff/Desktop/cpp-code/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/administaff/Desktop/cpp-code/cmake-build-debug"/>
+				<Option output="/Users/eduardo/Desktop/cpp-course/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointers_and_references_review/fast">
-				<Option output="/Users/administaff/Desktop/cpp-code/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/administaff/Desktop/cpp-code/cmake-build-debug"/>
+				<Option output="/Users/eduardo/Desktop/cpp-course/cmake-build-debug/pointers_and_references_review" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Desktop/cpp-course/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,218 +73,222 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/administaff/Desktop/cpp-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_and_references_review/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Desktop/cpp-course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/circle/Circle.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/circle/Circle.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/circle/Circle.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/closed-shape/Closed_Shape.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/closed-shape/Closed_Shape.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/line/Line.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/line/Line.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/line/Line.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/open-shape/Open_Shape.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/open-shape/Open_Shape.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/shape/Shape.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/shape/Shape.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/square/Square.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/abstract/square/Square.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/interfaces/interface-printable/Interface_Printable.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/interfaces/interface-printable/Interface_Printable.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account-2/Account2.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-2/Account2.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account-2/Account2.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-polymorphic/Account-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account-polymorphic/Account-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account-test/Account_Test.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account-test/Account_Test.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account-test/Account_Test.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account/Account.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/account/Account.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/base-polymorphic/Base-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/base-polymorphic/Base-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/checking-polymorphic/Checking-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/checking/Checking.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/checking/Checking.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/derived-polymorphic/Derived-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/derived-polymorphic/Derived-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving-account-2/Saving_Account2.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-2/Saving_Account2.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving-account-2/Saving_Account2.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving-account-test/Saving_Account_Test.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving-account-test/Saving_Account_Test.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving-account-test/Saving_Account_Test.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving/Saving.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/saving/Saving.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/savings-polymorphic/Saving-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/trust-polymorphic/Trust-Polymorphic.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/trust/Trust.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/polymorphism/trust/Trust.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/base/Base.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/base/Base.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/base/Base.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/base/Base.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/deep/Deep.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/deep/Deep.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/derived/Derived.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/derived/Derived.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/derived/Derived.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/derived/Derived.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/move/Move.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/move/Move.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/move/Move.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/move/Move.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/my-string/MyString.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/my-string/MyString.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/my-string/MyString.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/player/Player.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/player/Player.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/player/Player.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/player/Player.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/shallow/Shallow.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/classes/poo/shallow/Shallow.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/abstract.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/abstract.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/arrays_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/arrays_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/assignment_overload.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/assignment_overload.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/Users/administaff/Desktop/cpp-code/code/challenge_abstract_and_interfaces.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp">
+=======
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/challenge_inheritance.cpp">
+>>>>>>> 316681d9475540d6b69ff69b53b92f99c6cc7c8f
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/challenge_operator_overloading.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/challenge_operator_overloading.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/const_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/const_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/constructors.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/constructors.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/functions_and_pointers.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/functions_and_pointers.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/inheritance.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/inheritance.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/left_and_right_values.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/left_and_right_values.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/move_constructor.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/move_constructor.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/operator_overloading.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/operator_overloading.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/polymorphism.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/polymorphism.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/references.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/references.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/shallow_and_deep_copy.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/shallow_and_deep_copy.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/static_members_and_methods.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/static_members_and_methods.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/code/utility_functions_account.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/main.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/main.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/utils/Account_Util.cpp">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/utils/Account_Util.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/utils/Account_Util.h">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/utils/Account_Util.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
-		<Unit filename="/Users/administaff/Desktop/cpp-code/CMakeLists.txt">
+		<Unit filename="/Users/eduardo/Desktop/cpp-course/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
