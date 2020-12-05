@@ -737,6 +737,33 @@ code/assignment_overload.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.s
 .PHONY : code/assignment_overload.cpp.s
 
+code/challenge_abstract_and_interfaces.o: code/challenge_abstract_and_interfaces.cpp.o
+
+.PHONY : code/challenge_abstract_and_interfaces.o
+
+# target to build an object file
+code/challenge_abstract_and_interfaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o
+.PHONY : code/challenge_abstract_and_interfaces.cpp.o
+
+code/challenge_abstract_and_interfaces.i: code/challenge_abstract_and_interfaces.cpp.i
+
+.PHONY : code/challenge_abstract_and_interfaces.i
+
+# target to preprocess a source file
+code/challenge_abstract_and_interfaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.i
+.PHONY : code/challenge_abstract_and_interfaces.cpp.i
+
+code/challenge_abstract_and_interfaces.s: code/challenge_abstract_and_interfaces.cpp.s
+
+.PHONY : code/challenge_abstract_and_interfaces.s
+
+# target to generate assembly for a file
+code/challenge_abstract_and_interfaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.s
+.PHONY : code/challenge_abstract_and_interfaces.cpp.s
+
 code/challenge_inheritance.o: code/challenge_inheritance.cpp.o
 
 .PHONY : code/challenge_inheritance.o
@@ -1244,6 +1271,9 @@ help:
 	@echo "... code/assignment_overload.o"
 	@echo "... code/assignment_overload.i"
 	@echo "... code/assignment_overload.s"
+	@echo "... code/challenge_abstract_and_interfaces.o"
+	@echo "... code/challenge_abstract_and_interfaces.i"
+	@echo "... code/challenge_abstract_and_interfaces.s"
 	@echo "... code/challenge_inheritance.o"
 	@echo "... code/challenge_inheritance.i"
 	@echo "... code/challenge_inheritance.s"

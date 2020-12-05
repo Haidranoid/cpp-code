@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/administaff/Desktop/cpp-code/code/abstract.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/arrays_and_pointers.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/assignment_overload.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o"
+  "/Users/administaff/Desktop/cpp-code/code/challenge_abstract_and_interfaces.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/challenge_inheritance.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/challenge_operator_overloading.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o"
   "/Users/administaff/Desktop/cpp-code/code/const_and_pointers.cpp" "/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/pointers_and_references_review.dir/code/const_and_pointers.cpp.o"

@@ -1,54 +1,71 @@
 #include <iostream>
 #include <vector>
+#include <memory>
 
 #include "classes/polymorphism/account/Account.h"
 #include "classes/polymorphism/checking/Checking.h"
 #include "classes/polymorphism/saving/Saving.h"
 #include "classes/polymorphism/trust/Trust.h"
 
-#include "utils/Account_Util.h"
+class Test {
+private:
+    int data;
+public:
+    Test() : data{0} {
+        std::cout << "Test constructor {" << data << "}" << std::endl;
+    }
 
-using namespace std;
+    Test(int data) : data{data} {
+        std::cout << "Test constructor {" << data << "}" << std::endl;
+    }
+
+    int get_data() const {
+        return this->data;
+    }
+
+    ~Test() {
+        std::cout << "Test destructor {" << data << "}" << std::endl;
+    }
+};
+
 
 int main() {
-//    Account joe;
-/*    Checking c;
-
-    cout << c << endl;
-
-    Saving s{"Frank", 5000, 2.6};
-    cout << s << endl;
-    s.deposit(10000);
-    cout << s << endl;
-    s.withdraw(10000);
-    cout << s << endl;
-
-    Trust t{"Leo", 10000, 2.6};
-
-    Account *ptr = new Trust("Leo", 10000, 2.6);
-    cout << *ptr << endl;
-    delete ptr;*/
-
-
-    Account *p1 = new Checking{"Larry", 10000};
-    Account *p2 = new Saving{"Moe", 1000};
-    Account *p3 = new Trust{"Curly"};
+//    Test t1{1000};
+//
+//    Test *t1 = new Test{1000};
+//    delete t1;
+//
+//    std::unique_ptr<Test> t1{new Test{1000}};
+//
+//    std::unique_ptr<Test> t2 = std::make_unique<Test>(1000);
+//
+//    std::unique_ptr<Test> t3;
+//
+//    //t3 = t1;
+//    t3 = std::move(t1);
+//
+//    if (!t1)
+//        std::cout << "t1 is nullptr" << std::endl;
 
 
-    std::vector<Account *> accounts{p1, p2, p3};
+//    std::unique_ptr<Account> a1 = std::make_unique<Checking>("Moe", 5000);
+//    std::cout << *a1 << std::endl;
+//
+//    a1->deposit(5000);
+//
+//    std::cout << *a1 << std::endl;
+//
 
-    display(accounts);
-    deposit(accounts, 1000);
-    withdraw(accounts, 2000);
+    std::vector<std::unique_ptr<Account>> accounts;
 
-    display(accounts);
+    accounts.push_back(std::make_unique<Checking>("James", 1000));
+    accounts.push_back(std::make_unique<Saving>("Billy", 4000, 5.2));
+    accounts.push_back(std::make_unique<Trust>("Bobby", 1000, 4.5));
 
+    for (const std::unique_ptr<Account> &acc:accounts)
+        std::cout << *acc << std::endl;
 
-    cout << "======================= Cleanup =======================" << endl;
-    delete p3;
-    delete p2;
-    delete p1;
-
+    std::cout << "======== Cleanup ========" << std::endl;
 
     return 0;
 }

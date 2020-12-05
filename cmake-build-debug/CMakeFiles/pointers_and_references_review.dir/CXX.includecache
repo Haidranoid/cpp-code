@@ -31,6 +31,8 @@ iostream
 -
 vector
 -
+memory
+-
 classes/polymorphism/account/Account.h
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 classes/polymorphism/checking/Checking.h
@@ -38,17 +40,5 @@ classes/polymorphism/checking/Checking.h
 classes/polymorphism/saving/Saving.h
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
 classes/polymorphism/trust/Trust.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
-utils/Account_Util.h
-/Users/administaff/Desktop/cpp-code/utils/Account_Util.h
-
-/Users/administaff/Desktop/cpp-code/utils/Account_Util.h
-../classes/polymorphism/account/Account.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
-../classes/polymorphism/saving/Saving.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
-../classes/polymorphism/checking/Checking.h
-/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
-../classes/polymorphism/trust/Trust.h
 /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
 

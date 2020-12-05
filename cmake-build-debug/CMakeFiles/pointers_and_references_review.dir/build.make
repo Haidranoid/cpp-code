@@ -571,6 +571,19 @@ CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-print
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.s
 
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../code/challenge_abstract_and_interfaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o -c /Users/administaff/Desktop/cpp-code/code/challenge_abstract_and_interfaces.cpp
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/code/challenge_abstract_and_interfaces.cpp > CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/challenge_abstract_and_interfaces.cpp -o CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.s
+
 # Object files for target pointers_and_references_review
 pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/main.cpp.o" \
@@ -610,7 +623,8 @@ pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o"
+"CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o"
 
 # External object files for target pointers_and_references_review
 pointers_and_references_review_EXTERNAL_OBJECTS =
@@ -653,9 +667,10 @@ pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/cl
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/build.make
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable pointers_and_references_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable pointers_and_references_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers_and_references_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -90,6 +90,14 @@ CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ..
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../classes/poo/player/Player.h
 CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o: ../code/assignment_overload.cpp
 
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../classes/polymorphism/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../classes/polymorphism/checking/Checking.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../classes/polymorphism/saving/Saving.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../classes/polymorphism/trust/Trust.h
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../code/challenge_abstract_and_interfaces.cpp
+CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o: ../utils/Account_Util.h
+
 CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o: ../code/challenge_inheritance.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o: ../classes/poo/my-string/MyString.h
@@ -141,7 +149,6 @@ CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphis
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/saving/Saving.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/trust/Trust.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
-CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../utils/Account_Util.h
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/polymorphism/account/Account.h

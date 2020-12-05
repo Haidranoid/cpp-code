@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pointers_and_references_review.dir/code/abstract.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/arrays_and_pointers.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/assignment_overload.cpp.o"
+  "CMakeFiles/pointers_and_references_review.dir/code/challenge_abstract_and_interfaces.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/challenge_inheritance.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/challenge_operator_overloading.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/code/const_and_pointers.cpp.o"
