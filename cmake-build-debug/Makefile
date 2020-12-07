@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eduardo/Desktop/cpp-course
+CMAKE_SOURCE_DIR = /Users/administaff/Desktop/cpp-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eduardo/Desktop/cpp-course/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/administaff/Desktop/cpp-code/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles /Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardo/Desktop/cpp-course/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -872,6 +872,33 @@ code/constructors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.s
 .PHONY : code/constructors.cpp.s
 
+code/custom_deleters.o: code/custom_deleters.cpp.o
+
+.PHONY : code/custom_deleters.o
+
+# target to build an object file
+code/custom_deleters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.o
+.PHONY : code/custom_deleters.cpp.o
+
+code/custom_deleters.i: code/custom_deleters.cpp.i
+
+.PHONY : code/custom_deleters.i
+
+# target to preprocess a source file
+code/custom_deleters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.i
+.PHONY : code/custom_deleters.cpp.i
+
+code/custom_deleters.s: code/custom_deleters.cpp.s
+
+.PHONY : code/custom_deleters.s
+
+# target to generate assembly for a file
+code/custom_deleters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.s
+.PHONY : code/custom_deleters.cpp.s
+
 code/functions_and_pointers.o: code/functions_and_pointers.cpp.o
 
 .PHONY : code/functions_and_pointers.o
@@ -1088,6 +1115,33 @@ code/shallow_and_deep_copy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.s
 .PHONY : code/shallow_and_deep_copy.cpp.s
 
+code/shared_pointers.o: code/shared_pointers.cpp.o
+
+.PHONY : code/shared_pointers.o
+
+# target to build an object file
+code/shared_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.o
+.PHONY : code/shared_pointers.cpp.o
+
+code/shared_pointers.i: code/shared_pointers.cpp.i
+
+.PHONY : code/shared_pointers.i
+
+# target to preprocess a source file
+code/shared_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.i
+.PHONY : code/shared_pointers.cpp.i
+
+code/shared_pointers.s: code/shared_pointers.cpp.s
+
+.PHONY : code/shared_pointers.s
+
+# target to generate assembly for a file
+code/shared_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.s
+.PHONY : code/shared_pointers.cpp.s
+
 code/static_members_and_methods.o: code/static_members_and_methods.cpp.o
 
 .PHONY : code/static_members_and_methods.o
@@ -1115,6 +1169,33 @@ code/static_members_and_methods.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.s
 .PHONY : code/static_members_and_methods.cpp.s
 
+code/unique_pointers.o: code/unique_pointers.cpp.o
+
+.PHONY : code/unique_pointers.o
+
+# target to build an object file
+code/unique_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/unique_pointers.cpp.o
+.PHONY : code/unique_pointers.cpp.o
+
+code/unique_pointers.i: code/unique_pointers.cpp.i
+
+.PHONY : code/unique_pointers.i
+
+# target to preprocess a source file
+code/unique_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/unique_pointers.cpp.i
+.PHONY : code/unique_pointers.cpp.i
+
+code/unique_pointers.s: code/unique_pointers.cpp.s
+
+.PHONY : code/unique_pointers.s
+
+# target to generate assembly for a file
+code/unique_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/unique_pointers.cpp.s
+.PHONY : code/unique_pointers.cpp.s
+
 code/utility_functions_account.o: code/utility_functions_account.cpp.o
 
 .PHONY : code/utility_functions_account.o
@@ -1141,6 +1222,33 @@ code/utility_functions_account.s: code/utility_functions_account.cpp.s
 code/utility_functions_account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.s
 .PHONY : code/utility_functions_account.cpp.s
+
+code/weak_pointers.o: code/weak_pointers.cpp.o
+
+.PHONY : code/weak_pointers.o
+
+# target to build an object file
+code/weak_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.o
+.PHONY : code/weak_pointers.cpp.o
+
+code/weak_pointers.i: code/weak_pointers.cpp.i
+
+.PHONY : code/weak_pointers.i
+
+# target to preprocess a source file
+code/weak_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.i
+.PHONY : code/weak_pointers.cpp.i
+
+code/weak_pointers.s: code/weak_pointers.cpp.s
+
+.PHONY : code/weak_pointers.s
+
+# target to generate assembly for a file
+code/weak_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.s
+.PHONY : code/weak_pointers.cpp.s
 
 main.o: main.cpp.o
 
@@ -1286,6 +1394,9 @@ help:
 	@echo "... code/constructors.o"
 	@echo "... code/constructors.i"
 	@echo "... code/constructors.s"
+	@echo "... code/custom_deleters.o"
+	@echo "... code/custom_deleters.i"
+	@echo "... code/custom_deleters.s"
 	@echo "... code/functions_and_pointers.o"
 	@echo "... code/functions_and_pointers.i"
 	@echo "... code/functions_and_pointers.s"
@@ -1310,12 +1421,21 @@ help:
 	@echo "... code/shallow_and_deep_copy.o"
 	@echo "... code/shallow_and_deep_copy.i"
 	@echo "... code/shallow_and_deep_copy.s"
+	@echo "... code/shared_pointers.o"
+	@echo "... code/shared_pointers.i"
+	@echo "... code/shared_pointers.s"
 	@echo "... code/static_members_and_methods.o"
 	@echo "... code/static_members_and_methods.i"
 	@echo "... code/static_members_and_methods.s"
+	@echo "... code/unique_pointers.o"
+	@echo "... code/unique_pointers.i"
+	@echo "... code/unique_pointers.s"
 	@echo "... code/utility_functions_account.o"
 	@echo "... code/utility_functions_account.i"
 	@echo "... code/utility_functions_account.s"
+	@echo "... code/weak_pointers.o"
+	@echo "... code/weak_pointers.i"
+	@echo "... code/weak_pointers.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

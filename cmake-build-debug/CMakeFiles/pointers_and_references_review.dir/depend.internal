@@ -138,17 +138,18 @@ CMakeFiles/pointers_and_references_review.dir/code/shallow_and_deep_copy.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/poo/deep/Deep.h
  /Users/administaff/Desktop/cpp-code/classes/poo/shallow/Shallow.h
  /Users/administaff/Desktop/cpp-code/code/shallow_and_deep_copy.cpp
+CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.o
+ /Users/administaff/Desktop/cpp-code/code/shared_pointers.cpp
 CMakeFiles/pointers_and_references_review.dir/code/static_members_and_methods.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/poo/player/Player.h
  /Users/administaff/Desktop/cpp-code/code/static_members_and_methods.cpp
+CMakeFiles/pointers_and_references_review.dir/code/unique_pointers.cpp.o
+ /Users/administaff/Desktop/cpp-code/code/unique_pointers.cpp
 CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp.o
  /Users/administaff/Desktop/cpp-code/code/utility_functions_account.cpp
+CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.o
+ /Users/administaff/Desktop/cpp-code/code/weak_pointers.cpp
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o
- /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/saving/Saving.h
- /Users/administaff/Desktop/cpp-code/classes/polymorphism/trust/Trust.h
  /Users/administaff/Desktop/cpp-code/main.cpp
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o
  /Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
