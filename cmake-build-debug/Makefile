@@ -224,6 +224,33 @@ classes/abstract/square/Square.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.s
 .PHONY : classes/abstract/square/Square.cpp.s
 
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.o: classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o
+
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.o
+
+# target to build an object file
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o
+
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.i: classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i
+
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.i
+
+# target to preprocess a source file
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i
+
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.s: classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s
+
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.s
+
+# target to generate assembly for a file
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers_and_references_review.dir/build.make CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s
+.PHONY : classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s
+
 classes/interfaces/interface-printable/Interface_Printable.o: classes/interfaces/interface-printable/Interface_Printable.cpp.o
 
 .PHONY : classes/interfaces/interface-printable/Interface_Printable.o
@@ -1322,6 +1349,9 @@ help:
 	@echo "... classes/abstract/square/Square.o"
 	@echo "... classes/abstract/square/Square.i"
 	@echo "... classes/abstract/square/Square.s"
+	@echo "... classes/exceptions/illegal-balance/Illegal_Balance_Exception.o"
+	@echo "... classes/exceptions/illegal-balance/Illegal_Balance_Exception.i"
+	@echo "... classes/exceptions/illegal-balance/Illegal_Balance_Exception.s"
 	@echo "... classes/interfaces/interface-printable/Interface_Printable.o"
 	@echo "... classes/interfaces/interface-printable/Interface_Printable.i"
 	@echo "... classes/interfaces/interface-printable/Interface_Printable.s"

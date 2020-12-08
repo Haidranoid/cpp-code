@@ -107,6 +107,12 @@
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/abstract/square/Square.h">
 			<Option target="pointers_and_references_review"/>
 		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
+		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.h">
+			<Option target="pointers_and_references_review"/>
+		</Unit>
 		<Unit filename="/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.cpp">
 			<Option target="pointers_and_references_review"/>
 		</Unit>

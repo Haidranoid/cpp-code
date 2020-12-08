@@ -1,52 +1,64 @@
 #include <iostream>
 #include <memory>
+#include "classes/polymorphism/account/Account.h"
+#include "classes/polymorphism/checking/Checking.h"
+#include "classes/exceptions/illegal-balance/Illegal_Balance_Exception.h"
 
 using namespace std;
 
-class Test {
-private:
-    int data;
-public:
-    Test() : data{0} {
-        std::cout << "Test constructor {" << data << "}" << std::endl;
-    }
-
-    Test(int data) : data{data} {
-        std::cout << "Test constructor {" << data << "}" << std::endl;
-    }
-
-    int get_data() const {
-        return this->data;
-    }
-
-    ~Test() {
-        std::cout << "Test destructor {" << data << "}" << std::endl;
-    }
+class DivideByZeroException {
 };
 
-void my_deleter(Test *ptr) {
-    std::cout << "\tUsing my custom function deleter" << std::endl;
-    delete ptr;
+class NegativeValueException {
+};
+
+
+double calculate_mpg(int miles, int gallons) {
+    if (gallons == 0)
+        throw DivideByZeroException();
+    if (miles < 0 || gallons < 0)
+        throw NegativeValueException();
+
+    //throw "Unknown exception";
+
+    return (double) miles / gallons;
 }
 
 int main() {
-    {
-        // Using a function
-        std::shared_ptr<Test> ptr1{new Test{100}, my_deleter};
+/*    cout << "========================================" << endl;
+    int miles{};
+    int gallons{};
+    double miles_per_gallon{};
+
+    cout << "Enter the miles: ";
+    cin >> miles;
+    cout << "Enter the gallons: ";
+    cin >> gallons;
+
+
+    try {
+        miles_per_gallon = calculate_mpg(miles, gallons);
+        cout << "Result: " << miles_per_gallon << endl;
+    } catch (DivideByZeroException &ex) {
+        cerr << "Sorry, can't divide by zero" << endl;
+    } catch (NegativeValueException &ex) {
+        cerr << "Sorry, one of your parameters is negative" << endl;
+    } catch (...) {
+        cerr << "Unknown exception" << endl;
+    }
+    cout << "Bye" << endl;*/
+
+    cout << "========================================" << endl;
+    try {
+        unique_ptr<Account> moes_account = make_unique<Checking>("Moe", 100.0);
+
+        cout << *moes_account << endl;
+        cout << "Program completed successfully" << endl << endl;
+    } catch (const Illegal_Balance_Exception &ex) {
+        cerr << ex.what() << endl; // displays "Illegal balance exception"
     }
 
-    std::cout << "==============================" << std::endl;
-
-    {
-        // Using a function
-        std::shared_ptr<Test> ptr2{new Test{100}, [](Test *ptr) {
-            std::cout << "\tUsing lambda function deleter" << std::endl;
-            delete ptr;
-        }};
-    }
-
-    std::cout << "==============================" << std::endl;
-
+    cout << "========================================" << endl;
     return 0;
 }
 

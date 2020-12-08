@@ -1,7 +1,10 @@
 #include "Account.h"
+#include "../../exceptions/illegal-balance/Illegal_Balance_Exception.h"
 
 Account::Account(std::string name, double balance)
         : name{name}, balance{balance} {
+    if (balance < 0.0)
+        throw Illegal_Balance_Exception();
 }
 
 bool Account::deposit(double amount) {

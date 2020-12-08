@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pointers_and_references_review.dir/classes/abstract/circle/Circle.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/abstract/line/Line.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o"
+  "CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Account2.cpp.o"
   "CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o"

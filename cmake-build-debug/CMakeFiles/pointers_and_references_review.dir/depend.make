@@ -16,6 +16,9 @@ CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/square/Square.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/abstract/square/Square.cpp.o: ../classes/abstract/square/Square.h
 
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o: ../classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o: ../classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
+
 CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/interfaces/interface-printable/Interface_Printable.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
 
@@ -25,6 +28,7 @@ CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-2/Acc
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o: ../classes/polymorphism/account-test/Account_Test.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account-test/Account_Test.cpp.o: ../classes/polymorphism/account-test/Account_Test.h
 
+CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: ../classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: ../classes/polymorphism/account/Account.cpp
 CMakeFiles/pointers_and_references_review.dir/classes/polymorphism/account/Account.cpp.o: ../classes/polymorphism/account/Account.h
@@ -109,6 +113,8 @@ CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o: ../classe
 CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o: ../classes/poo/player/Player.h
 CMakeFiles/pointers_and_references_review.dir/code/constructors.cpp.o: ../code/constructors.cpp
 
+CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.o: ../code/custom_deleters.cpp
+
 CMakeFiles/pointers_and_references_review.dir/code/functions_and_pointers.cpp.o: ../code/functions_and_pointers.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/inheritance.cpp.o: ../classes/polymorphism/account-2/Account2.h
@@ -149,6 +155,10 @@ CMakeFiles/pointers_and_references_review.dir/code/utility_functions_account.cpp
 
 CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.o: ../code/weak_pointers.cpp
 
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/account/Account.h
+CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../classes/polymorphism/checking/Checking.h
 CMakeFiles/pointers_and_references_review.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/pointers_and_references_review.dir/utils/Account_Util.cpp.o: ../classes/interfaces/interface-printable/Interface_Printable.h

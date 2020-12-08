@@ -6,15 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/administaff/Desktop/cpp-code/code/unique_pointers.cpp
+/Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
+exception
+-
+
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
 iostream
 -
-memory
--
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
+../../interfaces/interface-printable/Interface_Printable.h
+/Users/administaff/Desktop/cpp-code/classes/interfaces/interface-printable/Interface_Printable.h
+
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
+../account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
 
 /Users/administaff/Desktop/cpp-code/main.cpp
 iostream
 -
 memory
 -
+classes/polymorphism/account/Account.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/account/Account.h
+classes/polymorphism/checking/Checking.h
+/Users/administaff/Desktop/cpp-code/classes/polymorphism/checking/Checking.h
+classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
+/Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.h
 

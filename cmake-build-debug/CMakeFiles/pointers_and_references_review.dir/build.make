@@ -636,6 +636,19 @@ CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/code/custom_deleters.cpp -o CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.s
 
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o: CMakeFiles/pointers_and_references_review.dir/flags.make
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o: ../classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o -c /Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp
+
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp > CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.i
+
+CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/administaff/Desktop/cpp-code/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp -o CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.s
+
 # Object files for target pointers_and_references_review
 pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/main.cpp.o" \
@@ -680,7 +693,8 @@ pointers_and_references_review_OBJECTS = \
 "CMakeFiles/pointers_and_references_review.dir/code/unique_pointers.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.o" \
 "CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.o" \
-"CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.o"
+"CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.o" \
+"CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o"
 
 # External object files for target pointers_and_references_review
 pointers_and_references_review_EXTERNAL_OBJECTS =
@@ -728,9 +742,10 @@ pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/co
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/shared_pointers.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/weak_pointers.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/code/custom_deleters.cpp.o
+pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/classes/exceptions/illegal-balance/Illegal_Balance_Exception.cpp.o
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/build.make
 pointers_and_references_review: CMakeFiles/pointers_and_references_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX executable pointers_and_references_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administaff/Desktop/cpp-code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable pointers_and_references_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers_and_references_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
