@@ -1,5 +1,6 @@
 #include "Account.h"
 #include "../../exceptions/illegal-balance/Illegal_Balance_Exception.h"
+#include "../../exceptions/insufficient-funds/Insufficient_Funds_Exception.h"
 
 Account::Account(std::string name, double balance)
         : name{name}, balance{balance} {
@@ -16,12 +17,11 @@ bool Account::deposit(double amount) {
 }
 
 bool Account::withdraw(double amount) {
-    if ((this->balance - amount) >= 0) {
-        this->balance -= amount;
-        return true;
-    }
+    if ((this->balance - amount) < 0)
+        throw Insufficient_Funds_Exception();
 
-    return false;
+    this->balance -= amount;
+    return true;
 }
 
 void Account::print(std::ostream &os) const {
