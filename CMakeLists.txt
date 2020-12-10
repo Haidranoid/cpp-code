@@ -3,6 +3,15 @@ project(cpp-course)
 
 set(CMAKE_CXX_STANDARD 14)
 
+#file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test.txt
+#        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/test.txt
+        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+
+#file(GLOB MY_FILES "*.txt")
+#file(COPY ${MY_FILES} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
 add_executable(pointers_and_references_review main.cpp
         code/arrays_and_pointers.cpp code/const_and_pointers.cpp
         code/functions_and_pointers.cpp code/references.cpp
