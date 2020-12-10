@@ -1,70 +1,57 @@
 #include <iostream>
-#include <fstream>
-#include <string>
 #include <iomanip>
+#include <sstream>
+#include <string>
+#include <limits>
 
 int main() {
-    std::ifstream file{};
-    file.open("../responses.txt");
+    int num{};
+    double total{};
+    std::string name{};
 
-    if (!file) {
-        std::cerr << "Cannot open the file provided." << std::endl;
-        return 1;
-    }
+    std::string info{"Moe 100 1234.5"};
+    std::istringstream iss{info};
 
-    int line_counter = 1;
-    int students_numbers = 0;
-    int total_score = 0;
-    std::string responses{};
+    iss >> name >> num >> total;
+    std::cout << std::setw(10) << std::left << name
+              << std::setw(10) << std::left << num
+              << std::setw(10) << std::left << total << std::endl;
 
-    while (!file.eof()) {
+    std::cout << "--------------------------" << std::endl;
 
-        std::string student{};
-        std::string student_responses{};
-        int local_score{0};
+    std::ostringstream oss{};
 
-        if (line_counter == 1) {
-            getline(file, responses);
-            std::cout << std::setw(15) << std::left << "Student"
-                      << std::setw(15) << std::right << "Score"
-                      << std::endl;
+    oss << std::setw(10) << std::left << name
+        << std::setw(10) << std::left << num
+        << std::setw(10) << std::left << total << std::endl;
 
-            std::cout << std::setw(30) << std::setfill('-') << ""
-                      << std::endl;
-        } else {
-            std::cout << std::setfill(' '); // reset setfill to blank spaces
+    std::cout << oss.str() << std::endl;
 
-            getline(file, student);
-            getline(file, student_responses);
+    std::cout << "--Data validation--------" << std::endl;
 
-            students_numbers++;
+    int value{};
+    std::string entry{};
+    bool done = false;
 
-            for (int i = 0; i < responses.size(); i++)
-                if (responses[i] == student_responses[i])
-                    local_score++;
+    do {
+        std::cout << "Please enter an integer: ";
+        std::cin >> entry;
+        std::istringstream validator{entry};
 
-            total_score += local_score;
-
-            std::cout << std::setw(15) << std::left << student
-                      << std::setw(15) << std::right << local_score
-                      << std::endl;
+        if (validator >> value){
+            done = true;
         }
-        line_counter++;
-    }
-    file.close();
+        else{
+            std::cout << "Sorry, that's not an integer" << std::endl;
 
+        }
 
-    double average_score = (double) total_score / students_numbers;
+        // discards the remain input stream
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
+    } while (!done);
 
-    std::cout << std::setw(30) << std::setfill('-') << ""
-              << std::endl;
-
-    std::cout << std::setfill(' '); // reset setfill to blank spaces
-
-    std::cout << std::setw(15) << std::left << "Average score"
-              << std::setw(15) << std::right << average_score
-              << std::endl;
+    std::cout << "You entered the integer: " << value << std::endl;
 
     return 0;
 }
