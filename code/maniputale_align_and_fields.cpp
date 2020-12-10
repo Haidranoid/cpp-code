@@ -9,9 +9,9 @@ void ruler() {
 }
 
 int manipulate_align_and_fields() {
-    int num1 { 1234 };
-    double num2 {1234.5678};
-    std::string hello  {"Hello"};
+    int num1{1234};
+    double num2{1234.5678};
+    std::string hello{"Hello"};
 
     // Defaults
     std::cout << "\n--Defaults -------------------------------------------------------------------" << std::endl;
@@ -24,7 +24,7 @@ int manipulate_align_and_fields() {
     // Defaults - one per line
     std::cout << "\n--Defaults - one per line-----------------------------------------------------" << std::endl;
     ruler();
-    std::cout << num1 <<std::endl;
+    std::cout << num1 << std::endl;
     std::cout << num2 << std::endl;
     std::cout << hello << std::endl;
 
@@ -32,7 +32,7 @@ int manipulate_align_and_fields() {
     // Note the default justification is right for num1 only!
     std::cout << "\n--width 10 for num1-----------------------------------------------------------" << std::endl;
     ruler();
-    std::cout << std::setw(10)  << num1
+    std::cout << std::setw(10) << num1
               << num2
               << hello
               << std::endl;
@@ -60,7 +60,7 @@ int manipulate_align_and_fields() {
     ruler();
     std::cout << std::setw(10) << std::left << num1
               << std::setw(10) << std::left << num2
-              << std::setw(10) << std::left <<  hello
+              << std::setw(10) << std::left << hello
               << std::endl;
 
     // setfill to a dash
@@ -71,15 +71,15 @@ int manipulate_align_and_fields() {
     ruler();
     std::cout << std::setw(10) << std::left << num1
               << std::setw(10) << std::left << num2
-              << std::setw(10) << std::left <<  hello
+              << std::setw(10) << std::left << hello
               << std::endl;
 //
     // Set width to 10 for all, left justify all and cary the setfill character
     std::cout << "\n--width 10 for num1 and num2 and hello - setfill varies------------------------" << std::endl;
     ruler();
     std::cout << std::setw(10) << std::left << std::setfill('*') << num1
-              << std::setw(10) << std::left << std::setfill('#' )<< num2
-              << std::setw(10) << std::left <<  std::setfill('-') << hello
+              << std::setw(10) << std::left << std::setfill('#') << num2
+              << std::setw(10) << std::left << std::setfill('-') << hello
               << std::endl;
 //
     std::cout << std::endl << std::endl;
