@@ -1,58 +1,37 @@
 #include <iostream>
-#include <iomanip>
-#include <sstream>
-#include <string>
-#include <limits>
-#include <cpr/cpr.h>
+#include "classes/templates/array/Array.h"
 
 int main() {
-    int num{};
-    double total{};
-    std::string name{};
 
-    std::string info{"Moe 100 1234.5"};
-    std::istringstream iss{info};
+    Array<int, 5> nums;
+    std::cout << "The size of nums is: " << nums.get_size() << std::endl;
+    std::cout << nums << std::endl;
 
-    iss >> name >> num >> total;
-    std::cout << std::setw(10) << std::left << name
-              << std::setw(10) << std::left << num
-              << std::setw(10) << std::left << total << std::endl;
+    nums.fill(0);
+    std::cout << "The size of nums is: " << nums.get_size() << std::endl;
+    std::cout << nums << std::endl;
 
-    std::cout << "--------------------------" << std::endl;
+    nums.fill(10);
+    std::cout << nums << std::endl;
 
-    std::ostringstream oss{};
+    nums[0] = 1000;
+    nums[3] = 2000;
+    std::cout << nums << std::endl;
 
-    oss << std::setw(10) << std::left << name
-        << std::setw(10) << std::left << num
-        << std::setw(10) << std::left << total << std::endl;
+    Array<int, 100> nums2{1};
+    std::cout << "The size of nums2 is: " << nums2.get_size() << std::endl;
+    std::cout << nums2 << std::endl;
 
-    std::cout << oss.str() << std::endl;
+    Array<std::string, 10> strings{"Frank"};
+    std::cout << "The size of strings is: " << strings.get_size() << std::endl;
+    std::cout << strings << std::endl;
 
-    std::cout << "--Data validation--------" << std::endl;
+    strings[0] = "Larry";
+    std::cout << strings << std::endl;
 
-    int value{};
-    std::string entry{};
-    bool done = false;
+    strings.fill("X");
+    std::cout << strings << std::endl;
 
-    do {
-        std::cout << "Please enter an integer: ";
-        std::cin >> entry;
-        std::istringstream validator{entry};
-
-        if (validator >> value){
-            done = true;
-        }
-        else{
-            std::cout << "Sorry, that's not an integer" << std::endl;
-
-        }
-
-        // discards the remain input stream
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-    } while (!done);
-
-    std::cout << "You entered the integer: " << value << std::endl;
 
     return 0;
 }
