@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <limits>
+#include <cpr/cpr.h>
 
 int main() {
     int num{};
