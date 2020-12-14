@@ -1,6 +1,9 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <numeric>
 
 int main() {
-    std::cout << "hi" << std::endl;
+
     return 0;
 }

@@ -27,8 +27,9 @@ public:
     std::cout << "Use count func: " << p.use_count() << std::endl;
 }*/
 
+/*
 int shared_pointers() {
-/*    // use_count - the number of shared-ptr object
+   // use_count - the number of shared-ptr object
     // managin the heap object
 
     std::shared_ptr<int> p1{new int{100}};
@@ -75,7 +76,8 @@ int shared_pointers() {
     }
 
     std::cout << "\n ====================================================" << std::endl;
-    return 0;*/
+    return 0;
 }
+ */
 
 
