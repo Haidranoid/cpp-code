@@ -1,10 +1,9 @@
 #include <iostream>
-#include <deque>
-#include <vector>
-#include <algorithm>
-#include <numeric>
+
+using namespace std;
+
 
 int main() {
-
+    cout << "hello" << endl;
     return 0;
 }
