@@ -1,4 +1,5 @@
 #include <iostream>
+#include <deque>
 #include <vector>
 #include <algorithm>
 #include <numeric>

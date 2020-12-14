@@ -21,6 +21,6 @@ file(GLOB MY_CODE_FILES "code/*.cpp")
 file(GLOB_RECURSE MY_CLASSES_FILES "classes/*.cpp" "classes/*.h")
 file(GLOB MY_UTILS_FILES "utils/*.cpp" "utils/*.h")
 
-add_executable(cpp-course main.cpp ${MY_CLASSES_FILES} ${MY_CODE_FILES} ${MY_UTILS_FILES})
+add_executable(cpp-course main.cpp ${MY_CLASSES_FILES} ${MY_CODE_FILES} ${MY_UTILS_FILES} code/deque.cpp)
 
 target_link_libraries(cpp-course PRIVATE cpr)
