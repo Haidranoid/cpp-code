@@ -21,6 +21,10 @@ file(GLOB MY_CODE_FILES "code/*.cpp")
 file(GLOB_RECURSE MY_CLASSES_FILES "classes/*.cpp" "classes/*.h")
 file(GLOB MY_UTILS_FILES "utils/*.cpp" "utils/*.h")
 
+<<<<<<< HEAD
 add_executable(cpp-course main.cpp ${MY_CLASSES_FILES} ${MY_CODE_FILES} ${MY_UTILS_FILES} code/deque.cpp code/challenge_deque.cpp code/challenge_list.cpp)
+=======
+add_executable(cpp-course main.cpp ${MY_CLASSES_FILES} ${MY_CODE_FILES} ${MY_UTILS_FILES} code/deque.cpp code/challenge_deque.cpp code/challenge_list code/list.cpp)
+>>>>>>> 8deeccae70a4e97251cf26c4464d03b6e0b2be47
 
 target_link_libraries(cpp-course PRIVATE cpr)
