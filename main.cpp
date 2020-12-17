@@ -1,14 +1,13 @@
 #include <iostream>
-#include <string>
+#include <cctype>
 #include <algorithm>
-#include <set>
+#include <stack>
 
 using namespace std;
 
 
-int main() {
 
 int main() {
-    std::cout << "hello world" << std::endl;
+    cout  << "Word" << endl;
     return 0;
 }
