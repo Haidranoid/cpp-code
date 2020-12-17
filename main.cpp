@@ -26,7 +26,7 @@ public:
 };
 
 std::ostream &operator<<(std::ostream &os, const Person &person) {
-    os << person.name << ":" << person.age;
+    os << "{" << person.name << ":" << person.age << "}";
     return os;
 }
 
@@ -50,12 +50,15 @@ void test4();
 
 void test5();
 
+void test6();
+
 int main() {
     //test1();
     //test2();
     //test3();
     //test4();
-    test5();
+    //test5();
+    test6();
     return 0;
 }
 
@@ -73,7 +76,7 @@ void test1() {
     list2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     display(list2);
 
-    list2 = {5,10};
+    list2 = {5, 10};
     display(list2);
 
     std::list<int> list3(10, 100);
@@ -119,7 +122,8 @@ void test4() {
     display(list);
 
     auto it = std::find(list.begin(), list.end(), 5);
-    list.insert(it, 100);
+    if (it != list.end())
+        list.insert(it, 100);
     display(list);
 
     std::list<int> list1{1000, 2000, 3000};
@@ -136,13 +140,41 @@ void test4() {
 void test5() {
     std::cout << "Test 5 --------------------------------" << std::endl;
 
-    std::list<Person> list {
-        {"Larry",18},
-        {"Moe",25},
-        {"Curly",17}
+    std::list<Person> list{
+            {"Larry", 18},
+            {"Moe",   25},
+            {"Curly", 17}
     };
+    display(list);
 
+    string name;
+    int age = 0;
 
-    std::cout << "Enter the name of the next stooge: ";
+    std::cout << "\nEnter the name of the next stooge: ";
+    getline(cin, name);
+    std::cout << "Enter their age: ";
+    cin >> age;
 
+    list.emplace_back(name, age);
+    display(list);
+
+    auto it = std::find(list.begin(), list.end(), Person{"Moe", 25});
+    if (it != list.end())
+        list.emplace(it, "Frank", 19);
+
+    display(list);
+}
+
+void test6(){
+    std::cout << "Test 6 --------------------------------" << std::endl;
+
+    std::list<Person> list{
+            {"Larry", 18},
+            {"Moe",   25},
+            {"Curly", 17}
+    };
+    display(list);
+
+    list.sort();
+    display(list);
 }
