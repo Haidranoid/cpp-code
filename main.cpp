@@ -1,13 +1,6 @@
 #include <iostream>
-#include <cctype>
-#include <algorithm>
-#include <stack>
-
-using namespace std;
-
-
 
 int main() {
-    cout  << "Word" << endl;
+    std::cout << "Hello" << std::endl;
     return 0;
 }
