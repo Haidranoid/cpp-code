@@ -101,6 +101,7 @@ MyString &MyString::operator=(MyString &&rhs) noexcept {
 }
 
 // operator overloading as non-member function ---------------------
+/*
 
 // Unary operators (++,--,-,!)
 MyString operator-(const MyString &obj) {
@@ -175,9 +176,9 @@ bool operator<(const MyString &lhs, const MyString &rhs) {
 bool operator>(const MyString &lhs, const MyString &rhs) {
     return std::strcmp(lhs.str,rhs.str) > 0;
 }
+*/
 
 // operator overloading as member function --------------------------
-/*
 // Unary operators (++,--,-,!)
 MyString MyString::operator-() const {
     char *buff = new char[std::strlen(this->str) + 1];
@@ -200,6 +201,7 @@ MyString &MyString::operator++() {
 }
 
 MyString MyString::operator++(int) {
+    // Post-fix operator so we have to return the "old" unmodified version
     MyString temp{*this};
     //++(*this);
     operator++(); // make sure you call the pre-increment
@@ -252,7 +254,6 @@ MyString &MyString::operator*=(size_t times) {
     *this = *this * times;
     return *this;
 }
-*/
 // member methods ---------------------------------------------------
 int MyString::get_length() const {
     return std::strlen(this->str);

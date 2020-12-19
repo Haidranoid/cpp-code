@@ -3,6 +3,7 @@
 
 class MyString {
     // operator overloading as non- member function ----------------
+/*
 
     // Unary operators (++,--,-,!)
     friend MyString operator-(const MyString &obj);
@@ -27,6 +28,7 @@ class MyString {
     friend bool operator<(const MyString &lhs, const MyString &rhs);
 
     friend bool operator>(const MyString &lhs, const MyString &rhs);
+*/
 
     // insertion and extration operator -----------------------------
 
@@ -68,17 +70,15 @@ public:
     MyString &operator=(MyString &&rhs) noexcept;
 
     // operator overloading as member function ----------------------
-    /*
+
     // Unary operators (++,--,-,!)
     MyString operator-() const;
 
-    MyString &operator++();
+    MyString &operator++(); // pre-increment
 
-    MyString operator++(int);
+    MyString operator++(int); // post-increment
 
     // Binary operators (+,-,==,!=,<,>,etc.)
-    MyString operator+(const MyString &rhs) const;
-
     bool operator==(const MyString &rhs) const;
 
     bool operator!=(const MyString &rhs) const;
@@ -87,12 +87,14 @@ public:
 
     bool operator>(const MyString &rhs) const;
 
+    MyString operator+(const MyString &rhs) const;
+
     MyString &operator+=(const MyString &rhs);
 
     MyString operator*(size_t times) const;
 
     MyString &operator*=(size_t times);
-     */
+
     // member methods ------------------------------------------------
     int get_length() const;
 
