@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 
-#include "../classes/polymorphism/account/Account.h"
-#include "../classes/polymorphism/checking/Checking.h"
-#include "../classes/polymorphism/saving/Saving.h"
-#include "../classes/polymorphism/trust/Trust.h"
-
-#include "../utils/Account_Util.h"
+#include "../../cpp-beyond/classes/polymorphism/account/Account.h"
+#include "../../cpp-beyond/classes/polymorphism/checking/Checking.h"
+#include "../../cpp-beyond/classes/polymorphism/saving/Saving.h"
+#include "../../cpp-beyond/classes/polymorphism/trust/Trust.h"
+#include "../../cpp-beyond/utils/Account_Util.h"
 
 using namespace std;
 

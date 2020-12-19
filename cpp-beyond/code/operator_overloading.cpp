@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../classes/poo/my-string/MyString.h"
+#include "../../cpp-beyond/classes/poo/my-string/MyString.h"
 
 using namespace std;
 

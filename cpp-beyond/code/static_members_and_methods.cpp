@@ -2,7 +2,7 @@
 // Created by Administaff on 11/20/20.
 //
 #include <iostream>
-#include "../classes/poo/player/Player.h"
+#include "../../cpp-beyond/classes/poo/player/Player.h"
 
 using namespace std;
 

@@ -1,8 +1,8 @@
 #include <vector>
-#include "../classes/abstract/shape/Shape.h"
-#include "../classes/abstract/line/Line.h"
-#include "../classes/abstract/circle/Circle.h"
-#include "../classes/abstract/square/Square.h"
+#include "../../cpp-beyond/classes/abstract/shape/Shape.h"
+#include "../../cpp-beyond/classes/abstract/line/Line.h"
+#include "../../cpp-beyond/classes/abstract/circle/Circle.h"
+#include "../../cpp-beyond/classes/abstract/square/Square.h"
 
 void abstract(){
     // Shape shape;  // ERROR - abstract class
