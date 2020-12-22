@@ -16,7 +16,7 @@ set(CMAKE_CXX_STANDARD 14)
 #file(GLOB MY_UTILS_FILES "cpp-beyond/utils/*.cpp" "cpp-beyond/utils/*.h")
 #file(GLOB_RECURSE CPP_BEYOND "cpp-beyond/*.cpp" "cpp-beyond/*.h")
 
-#add_executable(cpp-course main.cpp ${CPP_BEYOND})
+add_executable(cpp-course main.cpp ${CPP_BEYOND})
 
 #========================= CPP ADVANCED ====================================
-add_executable(cpp-beyond main.cpp)
+add_executable(cpp-beyond main.cpp cpp-beyond/code/files_writing&reading_objects.cpp cpp-beyond/code/lambdas.cpp)
