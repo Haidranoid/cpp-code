@@ -19,4 +19,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(cpp-course main.cpp ${CPP_BEYOND})
 
 #========================= CPP ADVANCED ====================================
-add_executable(cpp-beyond main.cpp code/exceptions.cpp code/files_io.cpp code/binary_io.cpp)
+add_executable(cpp-beyond main.cpp code/exceptions.cpp code/files_io.cpp code/binary_io.cpp code/stl.cpp)
