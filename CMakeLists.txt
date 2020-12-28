@@ -19,4 +19,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(cpp-course main.cpp ${CPP_BEYOND})
 
 #========================= CPP ADVANCED ====================================
-add_executable(cpp-beyond main.cpp code/exceptions.cpp code/files_io.cpp code/binary_io.cpp code/stl.cpp classes/Complex.h classes/Complex.cpp code/operator_overloading.cpp code/templates.cpp code/functions_as_parameters.cpp code/auto_keyword.cpp classes/ring.h code/initializer_list.cpp code/default_delete.cpp code/ring_class.cpp code/lambdas.cpp)
+add_executable(cpp-beyond main.cpp code/exceptions.cpp code/files_io.cpp code/binary_io.cpp code/stl.cpp classes/Complex.h classes/Complex.cpp code/operator_overloading.cpp code/templates.cpp code/functions_as_parameters.cpp code/auto_keyword.cpp classes/ring.h code/initializer_list.cpp code/default_delete.cpp code/ring_class.cpp code/lambdas.cpp code/move_semantics.cpp)
