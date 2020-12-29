@@ -15,8 +15,10 @@ set(CMAKE_CXX_STANDARD 14)
 #file(GLOB MY_CODE_FILES "cpp-beyond/code/*.cpp")
 #file(GLOB MY_UTILS_FILES "cpp-beyond/utils/*.cpp" "cpp-beyond/utils/*.h")
 #file(GLOB_RECURSE CPP_BEYOND "cpp-beyond/*.cpp" "cpp-beyond/*.h")
-
-add_executable(cpp-course main.cpp ${CPP_BEYOND})
+#add_executable(cpp-course main.cpp ${CPP_BEYOND})
 
 #========================= CPP ADVANCED ====================================
-add_executable(cpp-beyond main.cpp code/exceptions.cpp code/files_io.cpp code/binary_io.cpp code/stl.cpp classes/Complex.h classes/Complex.cpp code/operator_overloading.cpp code/templates.cpp code/functions_as_parameters.cpp code/auto_keyword.cpp classes/ring.h code/initializer_list.cpp code/default_delete.cpp code/ring_class.cpp code/lambdas.cpp code/move_semantics.cpp code/casts.cpp cpp-beyond/code/perfect_forwarding.cpp code/bind.cpp BitmapFileHeader.h BitmapInfoHeader.h Bitmap.cpp Bitmap.h Pixel.h Mandelbrot.cpp Mandelbrot.h Zoom.h ZoomList.cpp ZoomList.h FractalCreator.cpp FractalCreator.h RGB.cpp RGB.h)
+#file(GLOB_RECURSE CPP_ADVANCED "cpp-advanced/*.cpp" "cpp-advanced/*.h")
+#add_executable(cpp-course main.cpp ${CPP_ADVANCED})
+
+add_executable(cpp-course main.cpp )
