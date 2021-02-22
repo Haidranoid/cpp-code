@@ -4,15 +4,21 @@
 using namespace std;
 
 int main() {
-    MyString s1 {"Hello"};
-    MyString s2;
-    s2 = s1;
+    cout << boolalpha;
 
-    cout << s2.get_str() << endl;
+    MyString larry{"Larry"};
+    MyString moe{"Moe"};
+    MyString stooge = larry;
 
-    s2 = "this is a test";
+    cout << (larry == moe) << endl;
+    cout << (larry == stooge) << endl;
 
-    cout << s2.get_str() << endl;
+    cout << larry << endl;
+    MyString larry2 = -larry;
+    cout << larry2 << endl;
+
+    MyString stooges = larry + " Moe";
+    cout << stooges << endl;
 
     return 0;
 }
