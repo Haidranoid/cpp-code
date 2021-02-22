@@ -1,6 +1,8 @@
 #include "iostream"
 #include "cstring"
 #include "MyString.h"
+#include "../../../../classes/MyString/MyString.h"
+
 
 using namespace std;
 
