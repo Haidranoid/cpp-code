@@ -21,4 +21,4 @@ set(CMAKE_CXX_STANDARD 14)
 #file(GLOB_RECURSE CPP_ADVANCED "cpp-advanced/*.cpp" "cpp-advanced/*.h")
 #add_executable(cpp-course main.cpp ${CPP_ADVANCED})
 
-add_executable(cpp-course main.cpp classes/account/Account.cpp classes/account/Account.h classes/player/Player.cpp classes/player/Player.h classes/MyString/MyString.cpp classes/MyString/MyString.h)
+add_executable(cpp-course main.cpp)
