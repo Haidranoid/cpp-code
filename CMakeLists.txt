@@ -21,4 +21,4 @@ set(CMAKE_CXX_STANDARD 14)
 #file(GLOB_RECURSE CPP_ADVANCED "cpp-advanced/*.cpp" "cpp-advanced/*.h")
 #add_executable(cpp-course main.cpp ${CPP_ADVANCED})
 
-add_executable(cpp-course main.cpp)
+add_executable(cpp-course main.cpp code/selection_sort.cpp code/bubble_sort.cpp code/recursion.cpp code/merge_sort.cpp code/quick_sort.cpp)
