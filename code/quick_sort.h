@@ -19,3 +19,7 @@ void quick_sort(int *array, int index_left, int index_right) {
         quick_sort(array, wall + 1, index_right);
     }
 }
+
+void quick_sort_executor(int array[], int size) {
+    quick_sort(array, 0, size - 1);
+}

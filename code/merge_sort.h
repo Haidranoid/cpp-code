@@ -32,7 +32,7 @@ void merge(int array[], int from, int middle, int to) {
     }
 }
 
-void merge_sort(int *array, int left_index, int right_index) {
+void merge_sort(int array[], int left_index, int right_index) {
     if (left_index >= right_index)
         return;
     else {
@@ -41,5 +41,9 @@ void merge_sort(int *array, int left_index, int right_index) {
         merge_sort(array, middle + 1, right_index);
         merge(array, left_index, middle, right_index);
     }
+}
+
+void merge_sort_executor(int array[], int size) {
+    merge_sort(array, 0, size - 1);
 }
 

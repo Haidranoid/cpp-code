@@ -1,4 +1,5 @@
 #include <iostream>
+#include "code/compare.h"
 
 using namespace std;
 
@@ -10,7 +11,7 @@ void display(int *array, int size) {
 }
 
 int main() {
-    int array[]{20, 34, 6, 8, 1, 6, 15, 3, 8, 12};
+//    int array[]{20, 34, 6, 8, 1, 6, 15, 3, 8, 12};
 
     // range based sort
     // selection_sort(array, 10);
@@ -23,6 +24,8 @@ int main() {
     // quick_sort(array, 0, ((sizeof array / sizeof array[0]) - 1));
 
 
-    display(array, 10);
+//    display(array, 10);
+
+    compare();
     return 0;
 }
