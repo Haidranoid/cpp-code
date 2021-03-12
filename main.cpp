@@ -3,10 +3,6 @@
 using namespace std;
 
 class BinaryTreeNode {
-    friend BinaryTreeNode *find_value(BinaryTreeNode *root_node, int value);
-
-    friend void insert_value(BinaryTreeNode *root_node, int value);
-
 private:
     int value;
     BinaryTreeNode *left_node;
@@ -28,9 +24,34 @@ public:
         return this->left_node;
     };
 
+    void set_left_node(BinaryTreeNode *node) {
+        this->left_node = node;
+    };
+
     BinaryTreeNode *get_right_node() const {
         return this->right_node;
     };
+
+    void set_right_node(BinaryTreeNode *node) {
+        this->right_node = node;
+    };
+};
+
+class BinaryTree {
+private:
+    BinaryTreeNode *root;
+public:
+    BinaryTree() {
+        this->root = nullptr;
+    }
+
+    void insert(int value);
+
+    BinaryTreeNode *search(int value);
+
+    bool remove(int value);
+
+    void print();
 };
 
 void insert_value(BinaryTreeNode *root_node, int value) {
@@ -43,7 +64,7 @@ void insert_value(BinaryTreeNode *root_node, int value) {
     if (right_node != nullptr)
         insert_value(right_node, value);
 
-    if(value > root_node->get_value())
+    if (value > root_node->get_value())
         left_node = new BinaryTreeNode(value);
     else
         right_node = new BinaryTreeNode(value);
@@ -71,10 +92,10 @@ int main() {
     cout << root->get_left_node() << endl;
     cout << root->get_left_node() << endl;
 
-    insert_value(root,20);
-    insert_value(root,10);
-    insert_value(root,30);
-    insert_value(root,15);
+    insert_value(root, 20);
+    insert_value(root, 10);
+    insert_value(root, 30);
+    insert_value(root, 15);
 
     cout << root->get_value() << endl;
     cout << root->get_left_node()->get_value() << endl;
