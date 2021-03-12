@@ -13,27 +13,27 @@ public:
     }
 
     int get_value() const {
-        return this->value;
+        return value;
     }
 
-    void set_value(int value) {
-        this->value = value;
+    void set_value(int v) {
+        value = v;
     }
 
-    BinaryTreeNode *get_left_node() const {
-        return this->left_node;
+    BinaryTreeNode *get_left() const {
+        return left_node;
     };
 
-    void set_left_node(BinaryTreeNode *node) {
-        this->left_node = node;
+    void set_left(BinaryTreeNode *node) {
+        left_node = node;
     };
 
-    BinaryTreeNode *get_right_node() const {
-        return this->right_node;
+    BinaryTreeNode *get_right() const {
+        return right_node;
     };
 
-    void set_right_node(BinaryTreeNode *node) {
-        this->right_node = node;
+    void set_right(BinaryTreeNode *node) {
+        right_node = node;
     };
 };
 
@@ -42,65 +42,95 @@ private:
     BinaryTreeNode *root;
 public:
     BinaryTree() {
-        this->root = nullptr;
+        root = nullptr;
     }
 
-    void insert(int value);
+    void insert(int value) {
+        if (root == nullptr) {
+            root = new BinaryTreeNode(value);
+            return;
+        }
 
-    BinaryTreeNode *search(int value);
+        BinaryTreeNode *parent = root;
+        BinaryTreeNode *current = root;
+        while (current != nullptr) {
+            parent = current;
+            if (value < current->get_value()) {
+                current = current->get_left();
+            } else if (value > current->get_value()) {
+                current = current->get_right();
+            } else { // its equal
+                return;
+            }
+        }
 
-    bool remove(int value);
+        if (value < parent->get_value()) {
+            parent->set_left(new BinaryTreeNode(value));
+        } else {
+            parent->set_right(new BinaryTreeNode(value));
+        }
+    }
+
+    BinaryTreeNode *search(int value) {
+        BinaryTreeNode *current = root;
+        while (current != nullptr) {
+            if (value < current->get_value()) {
+                current = current->get_left();
+            } else if (value > current->get_value()) {
+                current = current->get_right();
+            } else {
+                return current;
+            }
+        }
+
+        return nullptr;
+    }
+
+    bool remove(int value){
+        if (root == nullptr)
+            return false;
+
+
+        BinaryTreeNode *parent = root;
+        BinaryTreeNode *current = root;
+
+        while (current->get_value() != value) {
+            parent = current;
+
+            if (value < current->get_value()) {
+                current = current->get_left();
+            } else if (value > current->get_value()) {
+                current = current->get_right();
+            }
+
+            if (current == nullptr)
+                return false;
+        }
+
+
+        return false;
+    }
 
     void print();
 };
 
-void insert_value(BinaryTreeNode *root_node, int value) {
-    BinaryTreeNode *left_node = root_node->get_left_node();
-    BinaryTreeNode *right_node = root_node->get_right_node();
-
-    if (left_node != nullptr)
-        insert_value(left_node, value);
-
-    if (right_node != nullptr)
-        insert_value(right_node, value);
-
-    if (value > root_node->get_value())
-        left_node = new BinaryTreeNode(value);
-    else
-        right_node = new BinaryTreeNode(value);
-}
-
-BinaryTreeNode *find_value(BinaryTreeNode *root_node, int value) {
-    BinaryTreeNode *left_node = root_node->get_left_node();
-    BinaryTreeNode *right_node = root_node->get_right_node();
-
-    if (root_node->get_value() == value)
-        return root_node;
-
-    if (left_node != nullptr && value < left_node->get_value())
-        find_value(left_node, value);
-
-    if (right_node != nullptr && value > right_node->get_value())
-        find_value(right_node, value);
-
-    return nullptr;
-}
-
 int main() {
-    auto root = new BinaryTreeNode();
-    cout << root->get_value() << endl;
-    cout << root->get_left_node() << endl;
-    cout << root->get_left_node() << endl;
+    auto root = new BinaryTree();
 
-    insert_value(root, 20);
-    insert_value(root, 10);
-    insert_value(root, 30);
-    insert_value(root, 15);
+    root->insert(20);
+    root->insert(10);
+    root->insert(30);
 
-    cout << root->get_value() << endl;
-    cout << root->get_left_node()->get_value() << endl;
-    cout << root->get_left_node()->get_value() << endl;
+    root->insert(35);
+    root->insert(32);
+    root->insert(28);
+    root->insert(29);
 
+    auto node = root->search(28);
+    if (node == nullptr)
+        cout << "number did not find" << endl;
+    else
+        cout << "node found: " << node << endl;
 
     return 0;
 }
