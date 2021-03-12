@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <ctime>
 #include "selection_sort.h"
 #include "bubble_sort.h"
 #include "merge_sort.h"
@@ -41,10 +42,10 @@ void printArray(int array[], int n) {
 }
 
 void compare() {
-    const int SIZE_OF_TESTING_ARRAY = 1000;
+    const int SIZE_OF_TESTING_ARRAY = 10000;
     const int NUMBER_OF_ARRAYS = 1000;
     const int RANGE_FROM = 1;
-    const int RANGE_TO = 1000;
+    const int RANGE_TO = 10000;
 
     const int NUMBER_OF_ALGORITHMS = 4;
     std::string functionName[NUMBER_OF_ALGORITHMS] = {"Selection Sort", "Bubble Sort", "Merge Sort", "Quick Sort"};
