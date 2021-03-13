@@ -45,51 +45,56 @@ public:
         root = nullptr;
     }
 
-    void insert(int value) {
+    bool insert(int value) {
         if (root == nullptr) {
             root = new BinaryTreeNode(value);
-            return;
+            return true;
         }
 
         BinaryTreeNode *parent = root;
         BinaryTreeNode *current = root;
+
         while (current != nullptr) {
             parent = current;
-            if (value < current->get_value()) {
+
+            if (value < current->get_value())
                 current = current->get_left();
-            } else if (value > current->get_value()) {
+
+            else if (value > current->get_value())
                 current = current->get_right();
-            } else { // its equal
-                return;
-            }
+
+            else  // already exists in the tree
+                return false;
         }
 
-        if (value < parent->get_value()) {
+        if (value < parent->get_value())
             parent->set_left(new BinaryTreeNode(value));
-        } else {
+        else
             parent->set_right(new BinaryTreeNode(value));
-        }
+
+        return true;
     }
 
     BinaryTreeNode *search(int value) {
         BinaryTreeNode *current = root;
+
         while (current != nullptr) {
-            if (value < current->get_value()) {
+            if (value < current->get_value())
                 current = current->get_left();
-            } else if (value > current->get_value()) {
+
+            else if (value > current->get_value())
                 current = current->get_right();
-            } else {
+
+            else
                 return current;
-            }
         }
 
-        return nullptr;
+        return current; //nullptr
     }
 
-    bool remove(int value){
+    bool remove(int value) {
         if (root == nullptr)
             return false;
-
 
         BinaryTreeNode *parent = root;
         BinaryTreeNode *current = root;
@@ -107,11 +112,13 @@ public:
                 return false;
         }
 
+        // case 1 - remove a leaf
 
         return false;
     }
 
     void print();
+
 };
 
 int main() {
