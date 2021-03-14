@@ -111,15 +111,11 @@ public:
                 return false;
         }
 
-        // case 0 - delete root
-        if (child == root)
-            root = nullptr;
-
-
         // case 1 - remove a leaf
         if (child->get_left() == nullptr && child->get_right() == nullptr) {
-
-            if (child->get_value() < parent->get_value())
+            if (child == root)
+                root = nullptr;
+            else if (child->get_value() < parent->get_value())
                 parent->set_left(nullptr);
             else
                 parent->set_right(nullptr);
@@ -129,37 +125,50 @@ public:
 
         // case 2 - remove child with 1 child
         if (child->get_left() != nullptr && child->get_right() == nullptr) {
-            int temp = child->get_left()->get_value();
-            child->set_left(nullptr);
-            child->set_value(temp);
+            if (child->get_left()->get_left() != nullptr || child->get_left()->get_right() != nullptr) {
+                parent->set_left(child->get_left());
+            } else {
+                int temp = child->get_left()->get_value();
+                child->set_left(nullptr);
+                child->set_value(temp);
+            }
 
             return true;
 
         } else if (child->get_right() != nullptr && child->get_left() == nullptr) {
-            int temp = child->get_right()->get_value();
-            child->set_right(nullptr);
-            child->set_value(temp);
-
+            if (child->get_right()->get_left() != nullptr || child->get_right()->get_right() != nullptr) {
+                parent->set_right(child->get_right());
+            } else {
+                int temp = child->get_right()->get_value();
+                child->set_right(nullptr);
+                child->set_value(temp);
+            }
             return true;
         }
 
         // case 3 - remove child with 2 child (biggest left hand)
         if (child->get_left() != nullptr && child->get_right() != nullptr) {
-            BinaryTreeNode *parent_left_hand = root->get_left();
-            BinaryTreeNode *greatest_left_hand = parent_left_hand;
+            BinaryTreeNode *parent_left_side = child->get_left();
+            BinaryTreeNode *greatest_left_side = parent_left_side->get_right();
 
-            while (greatest_left_hand->get_right() != nullptr) {
-                parent_left_hand = greatest_left_hand;
-                greatest_left_hand = greatest_left_hand->get_right();
+            if (greatest_left_side == nullptr) {
+                child->set_value(parent_left_side->get_value());
+                child->set_left(nullptr);
+                return true;
             }
 
-            if (greatest_left_hand->get_left() != nullptr) {
-                child->set_value(greatest_left_hand->get_value());
-                greatest_left_hand->set_value(greatest_left_hand->get_left()->get_value());
-                greatest_left_hand->set_left(nullptr);
+            while (greatest_left_side->get_right() != nullptr) {
+                parent_left_side = greatest_left_side;
+                greatest_left_side = greatest_left_side->get_right();
+            }
+
+            if (greatest_left_side->get_left() != nullptr) {
+                child->set_value(greatest_left_side->get_value());
+                greatest_left_side->set_value(greatest_left_side->get_left()->get_value());
+                greatest_left_side->set_left(nullptr);
             } else {
-                child->set_value(greatest_left_hand->get_value());
-                parent_left_hand->set_right(nullptr);
+                child->set_value(greatest_left_side->get_value());
+                parent_left_side->set_right(nullptr);
             }
 
             return true;
@@ -176,19 +185,10 @@ public:
 int main() {
     auto root = new BinaryTree();
 
-    root->insert(20);
-    root->insert(15);
-    root->insert(30);
-
-    root->insert(10);
-    root->insert(17);
-
-    root->insert(5);
-    root->insert(8);
-    root->insert(16);
-    root->insert(19);
-
-    root->insert(18);
+    root->insert(50);
+    root->insert(25);
+    root->insert(75);
+    root->insert(60);
 
 /*    auto node = root->search(28);
     if (node == nullptr)
@@ -196,7 +196,7 @@ int main() {
     else
         cout << "node found: " << node << endl;*/
 
-    root->remove(17);
+    root->remove(75);
 
     return 0;
 }
