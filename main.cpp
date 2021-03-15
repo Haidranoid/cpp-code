@@ -2,12 +2,12 @@
 
 using namespace std;
 
-class BinaryTreeNode {
+class BinarySearchTreeNode {
 private:
     int value;
-    BinaryTreeNode *left_node, *right_node;
+    BinarySearchTreeNode *left_node, *right_node;
 public:
-    BinaryTreeNode(int value = 0, BinaryTreeNode *left_node = nullptr, BinaryTreeNode *right_node = nullptr)
+    BinarySearchTreeNode(int value = 0, BinarySearchTreeNode *left_node = nullptr, BinarySearchTreeNode *right_node = nullptr)
             : value{value}, left_node{left_node}, right_node{right_node} {
     }
 
@@ -19,71 +19,67 @@ public:
         value = v;
     }
 
-    BinaryTreeNode *get_left() const {
+    BinarySearchTreeNode *get_left() const {
         return left_node;
     };
 
-    void set_left(BinaryTreeNode *node) {
+    void set_left(BinarySearchTreeNode *node) {
         left_node = node;
     };
 
-    BinaryTreeNode *get_right() const {
+    BinarySearchTreeNode *get_right() const {
         return right_node;
     };
 
-    void set_right(BinaryTreeNode *node) {
+    void set_right(BinarySearchTreeNode *node) {
         right_node = node;
     };
 };
 
-class BinaryTree {
+class BinarySearchTree {
 private:
-    BinaryTreeNode *root;
+    BinarySearchTreeNode *root;
 public:
-    BinaryTree() {
+    BinarySearchTree() {
         root = nullptr;
     }
 
     bool insert(int value) {
         if (root == nullptr) {
-            root = new BinaryTreeNode(value);
+            root = new BinarySearchTreeNode(value);
             return true;
         }
 
-        BinaryTreeNode *parent = root;
-        BinaryTreeNode *child = root;
+        BinarySearchTreeNode *parent = root;
+        BinarySearchTreeNode *child = root;
 
         while (child != nullptr) {
             parent = child;
 
             if (value < child->get_value())
                 child = child->get_left();
-
             else if (value > child->get_value())
                 child = child->get_right();
-
             else  // already exists in the tree
                 return false;
         }
 
         if (value < parent->get_value())
-            parent->set_left(new BinaryTreeNode(value));
+            parent->set_left(new BinarySearchTreeNode(value));
         else
-            parent->set_right(new BinaryTreeNode(value));
+            parent->set_right(new BinarySearchTreeNode(value));
 
         return true;
     }
 
-    BinaryTreeNode *search(int value) {
-        BinaryTreeNode *child = root;
+    BinarySearchTreeNode *search(int value) {
+        BinarySearchTreeNode *child = root;
 
         while (child != nullptr) {
             if (value < child->get_value())
                 child = child->get_left();
-
             else if (value > child->get_value())
                 child = child->get_right();
-
             else
                 return child;
         }
@@ -95,18 +91,16 @@ public:
         if (root == nullptr)
             return false;
 
-        BinaryTreeNode *parent = root;
-        BinaryTreeNode *child = root;
+        BinarySearchTreeNode *parent = root;
+        BinarySearchTreeNode *child = root;
 
         while (child->get_value() != value) {
             parent = child;
 
             if (value < child->get_value())
                 child = child->get_left();
-
             else if (value > child->get_value())
                 child = child->get_right();
-
             if (child == nullptr) // the value searched was not found
                 return false;
         }
@@ -115,45 +109,48 @@ public:
         if (child->get_left() == nullptr && child->get_right() == nullptr) {
             if (child == root)
                 root = nullptr;
-            else if (child->get_value() < parent->get_value())
+            else if (child->get_value() < parent->get_value()) {
+                delete parent->get_left();
                 parent->set_left(nullptr);
-            else
+            } else {
+                delete parent->get_right();
                 parent->set_right(nullptr);
-
+            }
             return true;
         }
 
         // case 2 - remove child with 1 child
+        // TODO bug: if the child->get_left || child->get_right has some children
         if (child->get_left() != nullptr && child->get_right() == nullptr) {
-            if (child->get_left()->get_left() != nullptr || child->get_left()->get_right() != nullptr) {
-                parent->set_left(child->get_left());
-            } else {
-                int temp = child->get_left()->get_value();
-                child->set_left(nullptr);
-                child->set_value(temp);
-            }
+            int temp = child->get_left()->get_value();
+            child->set_value(temp);
+
+            delete child->get_left();
+            child->set_left(nullptr);
 
             return true;
 
         } else if (child->get_right() != nullptr && child->get_left() == nullptr) {
-            if (child->get_right()->get_left() != nullptr || child->get_right()->get_right() != nullptr) {
-                parent->set_right(child->get_right());
-            } else {
-                int temp = child->get_right()->get_value();
-                child->set_right(nullptr);
-                child->set_value(temp);
-            }
+            int temp = child->get_right()->get_value();
+            child->set_value(temp);
+
+            delete child->get_right();
+            child->set_right(nullptr);
+
             return true;
         }
 
         // case 3 - remove child with 2 child (biggest left hand)
         if (child->get_left() != nullptr && child->get_right() != nullptr) {
-            BinaryTreeNode *parent_left_side = child->get_left();
-            BinaryTreeNode *greatest_left_side = parent_left_side->get_right();
+            BinarySearchTreeNode *parent_left_side = child->get_left();
+            BinarySearchTreeNode *greatest_left_side = parent_left_side->get_right();
 
             if (greatest_left_side == nullptr) {
                 child->set_value(parent_left_side->get_value());
+
+                delete child->get_left();
                 child->set_left(nullptr);
+
                 return true;
             }
 
@@ -165,9 +162,13 @@ public:
             if (greatest_left_side->get_left() != nullptr) {
                 child->set_value(greatest_left_side->get_value());
                 greatest_left_side->set_value(greatest_left_side->get_left()->get_value());
+
+                delete greatest_left_side->get_left();
                 greatest_left_side->set_left(nullptr);
             } else {
                 child->set_value(greatest_left_side->get_value());
+
+                delete parent_left_side->get_right();
                 parent_left_side->set_right(nullptr);
             }
 
@@ -177,18 +178,20 @@ public:
         return false;
     }
 
-
     void print();
 
 };
 
 int main() {
-    auto root = new BinaryTree();
+    auto root = new BinarySearchTree();
 
-    root->insert(50);
-    root->insert(25);
     root->insert(75);
-    root->insert(60);
+    root->insert(50);
+    root->insert(100);
+    root->insert(25);
+    root->insert(70);
+    root->insert(120);
+//    root->insert(60);
 
 /*    auto node = root->search(28);
     if (node == nullptr)
