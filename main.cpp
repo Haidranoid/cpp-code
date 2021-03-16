@@ -1,205 +1,121 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-class BinarySearchTreeNode {
+class LinkedListNode {
 private:
-    int value;
-    BinarySearchTreeNode *left_node, *right_node;
+    string value;
+    LinkedListNode *next;
 public:
-    BinarySearchTreeNode(int value = 0, BinarySearchTreeNode *left_node = nullptr, BinarySearchTreeNode *right_node = nullptr)
-            : value{value}, left_node{left_node}, right_node{right_node} {
+    LinkedListNode(string v, LinkedListNode *next = nullptr)
+            : value{v}, next{next} {
     }
 
-    int get_value() const {
+    string get_value() const {
         return value;
     }
 
-    void set_value(int v) {
+    void set_value(string v) {
         value = v;
     }
 
-    BinarySearchTreeNode *get_left() const {
-        return left_node;
+    LinkedListNode *get_next() {
+        return next;
     };
 
-    void set_left(BinarySearchTreeNode *node) {
-        left_node = node;
-    };
-
-    BinarySearchTreeNode *get_right() const {
-        return right_node;
-    };
-
-    void set_right(BinarySearchTreeNode *node) {
-        right_node = node;
-    };
+    void set_next(LinkedListNode *node) {
+        next = node;
+    }
 };
 
-class BinarySearchTree {
+class LinkedList {
 private:
-    BinarySearchTreeNode *root;
+    LinkedListNode *head;
 public:
-    BinarySearchTree() {
-        root = nullptr;
+    LinkedList() {
+        head = nullptr;
     }
 
-    bool insert(int value) {
-        if (root == nullptr) {
-            root = new BinarySearchTreeNode(value);
-            return true;
-        }
-
-        BinarySearchTreeNode *parent = root;
-        BinarySearchTreeNode *child = root;
-
-        while (child != nullptr) {
-            parent = child;
-
-            if (value < child->get_value())
-                child = child->get_left();
-            else if (value > child->get_value())
-                child = child->get_right();
-            else  // already exists in the tree
-                return false;
-        }
-
-        if (value < parent->get_value())
-            parent->set_left(new BinarySearchTreeNode(value));
-        else
-            parent->set_right(new BinarySearchTreeNode(value));
-
-        return true;
+    void insert(string v) {
+        head = new LinkedListNode(v, head);
     }
 
-    BinarySearchTreeNode *search(int value) {
-        BinarySearchTreeNode *child = root;
+    LinkedListNode *search(string v) {
+        for (auto it = head; it != nullptr; it = it->get_next())
+            if (it->get_value() == v)
+                return it;
 
-        while (child != nullptr) {
-            if (value < child->get_value())
-                child = child->get_left();
-            else if (value > child->get_value())
-                child = child->get_right();
-            else
-                return child;
-        }
-
-        return child; //nullptr
+        return nullptr; // it == nullptr
     }
 
-    bool remove(int value) {
-        if (root == nullptr)
+    bool remove(string v) {
+        if (head == nullptr)
             return false;
-
-        BinarySearchTreeNode *parent = root;
-        BinarySearchTreeNode *child = root;
-
-        while (child->get_value() != value) {
-            parent = child;
-
-            if (value < child->get_value())
-                child = child->get_left();
-            else if (value > child->get_value())
-                child = child->get_right();
-            if (child == nullptr) // the value searched was not found
-                return false;
-        }
-
-        // case 1 - remove a leaf
-        if (child->get_left() == nullptr && child->get_right() == nullptr) {
-            if (child == root)
-                root = nullptr;
-            else if (child->get_value() < parent->get_value()) {
-                delete parent->get_left();
-                parent->set_left(nullptr);
-            } else {
-                delete parent->get_right();
-                parent->set_right(nullptr);
-            }
-            return true;
-        }
-
-        // case 2 - remove child with 1 child
-        // TODO bug: if the child->get_left || child->get_right has some children
-        if (child->get_left() != nullptr && child->get_right() == nullptr) {
-            int temp = child->get_left()->get_value();
-            child->set_value(temp);
-
-            delete child->get_left();
-            child->set_left(nullptr);
-
-            return true;
-
-        } else if (child->get_right() != nullptr && child->get_left() == nullptr) {
-            int temp = child->get_right()->get_value();
-            child->set_value(temp);
-
-            delete child->get_right();
-            child->set_right(nullptr);
+        else if (head->get_value() == v) {
+            auto next_node = head->get_next();
+            delete head;
+            head = next_node;
 
             return true;
         }
 
-        // case 3 - remove child with 2 child (biggest left hand)
-        if (child->get_left() != nullptr && child->get_right() != nullptr) {
-            BinarySearchTreeNode *parent_left_side = child->get_left();
-            BinarySearchTreeNode *greatest_left_side = parent_left_side->get_right();
+        LinkedListNode *previous_node = head;
+        LinkedListNode *current_node = head->get_next();
 
-            if (greatest_left_side == nullptr) {
-                child->set_value(parent_left_side->get_value());
-
-                delete child->get_left();
-                child->set_left(nullptr);
-
+        while (current_node != nullptr) {
+            if (current_node->get_value() == v) {
+                previous_node->set_next(current_node->get_next());
+                delete current_node;
                 return true;
             }
-
-            while (greatest_left_side->get_right() != nullptr) {
-                parent_left_side = greatest_left_side;
-                greatest_left_side = greatest_left_side->get_right();
-            }
-
-            if (greatest_left_side->get_left() != nullptr) {
-                child->set_value(greatest_left_side->get_value());
-                greatest_left_side->set_value(greatest_left_side->get_left()->get_value());
-
-                delete greatest_left_side->get_left();
-                greatest_left_side->set_left(nullptr);
-            } else {
-                child->set_value(greatest_left_side->get_value());
-
-                delete parent_left_side->get_right();
-                parent_left_side->set_right(nullptr);
-            }
-
-            return true;
+            previous_node = current_node;
+            current_node = current_node->get_next();
         }
 
         return false;
     }
 
-    void print();
-
+    void print() {
+        cout << "[ ";
+        for (auto it = head; it != nullptr; it = it->get_next())
+            cout << it->get_value() << " ";
+        cout << "]" << endl;
+    }
 };
 
 int main() {
-    auto root = new BinarySearchTree();
+    LinkedList linkedList;
 
-    root->insert(75);
-    root->insert(50);
-    root->insert(100);
-    root->insert(25);
-    root->insert(70);
-    root->insert(120);
-//    root->insert(60);
+    linkedList.insert("pedro");
+    linkedList.insert("abigail");
+    linkedList.insert("sandra");
+//    linkedList.insert("arturo");
+//    linkedList.insert("eduardo");
 
-/*    auto node = root->search(28);
-    if (node == nullptr)
-        cout << "number did not find" << endl;
-    else
-        cout << "node found: " << node << endl;*/
+    linkedList.print();
 
-    root->remove(75);
+/*    auto it = linkedList.search("anthony");
+    if (it == nullptr) {
+        cout << "anthony not found" << endl;
+    } else {
+        cout << "anthony found" << endl;
+    }
+
+    it = linkedList.search("arturo");
+    if (it == nullptr) {
+        cout << "arturo not found" << endl;
+    } else {
+        cout << "arturo found" << endl;
+    }*/
+
+    linkedList.remove("sandra");
+//    linkedList.remove("abigail");
+//    linkedList.remove("sandra");
+//    linkedList.remove("arturo");
+//    linkedList.remove("eduardo");
+
+    linkedList.print();
 
     return 0;
 }
