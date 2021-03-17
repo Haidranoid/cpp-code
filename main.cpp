@@ -80,42 +80,62 @@ public:
         return current_node->get_is_word();
     }
 
-    bool remove(string word){
+    bool remove(string word) {
         if (root->is_empty())
             return false;
 
-        if (!this->search(word))
+        if (!this->search(word)){
+            cout << "The word: " << word << " was not found." << endl;
             return false;
+        }
 
         auto current_node = root;
-        for (char c:word) {
-            if (!current_node->have_record(c))
-                return false;
+        auto delete_node = current_node;
+        string delete_chars = word;
 
-            current_node = current_node->follow_char(c);
+        for (int i = 0; i < word.length(); i++) {
+            if (current_node->get_is_word()) {
+                delete_node = current_node;
+                delete_chars = word.substr(i, word.length() - i + 1);
+            }
+
+            current_node = current_node->follow_char(word.at(i));
         }
-        return current_node->get_is_word();
+
+        if (!current_node->is_empty()) {
+            cout << "'" <<word <<"' could not be deleted because there is other word in the chain" << endl;
+            return false;
+        }
+
+        for (int i = 0; i < delete_chars.length(); i++) {
+            auto next_node = delete_node->follow_char(delete_chars.at(i));
+            delete_node->delete_record(delete_chars.at(i));
+
+            if (i != 0)
+                delete delete_node;
+
+            delete_node = next_node;
+        }
+        delete delete_node;
+
+        return true;
     }
 };
 
 int main() {
     auto trie = new Trie;
     cout << boolalpha;
-    cout << "cat was found: " << trie->search("cat") << endl;
+
     trie->insert("cat");
-    cout << "cat was found: " << trie->search("cat") << endl;
-
-    cout << "catie was found: " << trie->search("catie") << endl;
-    trie->insert("catie");
-    cout << "catie was found: " << trie->search("catie") << endl;
-
+    trie->insert("catch");
+//    trie->insert("catie");
+    trie->insert("caties");
     trie->insert("time");
     trie->insert("times");
+    trie->insert("tier");
+    trie->insert("run");
 
-    cout << "time was found: " << trie->search("time") << endl;
-    cout << "times was found: " << trie->search("times") << endl;
-
-    trie->remove("tier");
+    trie->remove("cat");
 
     return 0;
 }
