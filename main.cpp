@@ -8,7 +8,7 @@ void merge_sort_conquer(int *array, int start, int middle, int end) {
     int l = start;
     int r = middle + 1;
 
-    size_t size = end + 1;
+    size_t size = end - start + 1;
     int temp_array[size];
     int i = 0;
 
@@ -46,11 +46,15 @@ void merge_sort(int *array, int size) {
 
 int main() {
 
-//    auto time = execute_algorithm(bubble_sort, 8, true);
-//    auto time = execute_algorithm(merge_sort, 4, true);
-    int array[] = {4, 8, 29, 9, 59, 384, 5};
-    merge_sort(array, 7);
-    display(array, 7);
+    int iterations = 100000;
+    double time1 = execute_algorithm(bubble_sort, iterations);
+    double time2 = execute_algorithm(merge_sort, iterations);
+
+    cout << "bubble sort time [iterations:" << iterations << "] => " << time1 << " seconds " << endl;
+    cout << "merge sort time [iterations:" << iterations << "] => " << time2 << " seconds " << endl;
+//    int array[] = {4, 8, 29, 9, 59, 384, 5};
+//    merge_sort(array, 7);
+//    display(array, 7);
 
     return 0;
 }
