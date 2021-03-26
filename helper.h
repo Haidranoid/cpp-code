@@ -19,7 +19,7 @@ int *generate_array(size_t size) {
     return array;
 }
 
-double execute_algorithm(void (*algorithm)(int *, size_t), size_t size, bool print = false) {
+double execute_algorithm(void (*algorithm)(int *, int), int size, bool print = false) {
     int *array = generate_array(size);
 
     clock_t start = clock();

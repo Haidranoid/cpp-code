@@ -5,42 +5,29 @@
 using namespace std;
 
 void merge_sort_conquer(int *array, int start, int middle, int end) {
-    int index_start_left = start;
-    int index_start_right = middle + 1;
+    int l = start;
+    int r = middle + 1;
 
-    size_t size_temp_array = end + 1;
-    int temp_array[size_temp_array];
-    int index_temp_array = 0;
+    size_t size = end + 1;
+    int temp_array[size];
+    int i = 0;
 
-    while (index_start_left <= middle && index_start_right <= end) {
-        if (array[index_start_left] < array[index_start_right]) {
-            temp_array[index_temp_array] = array[index_start_left];
-            index_start_left++;
-            index_temp_array++;
-        } else {
-            temp_array[index_temp_array] = array[index_start_right];
-            index_start_right++;
-            index_temp_array++;
-        }
-    }
+    while (l <= middle && r <= end)
+        if (array[l] < array[r])
+            temp_array[i++] = array[l++];
+        else
+            temp_array[i++] = array[r++];
 
-    if (index_start_right > end) {
-        for (int k = index_start_left; k <= middle; k++) {
-            temp_array[index_temp_array] = array[k];
-            k++;
-            index_temp_array++;
-        }
-    } else {
-        for (int k = index_start_right; k <= end; k++) {
-            temp_array[index_temp_array] = array[k];
-            k++;
-            index_temp_array++;
-        }
-    }
 
-    for (int k = 0; k < size_temp_array - 1; k++) {
-        array[start + k] = temp_array[k];
-    }
+    while (l <= middle)
+        temp_array[i++] = array[l++];
+
+    while (r <= end)
+        temp_array[i++] = array[r++];
+
+
+    for (i = 0; i < size; i++)
+        array[start + i] = temp_array[i];
 }
 
 void merge_sort_divide(int *array, int start, int end) {
@@ -53,15 +40,17 @@ void merge_sort_divide(int *array, int start, int end) {
 }
 
 
-void merge_sort(int *array, size_t size) {
+void merge_sort(int *array, int size) {
     merge_sort_divide(array, 0, size - 1);
 }
 
 int main() {
 
 //    auto time = execute_algorithm(bubble_sort, 8, true);
-    auto time = execute_algorithm(merge_sort, 1000, true);
-    cout << "time taken: " << time << endl;
+//    auto time = execute_algorithm(merge_sort, 4, true);
+    int array[] = {4, 8, 29, 9, 59, 384, 5};
+    merge_sort(array, 7);
+    display(array, 7);
 
     return 0;
 }
