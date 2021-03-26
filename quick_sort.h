@@ -79,6 +79,39 @@ void qs_last_pivot(int *array, int start, int end) {
     }
 }
 
+void quick_sort(int *array, int start, int end) {
+    if (start < end) {
+        int pivot = array[(start + end) / 2];
+        int l = start, r = end;
+
+        while (l <= r) {
+            while (pivot > array[l])
+                l++;
+
+            while (pivot < array[r])
+                r--;
+
+            if (l <= r) {
+                int temp = array[l];
+                array[l] = array[r];
+                array[r] = temp;
+                l++;
+                r--;
+            }
+        }
+
+//        if (start < r)
+        quick_sort(array, start, r);
+
+//        if (l < end)
+        quick_sort(array, l, end);
+    }
+}
+
+void quick_sort_algorithm(int *array, int size) {
+    quick_sort(array, 0, size - 1);
+}
+
 void quick_sort_last_pivot(int *array, int size) {
     qs_last_pivot(array, 0, size - 1);
 }
