@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-void merge_sort_conquer(int *array, int start, int middle, int end) {
+void merge_sort_union(int *array, int start, int middle, int end) {
     int l = start;
     int r = middle + 1;
 
@@ -34,7 +34,7 @@ void merge_sort_divide(int *array, int start, int end) {
         int middle = (start + end) / 2;
         merge_sort_divide(array, start, middle);
         merge_sort_divide(array, middle + 1, end);
-        merge_sort_conquer(array, start, middle, end);
+        merge_sort_union(array, start, middle, end);
     }
 }
 
