@@ -15,7 +15,7 @@ void display(int *array, size_t size) {
 int *generate_array(size_t size) {
     int *array = new int[size];
     for (int i = 0; i < size; i++)
-        array[i] = rand();
+        array[i] = rand() % size;
     return array;
 }
 

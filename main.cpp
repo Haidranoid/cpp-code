@@ -1,27 +1,35 @@
 #include <iostream>
 #include "helper.h"
-#include "quick_sort.h"
-#include "merge_sort.h"
 
 using namespace std;
 
+void insertion_sort(int *array, int size) {
+    int pop, current, next;
+
+    for (int i = 0; i < size - 1; i++) {
+        current = array[i];
+        next = array[i + 1];
+
+        if (next < current) {
+            pop = next;
+
+            for (int j = i + 1; j > 0; j--) {
+                if (pop < array[j - 1]) {
+                    array[j] = array[j - 1];
+                    array[j - 1] = pop;
+                } else
+                    break;
+            }
+        }
+    }
+}
+
 int main() {
+    int iterations = 100;
+    double time1 = execute_algorithm(insertion_sort, iterations, true);
+//    double time2 = execute_algorithm(bubble_sort, iterations);
+    cout << "insertion sort time [iterations:" << iterations << "] => " << time1 << " seconds " << endl;
+//    cout << "quick sort time [iterations:" << iterations << "] => " << time2 << " seconds " << endl;
 
-    int iterations = 100000;
-    int array[] = {9, 3, 7, 5, 16, 4, 8, 2};
-
-//    qs_algorithm(array, 8);
-//    quick_sort_last_pivot(array, 12);
-
-//    display(array, 8);
-
-    double time1 = execute_algorithm(quick_sort_middle_pivot, iterations);
-    double time2 = execute_algorithm(quick_sort_algorithm, iterations);
-    double time3 = execute_algorithm(quick_sort_last_pivot, iterations);
-
-//    cout << "bubble sort time [iterations:" << iterations << "] => " << time1 << " seconds " << endl;
-    cout << "quick sort middle time [iterations:" << iterations << "] => " << time1 << " seconds " << endl;
-    cout << "quick sort time [iterations:" << iterations << "] => " << time2 << " seconds " << endl;
-    cout << "quick sort last time [iterations:" << iterations << "] => " << time3 << " seconds " << endl;
     return 0;
 }
