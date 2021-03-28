@@ -19,22 +19,26 @@ int *generate_array(size_t size) {
     return array;
 }
 
-double execute_algorithm(void (*algorithm)(int *, int), int size, bool print = false) {
+void execute_algorithm(const char *(*algorithm)(int *, int), int size, bool print = false) {
     int *array = generate_array(size);
+
+
+    if (print)
+        std::cout << "unsorted array => ", display(array, size);
 
     clock_t start = clock();
     // --------------- <algorithm> --------------
-    algorithm(array, size);
+    const char *algorithm_name = algorithm(array, size);
     // --------------- </algorithm> -------------
     clock_t end = clock();
     double final = double(end - start) / CLOCKS_PER_SEC;
 
     if (print)
-        display(array, size);
+        std::cout << "\nsorted array => ", display(array, size);
+
+    std::cout << "\n" << algorithm_name << " [iterations:" << size << "] => " << final << " seconds " << std::endl;
 
     delete array;
-
-    return final;
 }
 
 

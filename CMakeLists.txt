@@ -25,4 +25,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(cpp-course main.cpp algorithms/selection_sort.h algorithms/bubble_sort.h algorithms/recursion.h algorithms/merge_sort.h algorithms/quick_sort.h algorithms/compare.h algorithms/algorithms.cpp data-structures/BinarySearchTree.h data-structures/LinkedList.h data-structures/Trie.h)
 
 #========================= CPP Sorting algorithms from beginner to expert ====================================
-add_executable(cpp-course main.cpp helper.h bubble_sort.h merge_sort.h quick_sort.h)
+add_executable(cpp-course main.cpp helper.h bubble_sort.h merge_sort.h quick_sort.h insertion_sort.h selection_sort.h)
